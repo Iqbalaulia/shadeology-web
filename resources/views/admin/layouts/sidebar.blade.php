@@ -25,94 +25,55 @@
                     <span>Dashboard</span>
                 </a>
             </li>
+            <li>
+                <a class="sidebar-header" href="javascript:void(0)">
+                    <i data-feather="users"></i>
+                    <span>Users</span>
+                </a>
+            </li>
+            <li>
+                <a class="sidebar-header" href="javascript:void(0)">
+                    <i data-feather="aperture"></i>
+                    <span>Skin Tone</span>
+                </a>
+            </li>
+            <li>
+                <a class="sidebar-header" href="media.html">
+                    <i data-feather="clipboard"></i>
+                    <span>Personal Color</span>
+                </a>
+            </li>
 
             <li>
                 <a class="sidebar-header" href="javascript:void(0)">
-                    <i data-feather="dollar-sign"></i>
-                    <span>Event</span>
+                    <i data-feather="archive"></i>
+                    <span>Product</span>
                     <i class="fa fa-angle-right pull-right"></i>
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        {{-- <a href="{{ route('admin.event') }}">
-                            <i class="fa fa-circle"></i>Event List
-                        </a> --}}
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-circle"></i>Brand
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-circle"></i>Type
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-circle"></i>Product
+                        </a>
                     </li>
                 </ul>
             </li>
-
             <li>
-                <a class="sidebar-header" href="javascript:void(0)">
-                    <i data-feather="tag"></i>
-                    <span>Members</span>
-                    <i class="fa fa-angle-right pull-right"></i>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        {{-- <a href="{{ route('admin.member') }}">
-                            <i class="fa fa-circle"></i>List Member
-                        </a> --}}
-                    </li>
-                </ul>
-            </li>
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="media.html">
-                    <i data-feather="camera"></i>
-                    <span>Galery</span>
-                </a>
-            </li>
-
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="javascript:void(0)">
-                    <i data-feather="align-left"></i>
-                    <span>Blog</span>
-                    <i class="fa fa-angle-right pull-right"></i>
-                </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="menu-list.html">
-                            <i class="fa fa-circle"></i>Menu Lists
-                        </a>
-                    </li>
-                    <li>
-                        <a href="create-menu.html">
-                            <i class="fa fa-circle"></i>Create Menu
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="support-ticket.html"><i data-feather="phone"></i><span>Support
-                        Ticket</span>
-                </a>
-            </li>
-
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="reports.html"><i
-                        data-feather="bar-chart"></i><span>Reports</span>
-                </a>
-            </li>
-
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="javascript:void(0)"><i
-                        data-feather="settings"></i><span>Settings</span><i
-                        class="fa fa-angle-right pull-right"></i></a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="profile.html"><i class="fa fa-circle"></i>Profile
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="disabled">
-                <a class="sidebar-header disabled" href="forgot-password.html">
+                <a class="sidebar-header" href="forgot-password.html">
                     <i data-feather="key"></i>
                     <span>Forgot Password</span>
                 </a>
             </li>
-
         </ul>
     </div>
 </div>
