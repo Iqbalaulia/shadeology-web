@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 
-@include('admin.layouts.head')
+@include('admin.layouts.setting-head')
 
 <div class="page-wrapper">
 
     <!-- Page Header Start-->
-    @include('admin.layouts.setting-head')
+    @include('admin.layouts.header')
     <!-- Page Header Ends-->
 
     <!-- Page Body Start-->

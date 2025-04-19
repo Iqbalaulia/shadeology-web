@@ -34,9 +34,9 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="{{ route('admin.event') }}">
+                        {{-- <a href="{{ route('admin.event') }}">
                             <i class="fa fa-circle"></i>Event List
-                        </a>
+                        </a> --}}
                     </li>
                 </ul>
             </li>
@@ -49,9 +49,9 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="{{ route('admin.member') }}">
+                        {{-- <a href="{{ route('admin.member') }}">
                             <i class="fa fa-circle"></i>List Member
-                        </a>
+                        </a> --}}
                     </li>
                 </ul>
             </li>
