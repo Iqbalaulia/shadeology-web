@@ -1,0 +1,378 @@
+:root {
+  --dark-color1: #111111;
+  --dark-color2: #232323;
+  --dark-color3: #343434;
+  --dark-color4: #212529;
+}
+
+body,
+.sticky-header.fixed-header,
+.main-header,
+.clients-section,
+.services-section,
+.banner-section-one,
+.fun-fact-section-two .outer-box,
+.pricing-section-four .image-column .inner-box:before,
+.range-slider-one .ui-slider .ui-slider-range,
+.testimonial-block-three .inner-box,
+.blog-section-home4,
+.featured-products,
+.banner-style1-home5,
+.main-header.header-style-home5,
+.banner-section-two,
+.service-block-four .inner-box.style-four,
+.banners-section-two.pull-down:before,
+.team-section-three,
+.service-section-home7,
+.banners-section,
+.packages-section-three.home7-style,
+.contact-section-two.home7-style .contact-form-two,
+.pricing-block-three .inner-box,
+.about-section-five .timetable-block .inner .content,
+.contact-section-two.home7-style .content-column .inner-column .theme-btn {
+  background-color: var(--dark-color1);
+}
+
+.testimonial-block-three .inner-box .icon {
+  -webkit-text-fill-color: var(--dark-color2);
+  -webkit-text-stroke: 1px var(--dark-color2);
+}
+
+.testimonial-block-five .content-box:before {
+  border-top: 45px solid var(--dark-color1);
+}
+
+.page-wrapper,
+.bg-dark,
+.btn-style-three,
+.about-section,
+.services-section-three,
+.pricing-section,
+.contact-section,
+.testimonial-section {
+  background-color: #000;
+}
+
+.about-section-six .image-column .image-box:before,
+.main-header .header-lower,
+.team-section,
+.marquee-section,
+.product-block .inner-box,
+.services-section-six,
+.blog-section-two,
+.package-block-three .inner-box,
+.service-block-four .inner-box,
+.service-block-four .inner-box:before,
+.whychose-section-home7,
+.packages-section-two,
+.about-section-five,
+.video-section-two .content .play-now .icon {
+  background-color: var(--bg-theme-color2);
+}
+
+.team-section {
+  padding: 120px 0 150px;
+}
+.team-section .default-dots .owl-dots {
+  bottom: -30px;
+}
+
+.product-block.home-style .inner-box .content-box {
+  margin: 35px 0;
+}
+
+.about-section-five {
+  border-color: var(--dark-color1);
+}
+
+.slider-style-four .title:before,
+.marquee-section-two,
+.banners-section-two,
+.about-section-three,
+.fun-fact-section-two,
+.counter-block.home7-style .inner .icon,
+.banner-box-one .inner-box.style-three {
+  background-color: var(--dark-color2);
+}
+
+.border-color-dark2,
+.main-header .header-lower .outer-box:before,
+.blog-block .content-box .post-meta .categories:before {
+  border-color: var(--dark-color2) !important;
+}
+
+.border-top {
+  border-top-color: var(--dark-color2) !important;
+}
+
+.pricing-block.style-two .inner-box,
+.service-block-two .inner-box,
+.product-section,
+.clients-section.style-two,
+.service-block-four .inner-box.style-three,
+.service-section-home7 .service-block .inner-box,
+.banner-box-one .inner-box.style-two {
+  background-color: var(--dark-color3);
+}
+
+.pricing-block-two .inner-box .content-box .inner .title:after {
+  border: 1px dashed var(--dark-color3);
+}
+
+.main-header .header-lower .logo-box:before,
+.banner-section-one .image-column .image-box .image .round-shape,
+.banner-section-two .image-column .image-box .image .round-shape,
+.about-section-three .image-column .inner-column .image-box .text-rotate,
+.service-block-six .inner-box,
+.service-block-six .inner-box .service-btn a.btn,
+.pricing-section-four,
+.contact-section-two,
+.testimonial-section-three,
+.pricing-section-two,
+.about-us-home4,
+.package-block-three .inner-box.style-two,
+.service-block-three .inner-box,
+.services-section-five,
+.service-block-four .inner-box.style-two,
+.about-section-four .image-column .inner-column .image-box .play-box .play-btn-two .icon,
+.banner-box-one .inner-box,
+.package-block-three.home7-style .inner-box,
+.pricing-section-three .outer-box,
+.banner-section-three .image-column .image-box .text-rotate .play-btn-two .icon,
+.banner-section-three {
+  background-color: var(--dark-color4);
+}
+
+.main-menu .navigation > li > a,
+.list-style-one li,
+.main-header .header-top .inner-container .top-left .list-style-one li a,
+.header-style-two .sticky-header-style-two .navigation li a,
+.list-style-two li,
+.about-section .content-column .inner-column .author-box .inner .info .name,
+.blog-block .content-box .post-meta .categories a,
+.about-section-two .content-column .inner-column .author-box .inner .contact-info .sign .text,
+.about-section-four .content-column .inner-column .author-box .inner .contact-info .sign .text,
+.team-block-two .inner-box .info-box .designation {
+  color: var(--text-color);
+}
+
+.contact-form-two input::-webkit-input-placeholder, .contact-form-two textarea::-webkit-input-placeholder, .contact-form-two select::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact-form-two input::-moz-placeholder, .contact-form-two textarea::-moz-placeholder, .contact-form-two select::-moz-placeholder {
+  color: #fff;
+}
+
+.contact-form-two input:-ms-input-placeholder, .contact-form-two textarea:-ms-input-placeholder, .contact-form-two select:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact-form-two input::-ms-input-placeholder, .contact-form-two textarea::-ms-input-placeholder, .contact-form-two select::-ms-input-placeholder {
+  color: #fff;
+}
+
+.main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a,
+.main-header .header-lower .outer-box .ui-btn,
+.mobile-nav-toggler,
+.sticky-header .mobile-nav-toggler,
+.banner-section-one .content-box .title,
+.accordion-box.style-three .block .acc-btn,
+.service-block .inner-box .content-box .title a,
+.video-section .outer-box h4,
+.pricing-section .pricing-block .inner-box .content-box .inner .title a,
+.testimonial-block .inner-box .info-box .name,
+.blog-block .content-box .title a,
+.blog-block .content-box .read-more,
+.about-section-two .content-column .inner-column .list-box .inner .title,
+.about-section-two .content-column .inner-column .author-box .inner .contact-info .sign a,
+.service-block-two .inner-box .content-box-hover .content-box .title a,
+.package-block .content-box .name a,
+.product-block.home-style .inner-box .content-box .inner .title a,
+.list-style-two .feature-block .inner-box .title,
+.team-block-two .inner-box .info-box .name a,
+.team-block-two .inner-box .icon,
+.counter-block-two .counter-title,
+.counter-block-two .count-box .count-text,
+.graph-box .pie-graph .title,
+.graph-box .pie-graph .graph-outer .inner-text,
+.counter-block-two .count-box,
+.service-block-six .inner-box .service-content .title,
+.pricing-section-four .pricing-block .inner-box .content-box .inner .title a,
+.accordion-box.style-three .block .acc-btn .arrow,
+.contact-form-two input::placeholder,
+.contact-form-two textarea::placeholder,
+.contact-form-two select::placeholder,
+.testimonial-block-three .info-box .name,
+.pricing-block-two .inner-box .content-box .inner .title a,
+.about-us-home4 .list-style1-home4 li,
+.banner-style1-home4 .content-column .title,
+.about-block-home5 .list-style1-home4 li,
+.about-section2-home5 .list-style1-home4 li,
+.counter-block-home5-style .inner-box .counter-text,
+.package-block-three .content-box .price,
+.package-block-three .inner-box:hover .content-box .name,
+.package-block-three .content-box .price,
+.service-block-three .inner-box .content-box .title a,
+.banner-style1-home5 .content-column .title,
+.main-header .header-top .inner-container .social-icon-one li a,
+.about-section .sec-title h2,
+.about-section .sec-title h2 strong,
+.banner-section-two .content-box .title,
+.banner-section-two .content-box .sub-title,
+.about-section-four .content-column .inner-column .list-box .inner .title,
+.service-block-four .inner-box .content-box .title a,
+.about-section-four .content-column .inner-column .author-box .inner .contact-info .sign a,
+.counter-block .count-box .count-text,
+.counter-block .counter-title,
+.whychose-section-home7 .list-style1-home7 li,
+.service-section-home7 .about-style-home7 .title,
+.banner-box-one .content .title,
+.package-block-two .content-box .name,
+.feature-block-two .inner-box .title a,
+.pricing-block-three .inner-box .content-box .inner .title a,
+.about-section-five .content-column .inner-column .author-box .inner .info .name,
+.about-section-five .timetable-block .inner .content .time-box .title {
+  color: #fff;
+}
+
+.clients-section.alternate,
+.about-section-three .image-column .inner-column .image-box .image-one,
+.fun-fact-section-two .outer-box,
+.pricing-section-four .image-column .inner-box .image,
+.accordion-box .block .acc-btn,
+.testimonial-block-three .inner-box {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.whychose-section-home7 .whychose-us-title {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.header-style-two-new .info-btn-two i.icon,
+.custom-navs-two .owl-nav .owl-prev,
+.custom-navs-two .owl-nav .owl-next,
+.services-section-six .text-bottom .inner-text,
+.contact-form-two .select2-container--default .select2-selection--single,
+.contact-form-two input:not([type=submit]),
+.contact-form-two textarea,
+.contact-form-two select {
+  background-color: var(--theme-color-dark);
+  color: var(--theme-color-light);
+}
+
+.marquee-two .text {
+  -webkit-text-fill-color: var(--theme-color-light);
+  -webkit-text-stroke: 1px var(--theme-color-light);
+}
+
+.main-menu .navigation > li:before,
+.blog-block .content-box .read-more:before {
+  background-color: #fff;
+}
+
+.bgc-unset,
+.pricing-block-two .inner-box .content-box .price,
+.pricing-block-three .inner-box .content-box .price {
+  background-color: unset;
+}
+
+.bgi-unset,
+.testimonial-section-three,
+.pricing-section-three .outer-box {
+  background-image: unset;
+}
+
+.op015,
+.team-section-three .team2-2,
+.about-section-five .about8-2,
+.banner-section-three .shape-image-curve,
+.banner-section-three .slide-item .float-text,
+.about-section-five .about8-1 {
+  opacity: 0.15;
+}
+
+.op003,
+.services-section-six .bg.bg-image-four,
+.contact-section-two.style-two .bg.bg-image,
+.whychose-section-home7 .bg.bg-image {
+  opacity: 0.03;
+}
+
+.video-section .bg.bg-image,
+.services-section-two .bg.bg-image-four,
+.service-block-two .inner-box .bg-image,
+.package-block-three .content-box:before,
+.about-section .image-column .inner-column .image-box .bg-image-four,
+.about-section .image-column .inner-column .image-box .bg-image-three,
+.testimonial-section.style-three .instagram1-7,
+.testimonial-section.style-three .testimonial-pattrn1-2,
+.about-section-five .timetable-block .inner .content .bg-image,
+.banner-section-three .shape-image8-1 {
+  opacity: 0.1;
+}
+
+.why-choose-us-two:before,
+.package-block .inner-box .image-box .bg-image,
+.service-block-four .inner-box .content-box .icon img {
+  opacity: 0.21;
+}
+
+.clients-carousel .slide-item img {
+  -webkit-filter: brightness(10);
+          filter: brightness(10);
+  opacity: 1;
+}
+
+.main-slider .image-curve,
+.client-block .inner-box .image-box .image img,
+.contact-section .curved-shape-top,
+.contact-section .curved-shape-bottom,
+.team-block .inner-box .image-box .bg-image,
+.about-section .content-column .inner-column .author-box .inner .info .sign img,
+.product-deals-section .curved-shape-bottom,
+.product-deals-section .curved-shape-top,
+.fun-fact-section .bg-image-two,
+.fun-fact-section .bg.bg-image,
+.marquee-two .text:after,
+.about-section-three .image-column .inner-column .image-box .text-rotate .icon-text-2,
+.service-block-six .inner-box .thumb-icon,
+.banner-style1-home4 .image-content .img,
+.service-block-six .inner-box .thumb-icon img,
+.about-section-five .content-column .inner-column .author-box .inner .info .sign img,
+.banner-section-three .image-column .image-box .text-rotate .icon-text-2 {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.pricing-section-four .leaf1,
+.pricing-section-four .leaf2,
+.pricing-section-four .leaf3,
+.pricing-section-four .leaf4,
+.pricing-section-four .leaf5,
+.pricing-section-four .leaf6 {
+  -webkit-filter: invert(0.4);
+          filter: invert(0.4);
+}
+
+.banner-section-one .shape-image-curve,
+.banner-section-two .shape-image-curve {
+  -webkit-filter: invert(0.9);
+          filter: invert(0.9);
+}
+
+.service-block-six .inner-box .shape-btn svg path {
+  fill: var(--dark-color3) !important;
+}
+
+.banner-style1-home5 .banner-bottom {
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
+}
+
+.banner-style1-home5 .leaf-1 {
+  -webkit-filter: brightness(0.2);
+          filter: brightness(0.2);
+}
