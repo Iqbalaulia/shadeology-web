@@ -38,7 +38,7 @@
                 </a>
             </li>
             <li>
-                <a class="sidebar-header" href="media.html">
+                <a class="sidebar-header" href="{{ route('admin.personal-color.index') }}">
                     <i data-feather="clipboard"></i>
                     <span>Personal Color</span>
                 </a>
