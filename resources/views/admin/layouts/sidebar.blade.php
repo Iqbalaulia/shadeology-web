@@ -20,13 +20,13 @@
         </div>
         <ul class="sidebar-menu">
             <li>
-                <a class="sidebar-header" href="{{ route('admin.index') }}">
+                <a class="sidebar-header" href="{{ route('admin.dashboard.index') }}">
                     <i data-feather="home"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
             <li>
-                <a class="sidebar-header" href="javascript:void(0)">
+                <a class="sidebar-header" href="{{ route('admin.users.index') }}">
                     <i data-feather="users"></i>
                     <span>Users</span>
                 </a>
