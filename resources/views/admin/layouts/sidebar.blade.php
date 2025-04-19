@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li>
-                <a class="sidebar-header" href="javascript:void(0)">
+                <a class="sidebar-header" href="{{ route('admin.skin-tone.index') }}">
                     <i data-feather="aperture"></i>
                     <span>Skin Tone</span>
                 </a>

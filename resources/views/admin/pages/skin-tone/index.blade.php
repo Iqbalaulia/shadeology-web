@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="page-header-left">
-                        <h3>Users List
+                        <h3>Skin Tone List
                             <small>Shadeology Admin panel</small>
                         </h3>
                     </div>
@@ -18,8 +18,8 @@
                                 <i data-feather="home"></i>
                             </a>
                         </li>
-                        <li class="breadcrumb-item">Member</li>
-                        <li class="breadcrumb-item active">Member List</li>
+                        <li class="breadcrumb-item">Skin Tone</li>
+                        <li class="breadcrumb-item active">Skin Tone List</li>
                     </ol>
                 </div>
             </div>
@@ -39,15 +39,14 @@
                 </form>
 
                 <button type="button" class="btn btn-primary mt-md-0 mt-2" data-bs-toggle="modal"
-                    data-original-title="test" data-bs-target="#exampleModal">Create Users</button>
+                    data-original-title="test" data-bs-target="#exampleModal">Create Skin Tone</button>
             </div>
             <div class="card-body vendor-table">
                 <table class="display" id="basic-1">
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Phone Number</th>
-                            <th>Access</th>
+                            <th>Skin Tone</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -98,26 +97,20 @@
     <!-- Modal Create -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title f-w-600" id="exampleModalLabel">Add
-                        Member Shadeology</h5>
+                        Skin Tone</h5>
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">×</span></button>
                 </div>
                 <div class="modal-body">
-                    <form class="needs-validation" method="POST" action="{{ route('admin.users.store') }}"
+                    <form class="needs-validation" method="POST" action="{{ route('admin.skin-tone.store') }}"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        <h4 for="profile" class="font-weight-bold mb-1">Profile</h4>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
@@ -126,31 +119,6 @@
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group mb-3">
-                                        <label for="email">Email</label>
-                                        <input class="form-control" id="email" name="email" type="email" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group mb-3">
-                                        <label for="no_hp">Number Phone</label>
-                                        <input class="form-control" id="no_hp" name="no_hp" type="number" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group mb-3">
-                                    <label for="edit_barter">Access</label>
-                                    <select class="form-control digits" id="edit_barter" name="barter">
-                                        <option>Administration</option>
-                                        <option>Member</option>
-                                    </select>
-                                </div>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -166,11 +134,11 @@
 
     <!-- Modal Edit -->
     <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title f-w-600" id="exampleModalLabel">Edit
-                        Member CreatorsLab</h5>
+                        Skin Tone</h5>
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">×</span></button>
                 </div>
@@ -179,47 +147,13 @@
                         @csrf
                         @method('PUT')
                         <div class="form">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        <h4 for="profile" class="font-weight-bold mb-1">Profile</h4>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="kuota">Name</label>
-                                        <input class="form-control" id="edit_name" name="name" type="text"
-                                            required>
+                                        <input class="form-control" id="edit_name" name="name" type="text" required>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group mb-3">
-                                        <label for="email">Email</label>
-                                        <input class="form-control" id="edit_email" name="email" type="email"
-                                            required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group mb-3">
-                                        <label for="no_hp">Number Phone</label>
-                                        <input class="form-control" id="edit_phone" name="no_hp" type="number"
-                                            required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group mb-3">
-                                    <label for="edit_barter">Access</label>
-                                    <select class="form-control digits" id="edit_access" name="access">
-                                        <option>Administration</option>
-                                        <option>Member</option>
-                                    </select>
                                 </div>
                             </div>
                         </div>
