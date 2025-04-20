@@ -7,7 +7,7 @@
                 <div class="col-lg-6">
                     <div class="page-header-left">
                         <h3>Dashboard
-                            <small>Multikart Admin panel</small>
+                            <small>Shadeology Admin panel</small>
                         </h3>
                     </div>
                 </div>
