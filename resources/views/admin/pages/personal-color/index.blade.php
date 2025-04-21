@@ -45,7 +45,7 @@
                 <table class="display" id="basic-1">
                     <thead>
                         <tr>
-                            <th>Name</th>
+                            <th>No</th>
                             <th>Personal Color</th>
                             <th>Action</th>
                         </tr>

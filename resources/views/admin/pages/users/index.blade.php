@@ -45,6 +45,7 @@
                 <table class="display" id="basic-1">
                     <thead>
                         <tr>
+                            <th>No</th>
                             <th>Name</th>
                             <th>Phone Number</th>
                             <th>Access</th>

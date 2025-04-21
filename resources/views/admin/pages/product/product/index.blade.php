@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="page-header-left">
-                        <h3>Skin Tone List
+                        <h3>Product List
                             <small>Shadeology Admin panel</small>
                         </h3>
                     </div>
@@ -18,8 +18,8 @@
                                 <i data-feather="home"></i>
                             </a>
                         </li>
-                        <li class="breadcrumb-item">Skin Tone</li>
-                        <li class="breadcrumb-item active">Skin Tone List</li>
+                        <li class="breadcrumb-item">Product</li>
+                        <li class="breadcrumb-item active">Product List</li>
                     </ol>
                 </div>
             </div>
@@ -39,14 +39,17 @@
                 </form>
 
                 <button type="button" class="btn btn-primary mt-md-0 mt-2" data-bs-toggle="modal"
-                    data-original-title="test" data-bs-target="#exampleModal">Create Skin Tone</button>
+                    data-original-title="test" data-bs-target="#exampleModal">Create Product</button>
             </div>
             <div class="card-body vendor-table">
                 <table class="display" id="basic-1">
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Skin Tone</th>
+                            <th>Images</th>
+                            <th>Product Name</th>
+                            <th>Brand</th>
+                            <th>Type</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -101,7 +104,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title f-w-600" id="exampleModalLabel">Add
-                        Skin Tone</h5>
+                        Product</h5>
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">×</span></button>
                 </div>
@@ -138,7 +141,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title f-w-600" id="exampleModalLabel">Edit
-                        Skin Tone</h5>
+                        Product</h5>
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">×</span></button>
                 </div>

@@ -52,17 +52,17 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="{{ route('admin.product-brand.index') }}">
                             <i class="fa fa-circle"></i>Brand
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="{{ route('admin.product-type.index') }}">
                             <i class="fa fa-circle"></i>Type
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="{{ route('admin.product.index') }}">
                             <i class="fa fa-circle"></i>Product
                         </a>
                     </li>
