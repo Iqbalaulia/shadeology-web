@@ -1,13 +1,13 @@
 <!-- Page Sidebar Start-->
 <div class="page-sidebar">
-    {{-- <div class="main-header-left d-none d-lg-block">
+    <div class="main-header-left d-none d-lg-block">
         <div class="logo-wrapper">
             <a href="index.html">
                 <img class="d-none d-lg-block blur-up lazyloaded"
                     src="{{ asset('assets/admin/images/dashboard/shadeology_logo.png') }}" alt="">
             </a>
         </div>
-    </div> --}}
+    </div>
     <div class="sidebar custom-scrollbar">
         <a href="javascript:void(0)" class="sidebar-back d-lg-none d-block"><i class="fa fa-times"
                 aria-hidden="true"></i></a>
@@ -43,7 +43,6 @@
                     <span>Personal Color</span>
                 </a>
             </li>
-
             <li>
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="archive"></i>
@@ -69,7 +68,13 @@
                 </ul>
             </li>
             <li>
-                <a class="sidebar-header" href="forgot-password.html">
+                <a class="sidebar-header" href="{{ route('admin.product-recommendation.index') }}">
+                    <i data-feather="clipboard"></i>
+                    <span>Product Recommendation</span>
+                </a>
+            </li>
+            <li class="disabled">
+                <a class="sidebar-header disabled" href="javascript:void(0)">
                     <i data-feather="key"></i>
                     <span>Forgot Password</span>
                 </a>
