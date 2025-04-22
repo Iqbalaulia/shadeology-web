@@ -38,11 +38,17 @@
     <!-- Dropzone css-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/dropzone.css')}}">
 
+    <!-- slick icon-->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/slick-theme.css')}}">
+
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/bootstrap.css') }}">
 
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/style.css') }}">
+
+
 
 
 </head>
