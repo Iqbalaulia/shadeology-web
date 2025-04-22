@@ -1,13 +1,13 @@
 <!-- Page Sidebar Start-->
 <div class="page-sidebar">
-    <div class="main-header-left d-none d-lg-block">
-        {{-- <div class="logo-wrapper">
+    {{-- <div class="main-header-left d-none d-lg-block">
+        <div class="logo-wrapper">
             <a href="index.html">
                 <img class="d-none d-lg-block blur-up lazyloaded"
-                    src="{{ asset('assets/admin/images/dashboard/multikart-logo.png') }}" alt="">
+                    src="{{ asset('assets/admin/images/dashboard/shadeology_logo.png') }}" alt="">
             </a>
-        </div> --}}
-    </div>
+        </div>
+    </div> --}}
     <div class="sidebar custom-scrollbar">
         <a href="javascript:void(0)" class="sidebar-back d-lg-none d-block"><i class="fa fa-times"
                 aria-hidden="true"></i></a>
