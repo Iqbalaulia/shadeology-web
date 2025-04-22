@@ -113,15 +113,47 @@
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form">
-
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="kuota">Name</label>
+                                        <label for="kuota">Product Name</label>
                                         <input class="form-control" id="name" name="name" type="text" required>
                                     </div>
                                 </div>
-
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3">
+                                    <label for="edit_barter">Brand</label>
+                                    <select class="form-control digits" id="brand" name="brand" required>
+                                        <option>Wardah</option>
+                                        <option>Somethinc</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3">
+                                    <label for="edit_barter">Type</label>
+                                    <select class="form-control digits" id="type" name="type" required>
+                                        <option>Cushion</option>
+                                        <option>Lipstik</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group mb-3">
+                                        <label for="kuota">Link Affiliate</label>
+                                        <input class="form-control" id="affliate" name="affliate" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group mb-3">
+                                        <label for="validationCustom02" class="mb-1">Images Product :</label>
+                                        <input class="form-control" id="validationCustom02" type="file">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -150,12 +182,45 @@
                         @csrf
                         @method('PUT')
                         <div class="form">
-
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="kuota">Name</label>
-                                        <input class="form-control" id="edit_name" name="name" type="text" required>
+                                        <label for="kuota">Product Name</label>
+                                        <input class="form-control" id="name" name="name" type="text" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3">
+                                    <label for="edit_barter">Brand</label>
+                                    <select class="form-control digits" id="brand" name="brand" required>
+                                        <option>Wardah</option>
+                                        <option>Somethinc</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3">
+                                    <label for="edit_barter">Type</label>
+                                    <select class="form-control digits" id="type" name="type" required>
+                                        <option>Cushion</option>
+                                        <option>Lipstik</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group mb-3">
+                                        <label for="kuota">Link Affiliate</label>
+                                        <input class="form-control" id="affliate" name="affliate" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group mb-3">
+                                        <label for="validationCustom02" class="mb-1">Images Product :</label>
+                                        <input class="form-control" id="validationCustom02" type="file">
                                     </div>
                                 </div>
                             </div>

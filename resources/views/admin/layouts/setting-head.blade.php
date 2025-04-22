@@ -35,6 +35,9 @@
     <!-- Datatable css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/datatables.css') }}">
 
+    <!-- Dropzone css-->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/dropzone.css')}}">
+
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/bootstrap.css') }}">
 

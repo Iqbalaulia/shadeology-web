@@ -2,12 +2,12 @@
   <div class="page-main-header">
       <div class="main-header-right row">
           <div class="main-header-left d-lg-none w-auto">
-              <div class="logo-wrapper">
+              {{-- <div class="logo-wrapper">
                   <a href="index.html">
                       <img class="blur-up lazyloaded d-block d-lg-none"
                           src="{{ asset('assets/admin/images/dashboard/multikart-logo-black.png') }}" alt="">
                   </a>
-              </div>
+              </div> --}}
           </div>
           <div class="mobile-sidebar w-auto">
               <div class="media-body text-end switch-sm">

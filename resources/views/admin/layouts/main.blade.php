@@ -99,4 +99,8 @@
 <script src="{{ asset('assets/admin/js/datatables/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('assets/admin/js/datatables/custom-basic.js') }}"></script>
 
+<!--dropzone js-->
+<script src="{{ asset('assets/admin/js/dropzone/dropzone.js') }}"></script>
+<script src="{{ asset('assets/admin/js/dropzone/dropzone-script.js') }}"></script>
+
 </html>
