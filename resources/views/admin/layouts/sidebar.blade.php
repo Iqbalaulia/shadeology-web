@@ -2,7 +2,7 @@
 <div class="page-sidebar">
     <div class="main-header-left d-none d-lg-block">
         <div class="logo-wrapper">
-            <a href="index.html">
+            <a href="javascript:void(0)">
                 <img class="d-none d-lg-block blur-up lazyloaded"
                     src="{{ asset('assets/admin/images/dashboard/shadeology_logo.png') }}" alt="">
             </a>
