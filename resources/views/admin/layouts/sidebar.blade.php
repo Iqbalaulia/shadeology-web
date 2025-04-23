@@ -81,5 +81,18 @@
             </li>
         </ul>
     </div>
+    <hr />
+    <div class="sidebar-footer">
+        <div class="logout-section">
+            <a class="sidebar-header d-flex align-items-center gap-2" href="{{ route('logout') }}"
+                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <i data-feather="log-out" class="icon-logout"></i>
+                <span>Logout</span>
+            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                @csrf
+            </form>
+        </div>
+    </div>
 </div>
 <!-- Page Sidebar Ends-->

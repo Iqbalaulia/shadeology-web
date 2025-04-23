@@ -36,11 +36,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/datatables.css') }}">
 
     <!-- Dropzone css-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/dropzone.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/dropzone.css') }}">
 
     <!-- slick icon-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/slick.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/vendors/slick-theme.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/slick.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/slick-theme.css') }}">
 
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/vendors/bootstrap.css') }}">

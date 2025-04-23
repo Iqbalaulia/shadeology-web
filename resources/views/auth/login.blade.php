@@ -164,7 +164,7 @@ c1.923,0,3.84-0.728,5.303-2.192l-83.142-83.142L393.695,417.909z" />
                 <div class="single-item">
                     <div>
                         <div>
-                            <h3>Welcome to Multikart</h3>
+                            <h3>Shadeology</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy.</p>
                         </div>
