@@ -83,7 +83,7 @@
       <div class="footer-bottom">
           <div class="auto-container">
               <div class="inner-container">
-                  <div class="copyright-text">&copy; Purerelax, <a href="index.html">Reserved By Kodesolution</a></div>
+                  <div class="copyright-text">&copy; Shadeology, <a href="index.html">Reserved By Kodesolution</a></div>
               </div>
           </div>
       </div>

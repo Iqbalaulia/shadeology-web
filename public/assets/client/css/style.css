@@ -1,6 +1,6 @@
-/* Purerelax | Spa & Beauty HTML Template
+/* Shadeology
 
-Template Name: Purerelax
+Template Name: /* Shadeology
 Version: 1.0.0
 License: copyright commercial
 
@@ -42,7 +42,7 @@ License: copyright commercial
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
 :root {
-    --theme-color1: #FF8282;
+    --theme-color1: #ff8282;
     --theme-color2: #011425;
     --theme-color3: #666666;
     --theme-color4: #183425;
@@ -55,7 +55,7 @@ License: copyright commercial
     --border-theme-color2: var(--theme-color2);
     --theme-color-light: #ffffff;
     --theme-color-dark: #000000;
-    --theme-color-pink:#FF6363;
+    --theme-color-pink: #ff6363;
     --theme-color-lighter: #f8f8f8;
     --review-color: #ffaa18;
     --theme-color1-dark: #b69d49;
@@ -9575,7 +9575,7 @@ Section Title
     }
 }
 .service-block .inner-box:hover:after {
-    border-color: var(--theme-color-light);
+    border-color: var(--theme-color-pink);
 }
 .service-block .inner-box:hover:before {
     height: 100%;
@@ -9594,7 +9594,7 @@ Section Title
     color: var(--theme-color-light);
 }
 .service-block .inner-box:after {
-    border: 1px dashed #c2a74e;
+    border: 1px dashed #ec7fa9;
     content: "";
     position: absolute;
     top: 10px;
@@ -9606,7 +9606,8 @@ Section Title
     transition: all 300ms ease;
 }
 .service-block .inner-box:before {
-    background-color: rgba(194, 167, 78, 0.85);
+    background-color: #f8e6e0;
+    opacity: 0.4,
     content: "";
     position: absolute;
     width: 100%;
@@ -15464,17 +15465,22 @@ Section Title
 ====================================================================
 
 ***/
+.width-500 {
+    width: 500px;
+}
 .service-section-home7 {
     position: relative;
+    background-color: var(---theme-color-light);
+    background: #ffffff !important;
 }
 .service-section-home7 .service-pattrn {
-    background-image: url(../images/resource/service-stone.png);
-    height: 209px;
+    background-image: url(../images/resource/makeup-periferal.png);
+    height: 500px;
     pointer-events: none;
     position: absolute;
-    left: 80px;
+    left: 10px;
     top: 76%;
-    width: 163px;
+    width: 500px;
 }
 .service-section-home7 .service-block .inner-box {
     background-color: var(--theme-color-light);

@@ -47,6 +47,10 @@
                               <li class="dropdown"><a href="#">Services</a>
                                   <ul>
                                       <li><a href="page-services.html">Personal Color</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown"><a href="#">Products</a>
+                                  <ul>
                                       <li><a href="page-service-details.html">Color Pallate</a></li>
                                   </ul>
                               </li>

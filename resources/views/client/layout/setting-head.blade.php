@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>Purerelax | Spa & Beauty HTML Template | Home Page 07</title>
+    <title>Shadeology | Personal Color Analyst</title>
     <!-- Stylesheets -->
     <link href="{{ asset('assets/client/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/client/css/style.css') }}" rel="stylesheet">
