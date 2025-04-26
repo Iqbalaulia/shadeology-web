@@ -43,95 +43,15 @@
                   <div class="nav-outer">
                       <nav class="nav main-menu">
                           <ul class="navigation">
-                              <li class="current dropdown"><a href="index.html">Home</a>
-                                  <ul>
-                                      <li><a href="index.html">Home page 01</a></li>
-                                      <li><a href="index-2.html">Home page 02</a></li>
-                                      <li class="dropdown"><a href="#">New Home <span
-                                                  class="badge-menu badge-color-red">New</span></a>
-                                          <ul>
-                                              <li><a href="index-3.html">Home page 03</a></li>
-                                              <li><a href="index-4.html">Home page 04</a></li>
-                                              <li><a href="index-5.html">Home page 05</a></li>
-                                              <li><a href="index-6.html">Home page 06</a></li>
-                                              <li><a href="index-7.html">Home page 07</a></li>
-                                              <li><a href="index-8.html">Home page 08</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Single</a>
-                                          <ul>
-                                              <li><a href="index-1-single.html">Home Single 1</a></li>
-                                              <li><a href="index-2-single.html">Home Single 2</a></li>
-                                              <li><a href="index-3-single.html">Home Single 3</a></li>
-                                              <li><a href="index-4-single.html">Home Single 4</a></li>
-                                              <li><a href="index-5-single.html">Home Single 5</a></li>
-                                              <li><a href="index-6-single.html">Home Single 6</a></li>
-                                              <li><a href="index-7-single.html">Home Single 7</a></li>
-                                              <li><a href="index-8-single.html">Home Single 8</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Dark</a>
-                                          <ul>
-                                              <li><a href="index-1-dark.html">Home Dark 1</a></li>
-                                              <li><a href="index-2-dark.html">Home Dark 2</a></li>
-                                              <li><a href="index-3-dark.html">Home Dark 3</a></li>
-                                              <li><a href="index-4-dark.html">Home Dark 4</a></li>
-                                              <li><a href="index-5-dark.html">Home Dark 5</a></li>
-                                              <li><a href="index-6-dark.html">Home Dark 6</a></li>
-                                              <li><a href="index-7-dark.html">Home Dark 7</a></li>
-                                              <li><a href="index-8-dark.html">Home Dark 8</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">RTL</a>
-                                          <ul>
-                                              <li><a href="index-1-rtl.html">Home RTL 1</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown"><a href="#">Header Styles</a>
-                                          <ul>
-                                              <li><a href="index.html">Header Style One</a></li>
-                                              <li><a href="index-2.html">Header Style Two</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown"><a href="#">Pages</a>
-                                  <ul>
-                                      <li><a href="page-about.html">About</a></li>
-                                      <li><a href="page-gallery.html">Gallery</a></li>
-                                      <li class="dropdown"><a href="#">Team</a>
-                                          <ul>
-                                              <li><a href="page-team.html">Team List</a></li>
-                                              <li><a href="page-team-details.html">Team Details</a></li>
-                                          </ul>
-                                      </li>
-                                      <li><a href="page-testimonial.html">Testimonial</a></li>
-                                      <li><a href="page-pricing.html">Pricing</a></li>
-                                      <li><a href="page-faq.html">FAQ</a></li>
-                                      <li><a href="page-404.html">Page 404</a></li>
-                                  </ul>
-                              </li>
+                              <li><a href="/">Home</a></li>
                               <li class="dropdown"><a href="#">Services</a>
                                   <ul>
-                                      <li><a href="page-services.html">Services List</a></li>
-                                      <li><a href="page-service-details.html">Service Details</a></li>
+                                      <li><a href="page-services.html">Personal Color</a></li>
+                                      <li><a href="page-service-details.html">Color Pallate</a></li>
                                   </ul>
                               </li>
-                              <li class="dropdown"><a href="#">Shop</a>
-                                  <ul>
-                                      <li><a href="shop-products.html">Products</a></li>
-                                      <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                                      <li><a href="shop-product-details.html">Product Details</a></li>
-                                      <li><a href="shop-cart.html">Cart</a></li>
-                                      <li><a href="shop-checkout.html">Checkout</a></li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown"><a href="#">News</a>
-                                  <ul>
-                                      <li><a href="news-grid.html">News Grid</a></li>
-                                      <li><a href="news-details.html">News Details</a></li>
-                                  </ul>
-                              </li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Testimonials</a></li>
                               <li><a href="page-contact.html">Contact</a></li>
                           </ul>
                       </nav>
@@ -166,8 +86,8 @@
           <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
           <nav class="menu-box">
               <div class="upper-box">
-                  <div class="nav-logo"><a href="index.html"><img
-                              src="{{ asset('assets/client/images/logo-2.png') }}" alt=""></a></div>
+                  <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/client/images/logo-2.png') }}"
+                              alt=""></a></div>
                   <div class="close-btn"><i class="icon fa fa-times"></i></div>
               </div>
               <ul class="navigation clearfix">
@@ -201,8 +121,7 @@
           <div class="search-inner">
               <form method="post" action="https://html.kodesolution.com/2024/purerelax-html/index.html">
                   <div class="form-group">
-                      <input type="search" name="search-field" value="" placeholder="Search..."
-                          required="">
+                      <input type="search" name="search-field" value="" placeholder="Search..." required="">
                       <button type="submit"><i class="fa fa-search"></i></button>
                   </div>
               </form>
@@ -216,8 +135,7 @@
               <div class="inner-container">
                   <!--Logo-->
                   <div class="logo">
-                      <a href="index.html"><img src="{{ asset('assets/client/images/logo.png') }}"
-                              alt=""></a>
+                      <a href="index.html"><img src="{{ asset('assets/client/images/logo.png') }}" alt=""></a>
                   </div>
 
                   <!--Right Col-->
