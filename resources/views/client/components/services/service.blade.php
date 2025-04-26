@@ -73,7 +73,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="c">
-                    <div class="thumb width-500"><img src="{{ asset('assets/client/images/resource/about7-1.jpg') }}"
+                    <div class="thumb"><img src="{{ asset('assets/client/images/resource/about7-1.jpg') }}"
                             alt=""></div>
                     <div class="about-content">
                         <h4 class="title mt-2">Personal Color Analysis Now</h4>
