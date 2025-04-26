@@ -1,0 +1,1133 @@
+@extends('client.layout.main')
+@section('content')
+    <!-- Banner Start -->
+    <section class="banner-style1-home5 home7-style">
+        <div class="leaf-1 d-none d-lg-block bounce-y"><img src="{{ asset('assets/client/images/banner/home5-banner3.png') }}"
+                alt=""></div>
+        <div class="banner-bottom"><img src="{{ asset('assets/client/images/banner/home5-banner-bottom.png') }}"
+                alt=""></div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-xl-6 d-none d-xl-block">
+                    <div class="image-content">
+                        <div class="bg-circle zoom-one"></div>
+                        <img class="img" src="{{ asset('assets/client/images/banner/home7-banner1.png') }}"
+                            alt="">
+                        <img class="img-2 bounce-x" src="{{ asset('assets/client/images/banner/home5-banner2.png') }}"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="content-column">
+                        <div class="inner-content">
+                            <div class="title-bg"><img src="{{ asset('assets/client/images/icons/icon2.png') }}"
+                                    alt=""><span class="bg-text">Purerelax</span></div>
+                            <h2 class="title">Best Spa & <br /> Beauty care</h2>
+                            <p class="text">Embrace your beauty at PureRelax, where we have meticulously crafted a
+                                paradise of splendor for your ultimate comfort and enjoyment.</p>
+                            <a href="page-contact.html" class="theme-btn btn-style-transparent mt-25">Appointment Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner End -->
+
+    <!-- Service Section -->
+    <section class="service-section-home7">
+        <div class="service-pattrn bounce-x"></div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row mt-100">
+                        <div class="col-lg-12">
+                            <div class="sec-title">
+                                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon2.png') }}"
+                                        alt="Image"></figure>
+                                <span class="sub-title">Services list</span>
+                                <h2 class="words-slide-up text-split">Our Services Will Make You Glow</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- Service Block -->
+                            <div class="service-block">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <div class="bg-image"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-1.png') }});">
+                                        </div>
+                                        <div class="bg-image-two"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
+                                        </div>
+                                    </div>
+                                    <div class="content-box">
+                                        <figure class="icon mb-0"><img
+                                                src="{{ asset('assets/client/images/icons/theme-icon5.png') }}"
+                                                alt="Image">
+                                        </figure>
+                                        <h4 class="title"><a href="page-service-details.html">Sauna Relax</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- Service Block -->
+                            <div class="service-block">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <div class="bg-image"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-1.png') }});">
+                                        </div>
+                                        <div class="bg-image-two"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
+                                        </div>
+                                    </div>
+                                    <div class="content-box">
+                                        <figure class="icon mb-0"><img
+                                                src="{{ asset('assets/client/images/icons/theme-icon6.png') }}"
+                                                alt="Image">
+                                        </figure>
+                                        <h4 class="title"><a href="page-service-details.html">Face Treatments</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- Service Block -->
+                            <div class="service-block">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <div class="bg-image"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-1.png') }});">
+                                        </div>
+                                        <div class="bg-image-two"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
+                                        </div>
+                                    </div>
+                                    <div class="content-box">
+                                        <figure class="icon mb-0"><img
+                                                src="{{ asset('assets/client/images/icons/theme-icon7.png') }}"
+                                                alt="Image">
+                                        </figure>
+                                        <h4 class="title"><a href="page-service-details.html">Make-up</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- Service Block -->
+                            <div class="service-block">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <div class="bg-image"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-1.png') }});">
+                                        </div>
+                                        <div class="bg-image-two"
+                                            style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
+                                        </div>
+                                    </div>
+                                    <div class="content-box">
+                                        <figure class="icon mb-0"><img
+                                                src="{{ asset('assets/client/images/icons/theme-icon8.png') }}"
+                                                alt="Image">
+                                        </figure>
+                                        <h4 class="title"><a href="page-service-details.html">Thai Massage</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-style-home7">
+                        <div class="thumb"><img src="{{ asset('assets/client/images/resource/about7-1.jpg') }}"
+                                alt=""></div>
+                        <div class="about-content">
+                            <h4 class="title">Makeover Now</h4>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="page-contact.html" class="theme-btn btn-style-one mt-10">APPPOINMENT NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Banners Section -->
+    <section class="banners-section pb-30 pt-90">
+        <div class="auto-container pt-0 pb-0">
+            <div class="sec-title text-center">
+                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon1.png') }}" alt="Image">
+                </figure>
+                <span class="sub-title">Our Products</span>
+                <h2 class="words-slide-up text-split">Building Physically & <br />Mental Health</h2>
+            </div>
+            <div class="row">
+                <!-- Banner Box One -->
+                <div class="banner-box-one col-xl-4 col-md-6">
+                    <div class="inner-box overlay-anim">
+                        <div class="image"><img src="{{ asset('assets/client/images/resource/top-banner-1.png') }}"
+                                alt=""></div>
+                        <div class="content">
+                            <h3 class="title">Skincare <span>New</span> <br>Beauty</h3>
+                            <span class="price"> <span class="price-style"> $40.00</span> $20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banner Box One -->
+                <div class="banner-box-one col-xl-4 col-md-6">
+                    <div class="inner-box style-two overlay-anim">
+                        <div class="image"><img src="{{ asset('assets/client/images/resource/top-banner-2.png') }}"
+                                alt=""></div>
+                        <div class="content">
+                            <h3 class="title">Cosmetic <span>New</span> <br>Product</h3>
+                            <span class="price"> <span class="price-style"> $80.00</span> $40.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banner Box One -->
+                <div class="banner-box-one col-xl-4 col-md-6">
+                    <div class="inner-box style-three overlay-anim">
+                        <div class="image"><img src="{{ asset('assets/client/images/resource/top-banner-3.png') }}"
+                                alt=""></div>
+                        <div class="content">
+                            <h3 class="title">Spot <span>Remove</span> <br>Cream</h3>
+                            <span class="price"> <span class="price-style"> $70.00</span> $30.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banners Section -->
+
+    <!-- Client Section -->
+    <section class="clients-section">
+        <div class="auto-container">
+            <div class="carousel-outer">
+                <div class="clients-carousel owl-carousel owl-theme custom-navs-two">
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-2.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-3.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-2.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-3.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- client block -->
+                    <div class="client-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="#"><img
+                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
+                                            alt="Image"></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Client Section -->
+
+    <!-- Why Chose Us Section -->
+    <section class="whychose-section-home7 pb-md-120">
+        <div class="bg bg-image"
+            style="background-image:url({{ asset('assets/client/images/background/home7-whychose-bg.jpg') }});"></div>
+        <div class="leaf-1 bounce-y d-none d-lg-block"><img
+                src="{{ asset('assets/client/images/resource/service-leaf-1.png') }}" alt="">
+        </div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="whychose-us-title wow fadeInUp">Purerelax</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xl-5 wow fadeInRight d-none d-lg-block">
+                    <div class="image-column">
+                        <div class="inner-content">
+                            <img src="{{ asset('assets/client/images/resource/whychose-img-home7.png') }}" alt=""
+                                class="img-1">
+                            <img src="{{ asset('assets/client/images/resource/whychose-stone-home7.png') }}"
+                                alt="" class="img-2">
+                            <img src="{{ asset('assets/client/images/resource/leaf5.png') }}" alt=""
+                                class="img-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 offset-xl-1 wow fadeInLeft">
+                    <div class="content-column">
+                        <div class="inner-content">
+                            <div class="sec-title mb-25">
+                                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon2.png') }}"
+                                        alt="Image"></figure>
+                                <span class="sub-title">Result Driven Products</span>
+                                <h2 class="words-slide-up text-split">Chemical Free Collections</h2>
+                            </div>
+                            <div class="text mb-30">Proin efficitur, mauris vel condimentum pulvinar, velit orci
+                                consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec.</div>
+                            <div class="list-style1-home7 d-flex align-items-center">
+                                <ul class="list-style1-home7">
+                                    <li class="mb-15"><img class="me-2"
+                                            src="{{ asset('assets/client/images/icons/list-style-icon1.svg') }}"
+                                            alt=""> Body Scrubs</li>
+                                    <li><img class="me-2"
+                                            src="{{ asset('assets/client/images/icons/list-style-icon1.svg') }}"
+                                            alt="">
+                                        Cellulite Treatments</li>
+                                </ul>
+                                <ul class="list-style1-home7 ml-40">
+                                    <li class="mb-15"><img class="me-2"
+                                            src="{{ asset('assets/client/images/icons/list-style-icon1.svg') }}"
+                                            alt=""> Back Treatments</li>
+                                    <li><img class="me-2"
+                                            src="{{ asset('assets/client/images/icons/list-style-icon1.svg') }}"
+                                            alt=""> Body
+                                        Polish</li>
+                                </ul>
+                            </div>
+                            <a href="page-contact.html" class="theme-btn btn-style-one mt-40">APPOINTMENT NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Why Chose Us Section -->
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="testimonial-pattrn1-1 bounce-x"></div>
+        <div class="auto-container">
+            <div class="sec-title">
+                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon1.png') }}" alt="Image">
+                </figure>
+                <span class="sub-title">Wellness Spa Retreats</span>
+                <h2 class="words-slide-up text-split">The Ultimate Relaxation</h2>
+                <div class="text">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget
+                    <br> egestas magna mi ut arcu. Phasellus nec.
+                </div>
+            </div>
+            <div class="row">
+                <div class="product-block home-style col-lg-3 col-sm-6">
+                    <div class="inner-box bg-transparent">
+                        <div class="image-box">
+                            <div class="inner">
+                                <figure class="image mb-0"><a href="shop-product-details.html"><img
+                                            src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
+                                            alt="Image"></a></figure>
+                                <div class="icon-box">
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-sharp fa-light fa-cart-shopping"></i>
+                                    </a>
+                                    <a class="icon" href="shop-product-details.html" class="ui-btn like-btn">
+                                        <i class="fa-light fa-heart"></i>
+                                    </a>
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-light fa-arrows-rotate"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="inner">
+                                <span class="price">70$.00 - 90$.00</span>
+                                <h4 class="title"><a href="shop-product-details.html">Glow Facial Cream</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-block home-style col-lg-3 col-sm-6">
+                    <div class="inner-box bg-transparent">
+                        <div class="image-box">
+                            <div class="inner">
+                                <figure class="image mb-0"><a href="shop-product-details.html"><img
+                                            src="{{ asset('assets/client/images/resource/product1-2.jpg') }}"
+                                            alt="Image"></a></figure>
+                                <div class="icon-box">
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-sharp fa-light fa-cart-shopping"></i>
+                                    </a>
+                                    <a class="icon" href="shop-product-details.html" class="ui-btn like-btn">
+                                        <i class="fa-light fa-heart"></i>
+                                    </a>
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-light fa-arrows-rotate"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="inner">
+                                <span class="price"> <span class="price-style"> 90$.00</span> - 70$.00</span>
+                                <h4 class="title"><a href="shop-product-details.html">Hair Treatment</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-block home-style col-lg-3 col-sm-6">
+                    <div class="inner-box bg-transparent">
+                        <div class="image-box">
+                            <div class="inner">
+                                <figure class="image mb-0"><a href="shop-product-details.html"><img
+                                            src="{{ asset('assets/client/images/resource/product1-3.jpg') }}"
+                                            alt="Image"></a></figure>
+                                <div class="icon-box">
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                    </a>
+                                    <a class="icon" href="shop-product-details.html" class="ui-btn like-btn">
+                                        <i class="fa-light fa-heart"></i>
+                                    </a>
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-light fa-arrows-rotate"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="inner">
+                                <span class="price">70$.00</span>
+                                <h4 class="title"><a href="shop-product-details.html">Massage Cream</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-block home-style col-lg-3 col-sm-6">
+                    <div class="inner-box bg-transparent">
+                        <div class="image-box">
+                            <div class="inner">
+                                <figure class="image mb-0"><a href="shop-product-details.html"><img
+                                            src="{{ asset('assets/client/images/resource/product1-4.jpg') }}"
+                                            alt="Image"></a></figure>
+                                <div class="icon-box">
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-sharp fa-regular fa-cart-shopping"></i>
+                                    </a>
+                                    <a class="icon" href="shop-product-details.html" class="ui-btn like-btn">
+                                        <i class="fa-light fa-heart"></i>
+                                    </a>
+                                    <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                        <i class="fa-light fa-arrows-rotate"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="inner">
+                                <span class="price">50$.00</span>
+                                <h4 class="title"><a href="shop-product-details.html">Body Message Oil</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product Section -->
+
+    <!-- Fun Fact Section -->
+    <section class="fun-fact-section">
+        <div class="bg bg-image"
+            style="background-image:url({{ asset('assets/client/images/background/bg-funfact1.jpg') }});"></div>
+        <div class="feature1-2 bounce-y"></div>
+        <div class="auto-container">
+            <div class="row">
+                <!-- Counter block-->
+                <div class="counter-block home7-style col-lg-3 col-sm-6">
+                    <div class="inner">
+                        <figure class="icon">
+                            <svg width="40" height="53" viewBox="0 0 40 53" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.5512 24.5276C21.4572 24.5276 21.2692 24.5275 21.1752 24.4335C20.8932 24.2454 20.7051 23.7752 20.9872 23.3991C21.0812 23.305 22.4913 21.142 26.8156 21.7062C27.1916 21.8003 27.4737 22.0824 27.4737 22.5526C27.3797 22.9288 27.0976 23.2109 26.6276 23.2109C23.2433 22.7407 22.2093 24.1514 22.2093 24.2454C22.0213 24.3395 21.8332 24.5276 21.5512 24.5276Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M24.2774 27.7245C23.1493 27.7245 22.3032 27.5364 22.2092 27.5364C21.8332 27.4424 21.5512 27.0662 21.6452 26.69C21.7392 26.3139 22.1152 26.0317 22.4912 26.1257C22.4912 26.1257 25.5935 26.784 27.1916 25.4674C27.4736 25.1853 27.9437 25.2793 28.2257 25.5615C28.5077 25.8436 28.4137 26.3138 28.1317 26.596C27.0976 27.5364 25.5935 27.7245 24.2774 27.7245Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M18.449 24.5276C18.261 24.5276 17.979 24.4335 17.8849 24.2454C17.7909 24.1514 16.7569 22.7407 13.4666 23.2109C13.0906 23.305 12.7146 23.0228 12.6206 22.5526C12.5265 22.1764 12.8086 21.8003 13.2786 21.7062C17.6969 21.142 19.107 23.305 19.107 23.3991C19.2951 23.7752 19.201 24.1514 18.919 24.4335C18.731 24.4335 18.543 24.5276 18.449 24.5276Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M15.7224 27.7248C14.5003 27.7248 12.9021 27.5367 11.7741 26.5022C11.492 26.22 11.398 25.7498 11.68 25.4677C11.9621 25.1855 12.4321 25.0915 12.7141 25.3737C14.0302 26.5022 16.5684 26.2201 17.4145 26.032C17.7905 25.9379 18.1665 26.2201 18.2606 26.5962C18.3546 26.9724 18.0725 27.3486 17.6965 27.4427C17.6965 27.5367 16.7564 27.7248 15.7224 27.7248Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.047 33.1795C19.4829 33.1795 18.9189 32.9914 18.4489 32.5212L18.0728 32.2391C17.7908 31.9569 17.7908 31.4867 18.0728 31.2046C18.3549 30.9224 18.8249 30.9224 19.1069 31.2046L19.4829 31.4867C19.859 31.7688 20.329 31.7688 20.705 31.4867L21.0811 31.2046C21.3631 30.9224 21.8331 30.9224 22.1152 31.2046C22.3972 31.4867 22.3972 31.9569 22.1152 32.2391L21.7391 32.5212C21.1751 32.8974 20.611 33.1795 20.047 33.1795Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0466 37.8815H19.9526C19.5766 37.8815 18.0725 37.7875 16.7564 36.4709C16.5684 36.2828 16.5684 36.0946 16.5684 35.9065C16.5684 35.7185 16.6624 35.5304 16.8504 35.3423C16.9444 35.2483 17.9785 34.4018 20.0466 34.3078H20.1406C22.2088 34.4959 23.2429 35.2483 23.3369 35.3423C23.5249 35.4363 23.6189 35.6244 23.6189 35.9065C23.6189 36.0946 23.5249 36.2828 23.4309 36.4709C21.9268 37.7875 20.4226 37.8815 20.0466 37.8815ZM20.0466 36.3768C20.1406 36.3768 20.7047 36.3768 21.4567 36.0006C21.0807 35.9066 20.6107 35.8125 20.0466 35.7185C19.4826 35.7185 19.0125 35.9066 18.6365 36.0006C19.3886 36.3768 19.9526 36.3768 20.0466 36.3768C19.9526 36.3768 19.9526 36.3768 20.0466 36.3768Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0468 39.9507C19.8588 39.9507 19.5768 39.9508 19.2948 39.8567C18.9187 39.7627 18.7307 39.2924 18.8247 38.9162C18.9187 38.54 19.3888 38.352 19.7648 38.446C19.8588 38.446 19.9528 38.446 20.0468 38.446C20.1408 38.446 20.3289 38.446 20.3289 38.446C20.7049 38.352 21.0809 38.54 21.2689 38.9162C21.3629 39.2924 21.1749 39.6686 20.7989 39.8567C20.4229 39.9508 20.1408 39.9507 20.0468 39.9507Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0472 43.3362C18.6371 43.3362 17.133 42.866 15.9109 41.9255C5.85211 34.1198 7.92026 24.6213 8.01427 24.2451C8.10828 23.7749 10.7405 13.1478 28.7898 10.6086C28.9778 10.6086 29.1659 10.6085 29.3539 10.7966C29.5419 10.9847 34.9003 15.593 32.2681 25.3737C32.5501 28.195 32.2681 35.6245 24.1835 41.9255C22.8674 42.866 21.4573 43.3362 20.0472 43.3362ZM19.0131 14.8406C10.9285 18.6964 9.42437 24.4332 9.42437 24.5272C9.33037 24.9034 7.54422 33.5556 16.8509 40.7971C18.7311 42.3018 21.3633 42.3018 23.2434 40.7971C32.2681 33.8377 30.764 25.2796 30.67 24.6213C28.3198 18.2262 20.5172 15.4049 19.0131 14.8406ZM20.9872 14.0882C23.7134 15.2167 28.7898 17.85 31.328 22.6463C32.2681 16.3453 29.4479 13.0537 28.6018 12.2073C25.5936 12.5835 23.1494 13.2418 20.9872 14.0882Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M8.67169 25.0913C8.38967 25.0913 8.10765 24.9031 8.01365 24.621C7.91964 24.3389 5.66346 18.5081 8.38966 12.7713C10.2698 8.82141 14.1241 5.90605 19.7645 4.21324C20.1406 4.11919 20.5166 4.30724 20.7046 4.68342C20.7986 5.0596 20.6106 5.43577 20.2346 5.62386C14.9702 7.22263 11.3979 9.85591 9.70578 13.4296C7.26159 18.6021 9.32974 24.0568 9.42375 24.0568C9.61176 24.4329 9.42374 24.8091 9.04771 24.9972C8.8597 25.0912 8.7657 25.0913 8.67169 25.0913Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M28.8836 12.1133C28.6955 12.1133 28.4135 12.0193 28.3195 11.8312C28.1315 11.549 28.1315 11.0788 28.5075 10.7967C28.7896 10.6086 31.2337 8.72766 29.1656 5.34204C27.6615 2.89686 22.9611 1.29815 19.6709 2.2386C18.0727 2.61478 16.1926 3.83735 16.1926 6.84679C16.1926 7.22297 15.8166 7.59917 15.4405 7.59917C15.0645 7.59917 14.6885 7.22297 14.6885 6.84679C14.7825 3.7433 16.3806 1.58027 19.2948 0.82791C23.2431 -0.206586 28.6015 1.58029 30.4817 4.58973C32.7378 8.25749 30.7637 10.9848 29.3536 11.9252C29.1656 12.0193 28.9776 12.1133 28.8836 12.1133Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0471 52.1765C15.2527 52.1765 11.3984 50.0135 11.3984 47.2862C11.3984 47.004 11.4925 46.816 11.6805 46.7219C14.9707 44.4648 14.2187 40.5149 14.1247 40.3268C14.1247 40.1387 14.1247 39.8566 14.3127 39.6685C14.5947 39.3864 15.0647 39.2923 15.3467 39.5745C15.8168 40.0447 16.2868 40.4209 16.7569 40.7971C18.637 42.3018 21.2692 42.3018 23.1493 40.7971C23.6194 40.4209 24.0894 40.0447 24.5594 39.5745C24.8415 39.2923 25.4055 39.3864 25.5935 39.6685C25.6875 39.8566 25.7815 40.0447 25.7815 40.3268C25.7815 40.5149 24.9355 44.4648 28.2257 46.7219C28.4137 46.816 28.5077 47.0981 28.5077 47.2862C28.6017 50.0135 24.8415 52.1765 20.0471 52.1765ZM12.9025 47.6623C13.2786 49.1671 16.0988 50.7658 20.0471 50.7658C23.9954 50.7658 26.8156 49.1671 27.1916 47.6623C24.9355 45.8755 24.3714 43.4304 24.3714 41.8316C24.2774 41.9256 24.2774 41.9256 24.1834 42.0197C21.7392 43.9006 18.355 43.9006 16.0048 42.0197C15.9108 41.9256 15.9108 41.9256 15.8168 41.8316C15.6288 43.4304 15.1587 45.8755 12.9025 47.6623Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M39.2244 52.1767C39.0364 52.1767 38.8484 52.0826 38.7544 51.9886C36.0282 49.4493 32.5499 48.0387 28.8837 48.0387H28.6016C28.0376 50.4839 24.4653 52.2708 20.047 52.2708C19.6709 52.2708 19.2949 51.9886 19.2949 51.5184C19.2949 51.1422 19.5769 50.766 20.047 50.766C24.2773 50.766 27.1915 48.9791 27.1915 47.2863C27.1915 46.9101 27.4735 46.534 27.9436 46.534H28.8837C32.926 46.534 36.7802 48.1328 39.7885 50.9541C40.0705 51.2363 40.0705 51.7064 39.7885 51.9886C39.6005 52.1766 39.4125 52.1767 39.2244 52.1767Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M0.775554 52.1767C0.587539 52.1767 0.39953 52.0826 0.211516 51.9886C-0.0705053 51.7064 -0.0705053 51.2363 0.211516 50.9541C3.12574 48.1328 7.07403 46.534 11.1163 46.534H12.0564C12.4324 46.534 12.8085 46.8161 12.8085 47.2863C12.8085 48.8851 15.7227 50.766 19.953 50.766C20.329 50.766 20.705 51.0482 20.705 51.5184C20.705 51.8946 20.423 52.2708 19.953 52.2708C15.5347 52.2708 12.0564 50.4839 11.3983 48.0387H11.1163C7.45006 48.0387 3.87778 49.4493 1.24558 51.9886C1.15157 52.1766 0.963568 52.1767 0.775554 52.1767Z"
+                                    fill="#C2A74E" />
+                            </svg>
+                        </figure>
+                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="24">0</span></div>
+                        <h4 class="counter-title">Years of Experience</h4>
+                    </div>
+                </div>
+
+                <!-- Counter block-->
+                <div class="counter-block home7-style col-lg-3 col-sm-6">
+                    <div class="inner">
+                        <figure class="icon">
+                            <svg width="40" height="52" viewBox="0 0 40 52" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.3402 51.4326H5.2636C4.88082 51.4326 4.49805 51.1454 4.49805 50.6667V48.5606C4.49805 48.1777 4.78513 47.7947 5.2636 47.7947C5.64637 47.7947 6.02915 48.082 6.02915 48.5606V49.9966H21.3402C21.7229 49.9966 22.1057 50.2838 22.1057 50.7625C22.01 51.1454 21.7229 51.4326 21.3402 51.4326Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M5.2636 45.593C4.88082 45.593 4.49805 45.3058 4.49805 44.8272V20.5111C4.49805 20.2239 4.59373 20.0325 4.78512 19.9367C4.9765 19.841 5.2636 19.7453 5.45499 19.841C7.08178 20.4154 9.09134 20.3196 11.388 19.458C16.077 17.6391 19.3306 18.8837 21.4358 19.6496H21.5315C21.8186 19.7453 22.01 20.0325 22.01 20.3197V29.51C22.01 29.8929 21.7229 30.2758 21.2445 30.2758C20.8617 30.2758 20.4789 29.9886 20.4789 29.51V20.894C18.3736 20.1282 15.7899 19.3623 11.8665 20.7983C9.66551 21.6599 7.65594 21.8513 5.93345 21.4684V44.7314C6.02914 45.2101 5.64637 45.593 5.2636 45.593Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M11.0046 32.6692C9.28211 32.6692 7.94238 31.329 7.94238 29.6058V20.8942C7.94238 20.5112 8.22948 20.224 8.61225 20.1283C9.4735 20.0326 10.4304 19.8411 11.4831 19.4582C13.7797 18.5966 15.9807 18.3094 18.0859 18.6923C18.4687 18.788 18.7558 19.0752 18.7558 19.4582V27.2125C18.7558 28.9357 17.4161 30.2759 15.6936 30.2759C15.1194 30.2759 14.5453 30.0845 14.1625 29.7973C13.9711 31.4247 12.6314 32.6692 11.0046 32.6692ZM9.3778 21.5643V29.6058C9.3778 30.4674 10.0477 31.1375 10.9089 31.1375C11.7701 31.1375 12.44 30.4674 12.44 29.6058V27.1168C12.44 26.7339 12.7271 26.3509 13.2056 26.3509C13.5883 26.3509 13.9711 26.6381 13.9711 27.1168C13.9711 27.9784 14.641 28.6485 15.5022 28.6485C16.3634 28.6485 17.0333 27.9784 17.0333 27.1168V20.0325C15.3108 19.8411 13.5883 20.1283 11.7701 20.7984C11.1003 21.1813 10.239 21.3728 9.3778 21.5643Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M13.3017 27.8825C12.9189 27.8825 12.5361 27.5954 12.5361 27.1167V25.2978C12.5361 24.9149 12.8232 24.5319 13.3017 24.5319C13.6845 24.5319 14.0672 24.8191 14.0672 25.2978V27.1167C14.0672 27.5954 13.6845 27.8825 13.3017 27.8825Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M13.3015 20.4152C13.0145 20.4152 12.8231 20.3195 12.6317 20.0323C12.536 19.9366 11.1963 17.4476 13.5886 13.4268C13.78 13.0439 14.2585 12.9482 14.6413 13.1396C15.024 13.3311 15.1197 13.8097 14.9283 14.1926C13.0145 17.4475 13.8757 19.2664 13.9714 19.3622C14.1628 19.7451 14.0671 20.1281 13.6843 20.3196C13.4929 20.3196 13.3972 20.4152 13.3015 20.4152Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M34.6412 51.4326H21.3398C20.957 51.4326 20.5742 51.1454 20.5742 50.6668C20.5742 50.2838 20.8613 49.9009 21.3398 49.9009H33.9713V32.2861C33.9713 31.9032 34.2584 31.5203 34.7369 31.5203C35.1197 31.5203 35.5024 31.8075 35.5024 32.2861V50.6668C35.4067 51.1454 35.024 51.4326 34.6412 51.4326Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M21.3398 33.2437C20.957 33.2437 20.5742 32.9564 20.5742 32.4778V25.4893C20.5742 25.2021 20.7656 24.9149 21.0527 24.8192H21.1484C22.9666 24.149 25.646 23.1917 29.5694 24.6277C31.3876 25.2978 33.0144 25.3936 34.3541 24.9149C34.5455 24.8192 34.8326 24.8192 35.024 25.0107C35.2153 25.1064 35.311 25.3936 35.311 25.585V28.1698C35.311 28.5528 35.024 28.9356 34.5455 28.9356C34.1627 28.9356 33.78 28.6485 33.78 28.1698V26.5423C32.3445 26.8295 30.7177 26.6381 28.8996 25.968C25.7417 24.7234 23.5407 25.3936 21.9139 25.968V32.4778C22.0096 32.9564 21.7225 33.2437 21.3398 33.2437Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M27.4643 25.3935C27.1772 25.3935 26.9859 25.2977 26.7945 25.0105C26.6988 24.9148 26.1246 23.6703 26.6031 21.6599C26.6988 21.277 27.0816 20.9897 27.4643 21.0854C27.8471 21.1812 28.1342 21.5641 28.0385 21.9471C27.6557 23.3831 28.0385 24.1489 28.0385 24.1489C28.2299 24.5318 28.1342 24.9147 27.7514 25.2019C27.7514 25.3934 27.56 25.3935 27.4643 25.3935Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M17.1288 11.4165C17.0331 11.4165 16.8417 11.4165 16.746 11.3208C16.6503 11.2251 15.7891 10.7464 15.5977 9.50185C15.4063 8.44879 15.6934 7.20432 16.5546 5.9598C17.1288 5.0982 17.3202 4.33231 17.2245 3.75792C16.9374 3.08779 16.2675 2.70486 16.2675 2.70486C15.8848 2.51339 15.7891 2.03474 15.9805 1.74755C16.1718 1.36462 16.6503 1.26889 16.9374 1.46036C17.0331 1.46036 18.1814 2.13048 18.4685 3.47073C18.7556 4.52379 18.4685 5.67258 17.6072 6.91711C16.9374 7.87443 16.746 8.64029 16.8417 9.31042C16.9374 9.88481 17.3202 10.172 17.3202 10.172C17.703 10.3634 17.7986 10.8421 17.6072 11.225C17.6072 11.3208 17.3202 11.4165 17.1288 11.4165Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M12.823 11.4166C12.6316 11.4166 12.5359 11.4166 12.3445 11.3208C11.4833 10.7464 10.3349 8.8318 12.1531 5.95983C12.9187 4.81104 12.5359 4.42808 11.9617 3.75795C11.3876 3.08783 10.5263 2.13054 11.1005 0.503085C11.1962 0.120155 11.6746 -0.0713388 12.0574 0.0243936C12.4402 0.120126 12.6316 0.598774 12.5359 0.981703C12.2488 1.74756 12.5359 2.13052 13.1101 2.80064C13.7799 3.5665 14.8325 4.71527 13.4928 6.82139C11.9617 9.11897 13.3015 10.172 13.3015 10.172C13.5885 10.3635 13.6842 10.8421 13.4928 11.2251C13.3014 11.3208 13.0144 11.4166 12.823 11.4166Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M39.2344 51.4328H0.765549C0.382774 51.4328 0 51.1455 0 50.6669C0 50.2839 0.287081 49.901 0.765549 49.901H39.2344C39.6172 49.901 40 50.1882 40 50.6669C40 51.1455 39.6172 51.4328 39.2344 51.4328Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M26.9861 41.285C26.699 41.285 26.4119 41.285 26.1248 41.1893C25.742 41.0936 25.5506 40.7106 25.5506 40.3277C25.5506 40.2319 25.5506 40.0405 25.5506 39.9447C25.5506 39.0831 25.1679 38.2216 24.4023 37.6472C24.2109 37.5514 24.1152 37.36 24.1152 37.0728C24.1152 36.8813 24.2109 36.6898 24.3066 36.4984C24.6894 36.1154 24.8808 35.5411 24.8808 34.9667C24.8808 34.8709 24.8808 34.8709 24.8808 34.7752C24.8808 34.488 24.9765 34.2008 25.2636 34.0094C26.9861 33.1478 29.0913 33.8179 30.0483 35.5411C31.1009 37.36 30.431 39.5618 28.7085 40.6149C28.3258 41.0935 27.6559 41.285 26.9861 41.285ZM25.9334 37.0728C26.6033 37.8387 27.0817 38.7959 27.0817 39.849C27.4645 39.849 27.7516 39.7533 28.1344 39.5618C29.187 38.9874 29.5698 37.5514 28.9956 36.4984C28.5171 35.6368 27.4645 35.2538 26.5076 35.4453C26.4119 36.0197 26.2205 36.5941 25.9334 37.0728Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M26.9855 46.1674C26.3156 46.1674 25.7415 45.9759 25.1673 45.6887C24.3061 45.21 23.7319 44.4442 23.4448 43.5826C23.3491 43.1997 23.5405 42.8167 23.8276 42.721C24.7845 42.3381 25.4544 41.4765 25.5501 40.4234C25.5501 40.232 25.6458 40.0405 25.8372 39.9448C26.0285 39.849 26.2199 39.7533 26.4113 39.849C26.9855 39.9447 27.5596 39.9448 28.0381 39.6576C28.1338 39.6576 28.1338 39.5618 28.2295 39.5618C28.5166 39.3703 28.8037 39.3703 29.0907 39.5618C30.7175 40.7106 31.196 42.8167 30.1434 44.4442C29.6649 45.3058 28.8037 45.8802 27.8467 46.1674C27.6553 46.1674 27.2726 46.1674 26.9855 46.1674ZM25.0716 43.6783C25.263 43.9655 25.5501 44.2527 25.8372 44.4442C26.8898 45.0186 28.3252 44.7314 28.8994 43.5826C29.3778 42.721 29.2821 41.6679 28.6123 40.9021C28.0381 41.1893 27.464 41.285 26.8898 41.285C26.6027 42.2423 25.9329 43.1039 25.0716 43.6783Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M22.775 48.6564C20.7655 48.6564 19.043 47.029 19.043 44.9229C19.043 43.9656 19.4257 43.1039 20.0956 42.3381C20.3827 42.0509 20.7654 42.0509 21.0525 42.2423C21.8181 42.8167 22.9664 43.0082 23.8277 42.6253C24.019 42.5295 24.2104 42.5295 24.4018 42.6253C24.5932 42.721 24.6889 42.9125 24.7846 43.1039C24.976 43.6783 25.3587 44.157 25.8372 44.3484C25.9329 44.3484 25.9329 44.4442 26.0286 44.4442C26.3157 44.5399 26.5071 44.8271 26.4114 45.2101C26.3157 47.1247 24.6889 48.6564 22.775 48.6564ZM20.7654 43.8698C20.5741 44.157 20.4784 44.54 20.4784 44.9229C20.4784 46.1674 21.531 47.1247 22.6793 47.1247C23.6363 47.1247 24.4975 46.4546 24.7846 45.4973C24.3061 45.1143 23.9233 44.7314 23.6363 44.157C22.775 44.4442 21.6267 44.3485 20.7654 43.8698Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M24.9765 37.9344C24.7851 37.9344 24.6894 37.8387 24.498 37.7429C23.7325 37.1685 22.5841 36.9771 21.7229 37.36C21.5315 37.4557 21.3401 37.4557 21.1487 37.36C20.9573 37.2643 20.8616 37.0728 20.7659 36.8813C20.5746 36.3069 20.1918 35.8283 19.7133 35.6368C19.6176 35.6368 19.6176 35.5411 19.5219 35.5411C19.2349 35.4453 19.0435 35.1581 19.1391 34.7752C19.3305 32.8605 20.8617 31.4246 22.8712 31.4246C24.8808 31.4246 26.6033 33.052 26.6033 35.1581C26.6033 36.1154 26.2205 36.9771 25.5506 37.7429C25.3592 37.8387 25.1679 37.9344 24.9765 37.9344ZM22.7755 35.6368C23.4454 35.6368 24.1152 35.8282 24.7851 36.1154C24.9765 35.8282 25.0722 35.4453 25.0722 35.0624C25.0722 33.8178 24.0195 32.8606 22.8712 32.8606C21.9143 32.8606 21.053 33.5307 20.7659 34.488C21.2444 34.8709 21.6272 35.2539 21.9143 35.8282C22.1057 35.7325 22.3927 35.6368 22.7755 35.6368Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M16.8425 40.7106C16.6511 40.7106 16.5554 40.7106 16.4597 40.6148C14.8329 39.466 14.3544 37.3599 15.4071 35.7325C15.8855 34.8709 16.7468 34.2965 17.7037 34.0093C18.6606 33.7221 19.7133 33.9135 20.5745 34.3922C21.4358 34.8709 22.0099 35.6367 22.297 36.4983C22.3927 36.8813 22.2013 37.2642 21.9142 37.36C20.9573 37.7429 20.2874 38.6045 20.1918 39.6575C20.1918 39.849 20.0961 40.0405 19.9047 40.1362C19.7133 40.2319 19.5219 40.3276 19.3305 40.2319C18.7563 40.1362 18.1822 40.2319 17.7037 40.4234C17.608 40.4234 17.608 40.5191 17.5123 40.5191C17.1295 40.7105 16.9382 40.7106 16.8425 40.7106ZM18.565 35.3496C17.7994 35.3496 17.0339 35.7325 16.6511 36.4983C16.1726 37.3599 16.2683 38.413 16.9382 39.1788C17.5123 38.8916 18.0865 38.796 18.6607 38.796C18.9477 37.8386 19.6176 36.9771 20.4788 36.4027C20.2875 36.1155 20.0004 35.8282 19.7133 35.6368C19.3305 35.4453 18.9477 35.3496 18.565 35.3496Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M18.5647 46.1675C17.3207 46.1675 16.0767 45.4974 15.3111 44.2529C14.2585 42.434 14.9284 40.2321 16.6508 39.179C17.5121 38.7003 18.469 38.6047 19.3303 38.7961C19.713 38.8919 19.9044 39.2748 19.9044 39.6577C19.9044 39.7534 19.9044 39.9449 19.9044 40.0406C19.9044 40.9022 20.2872 41.7638 21.0527 42.3382C21.2441 42.4339 21.3398 42.6254 21.3398 42.9126C21.3398 43.104 21.2441 43.2955 21.1484 43.487C20.7657 43.8699 20.5743 44.4443 20.5743 45.0187C20.5743 45.1144 20.5743 45.1145 20.5743 45.2102C20.5743 45.4974 20.4786 45.7846 20.1915 45.9761C19.6173 46.0718 19.0432 46.1675 18.5647 46.1675ZM18.469 40.2321C18.0862 40.2321 17.7992 40.3278 17.4164 40.5193C16.3638 41.0937 15.981 42.5297 16.5551 43.5828C17.0336 44.4444 18.0863 44.8272 19.0432 44.6358C19.0432 44.0614 19.2346 43.487 19.6173 42.9126C18.8518 42.2424 18.469 41.1894 18.469 40.2321Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M21.3398 51.4328C20.957 51.4328 20.5742 51.1456 20.5742 50.6669V47.412C20.5742 47.0291 20.8613 46.6462 21.3398 46.6462C21.7225 46.6462 22.1053 46.9333 22.1053 47.412V50.6669C22.0096 51.1456 21.7225 51.4328 21.3398 51.4328Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M27.4646 22.6173C26.0292 22.6173 24.8809 21.4685 24.8809 20.0325C24.9766 17.8306 26.7947 15.7245 26.8904 15.6288C27.1775 15.3416 27.7517 15.3416 28.0388 15.6288C28.1344 15.7245 29.9526 17.8306 30.0483 20.0325C30.0483 21.4685 28.9 22.6173 27.4646 22.6173ZM27.4646 17.352C26.9861 18.0221 26.412 19.0751 26.3163 20.0325C26.3163 20.6069 26.7947 21.0855 27.4646 21.0855C28.0388 21.0855 28.6129 20.6069 28.6129 19.9368C28.5172 19.0752 27.9431 18.0221 27.4646 17.352Z"
+                                    fill="#C2A74E" />
+                            </svg>
+                        </figure>
+                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="870">0</span></div>
+                        <h4 class="counter-title">Wellness Spa & Beauty</h4>
+                    </div>
+                </div>
+
+                <!-- Counter block-->
+                <div class="counter-block home7-style col-lg-3 col-sm-6">
+                    <div class="inner">
+                        <figure class="icon">
+                            <svg width="40" height="53" viewBox="0 0 40 53" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.5512 24.5276C21.4572 24.5276 21.2692 24.5275 21.1752 24.4335C20.8932 24.2454 20.7051 23.7752 20.9872 23.3991C21.0812 23.305 22.4913 21.142 26.8156 21.7062C27.1916 21.8003 27.4737 22.0824 27.4737 22.5526C27.3797 22.9288 27.0976 23.2109 26.6276 23.2109C23.2433 22.7407 22.2093 24.1514 22.2093 24.2454C22.0213 24.3395 21.8332 24.5276 21.5512 24.5276Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M24.2774 27.7245C23.1493 27.7245 22.3032 27.5364 22.2092 27.5364C21.8332 27.4424 21.5512 27.0662 21.6452 26.69C21.7392 26.3139 22.1152 26.0317 22.4912 26.1257C22.4912 26.1257 25.5935 26.784 27.1916 25.4674C27.4736 25.1853 27.9437 25.2793 28.2257 25.5615C28.5077 25.8436 28.4137 26.3138 28.1317 26.596C27.0976 27.5364 25.5935 27.7245 24.2774 27.7245Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M18.449 24.5276C18.261 24.5276 17.979 24.4335 17.8849 24.2454C17.7909 24.1514 16.7569 22.7407 13.4666 23.2109C13.0906 23.305 12.7146 23.0228 12.6206 22.5526C12.5265 22.1764 12.8086 21.8003 13.2786 21.7062C17.6969 21.142 19.107 23.305 19.107 23.3991C19.2951 23.7752 19.201 24.1514 18.919 24.4335C18.731 24.4335 18.543 24.5276 18.449 24.5276Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M15.7224 27.7248C14.5003 27.7248 12.9021 27.5367 11.7741 26.5022C11.492 26.22 11.398 25.7498 11.68 25.4677C11.9621 25.1855 12.4321 25.0915 12.7141 25.3737C14.0302 26.5022 16.5684 26.2201 17.4145 26.032C17.7905 25.9379 18.1665 26.2201 18.2606 26.5962C18.3546 26.9724 18.0725 27.3486 17.6965 27.4427C17.6965 27.5367 16.7564 27.7248 15.7224 27.7248Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.047 33.1795C19.4829 33.1795 18.9189 32.9914 18.4489 32.5212L18.0728 32.2391C17.7908 31.9569 17.7908 31.4867 18.0728 31.2046C18.3549 30.9224 18.8249 30.9224 19.1069 31.2046L19.4829 31.4867C19.859 31.7688 20.329 31.7688 20.705 31.4867L21.0811 31.2046C21.3631 30.9224 21.8331 30.9224 22.1152 31.2046C22.3972 31.4867 22.3972 31.9569 22.1152 32.2391L21.7391 32.5212C21.1751 32.8974 20.611 33.1795 20.047 33.1795Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0466 37.8815H19.9526C19.5766 37.8815 18.0725 37.7875 16.7564 36.4709C16.5684 36.2828 16.5684 36.0946 16.5684 35.9065C16.5684 35.7185 16.6624 35.5304 16.8504 35.3423C16.9444 35.2483 17.9785 34.4018 20.0466 34.3078H20.1406C22.2088 34.4959 23.2429 35.2483 23.3369 35.3423C23.5249 35.4363 23.6189 35.6244 23.6189 35.9065C23.6189 36.0946 23.5249 36.2828 23.4309 36.4709C21.9268 37.7875 20.4226 37.8815 20.0466 37.8815ZM20.0466 36.3768C20.1406 36.3768 20.7047 36.3768 21.4567 36.0006C21.0807 35.9066 20.6107 35.8125 20.0466 35.7185C19.4826 35.7185 19.0125 35.9066 18.6365 36.0006C19.3886 36.3768 19.9526 36.3768 20.0466 36.3768C19.9526 36.3768 19.9526 36.3768 20.0466 36.3768Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0468 39.9507C19.8588 39.9507 19.5768 39.9508 19.2948 39.8567C18.9187 39.7627 18.7307 39.2924 18.8247 38.9162C18.9187 38.54 19.3888 38.352 19.7648 38.446C19.8588 38.446 19.9528 38.446 20.0468 38.446C20.1408 38.446 20.3289 38.446 20.3289 38.446C20.7049 38.352 21.0809 38.54 21.2689 38.9162C21.3629 39.2924 21.1749 39.6686 20.7989 39.8567C20.4229 39.9508 20.1408 39.9507 20.0468 39.9507Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0472 43.3362C18.6371 43.3362 17.133 42.866 15.9109 41.9255C5.85211 34.1198 7.92026 24.6213 8.01427 24.2451C8.10828 23.7749 10.7405 13.1478 28.7898 10.6086C28.9778 10.6086 29.1659 10.6085 29.3539 10.7966C29.5419 10.9847 34.9003 15.593 32.2681 25.3737C32.5501 28.195 32.2681 35.6245 24.1835 41.9255C22.8674 42.866 21.4573 43.3362 20.0472 43.3362ZM19.0131 14.8406C10.9285 18.6964 9.42437 24.4332 9.42437 24.5272C9.33037 24.9034 7.54422 33.5556 16.8509 40.7971C18.7311 42.3018 21.3633 42.3018 23.2434 40.7971C32.2681 33.8377 30.764 25.2796 30.67 24.6213C28.3198 18.2262 20.5172 15.4049 19.0131 14.8406ZM20.9872 14.0882C23.7134 15.2167 28.7898 17.85 31.328 22.6463C32.2681 16.3453 29.4479 13.0537 28.6018 12.2073C25.5936 12.5835 23.1494 13.2418 20.9872 14.0882Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M8.67169 25.0913C8.38967 25.0913 8.10765 24.9031 8.01365 24.621C7.91964 24.3389 5.66346 18.5081 8.38966 12.7713C10.2698 8.82141 14.1241 5.90605 19.7645 4.21324C20.1406 4.11919 20.5166 4.30724 20.7046 4.68342C20.7986 5.0596 20.6106 5.43577 20.2346 5.62386C14.9702 7.22263 11.3979 9.85591 9.70578 13.4296C7.26159 18.6021 9.32974 24.0568 9.42375 24.0568C9.61176 24.4329 9.42374 24.8091 9.04771 24.9972C8.8597 25.0912 8.7657 25.0913 8.67169 25.0913Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M28.8836 12.1133C28.6955 12.1133 28.4135 12.0193 28.3195 11.8312C28.1315 11.549 28.1315 11.0788 28.5075 10.7967C28.7896 10.6086 31.2337 8.72766 29.1656 5.34204C27.6615 2.89686 22.9611 1.29815 19.6709 2.2386C18.0727 2.61478 16.1926 3.83735 16.1926 6.84679C16.1926 7.22297 15.8166 7.59917 15.4405 7.59917C15.0645 7.59917 14.6885 7.22297 14.6885 6.84679C14.7825 3.7433 16.3806 1.58027 19.2948 0.82791C23.2431 -0.206586 28.6015 1.58029 30.4817 4.58973C32.7378 8.25749 30.7637 10.9848 29.3536 11.9252C29.1656 12.0193 28.9776 12.1133 28.8836 12.1133Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M20.0471 52.1765C15.2527 52.1765 11.3984 50.0135 11.3984 47.2862C11.3984 47.004 11.4925 46.816 11.6805 46.7219C14.9707 44.4648 14.2187 40.5149 14.1247 40.3268C14.1247 40.1387 14.1247 39.8566 14.3127 39.6685C14.5947 39.3864 15.0647 39.2923 15.3467 39.5745C15.8168 40.0447 16.2868 40.4209 16.7569 40.7971C18.637 42.3018 21.2692 42.3018 23.1493 40.7971C23.6194 40.4209 24.0894 40.0447 24.5594 39.5745C24.8415 39.2923 25.4055 39.3864 25.5935 39.6685C25.6875 39.8566 25.7815 40.0447 25.7815 40.3268C25.7815 40.5149 24.9355 44.4648 28.2257 46.7219C28.4137 46.816 28.5077 47.0981 28.5077 47.2862C28.6017 50.0135 24.8415 52.1765 20.0471 52.1765ZM12.9025 47.6623C13.2786 49.1671 16.0988 50.7658 20.0471 50.7658C23.9954 50.7658 26.8156 49.1671 27.1916 47.6623C24.9355 45.8755 24.3714 43.4304 24.3714 41.8316C24.2774 41.9256 24.2774 41.9256 24.1834 42.0197C21.7392 43.9006 18.355 43.9006 16.0048 42.0197C15.9108 41.9256 15.9108 41.9256 15.8168 41.8316C15.6288 43.4304 15.1587 45.8755 12.9025 47.6623Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M39.2244 52.1767C39.0364 52.1767 38.8484 52.0826 38.7544 51.9886C36.0282 49.4493 32.5499 48.0387 28.8837 48.0387H28.6016C28.0376 50.4839 24.4653 52.2708 20.047 52.2708C19.6709 52.2708 19.2949 51.9886 19.2949 51.5184C19.2949 51.1422 19.5769 50.766 20.047 50.766C24.2773 50.766 27.1915 48.9791 27.1915 47.2863C27.1915 46.9101 27.4735 46.534 27.9436 46.534H28.8837C32.926 46.534 36.7802 48.1328 39.7885 50.9541C40.0705 51.2363 40.0705 51.7064 39.7885 51.9886C39.6005 52.1766 39.4125 52.1767 39.2244 52.1767Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M0.775554 52.1767C0.587539 52.1767 0.39953 52.0826 0.211516 51.9886C-0.0705053 51.7064 -0.0705053 51.2363 0.211516 50.9541C3.12574 48.1328 7.07403 46.534 11.1163 46.534H12.0564C12.4324 46.534 12.8085 46.8161 12.8085 47.2863C12.8085 48.8851 15.7227 50.766 19.953 50.766C20.329 50.766 20.705 51.0482 20.705 51.5184C20.705 51.8946 20.423 52.2708 19.953 52.2708C15.5347 52.2708 12.0564 50.4839 11.3983 48.0387H11.1163C7.45006 48.0387 3.87778 49.4493 1.24558 51.9886C1.15157 52.1766 0.963568 52.1767 0.775554 52.1767Z"
+                                    fill="#C2A74E" />
+                            </svg>
+                        </figure>
+                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="30">0</span></div>
+                        <h4 class="counter-title">Skin Treatments</h4>
+                    </div>
+                </div>
+
+                <!-- Counter block-->
+                <div class="counter-block home7-style col-lg-3 col-sm-6">
+                    <div class="inner">
+                        <figure class="icon">
+                            <svg width="40" height="49" viewBox="0 0 40 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M39.2166 48.1951H26.9654C26.597 48.1951 26.2285 47.9186 26.2285 47.4579V43.9562C26.2285 43.5876 26.5048 43.2189 26.9654 43.2189H39.2166C39.585 43.2189 39.9535 43.4954 39.9535 43.9562V47.4579C39.9535 47.9186 39.6772 48.1951 39.2166 48.1951ZM27.7944 46.8128H38.5718V44.7855H27.7944V46.8128Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M18.8599 30.3177C18.4915 30.3177 18.123 30.0412 18.123 29.5804V24.8808C18.123 24.5122 18.3994 24.1436 18.8599 24.1436C19.2284 24.1436 19.5969 24.42 19.5969 24.8808V29.5804C19.5969 30.0412 19.3205 30.3177 18.8599 30.3177Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M22.5445 34.188C22.1761 34.188 21.8076 33.9116 21.8076 33.4509V24.8808C21.8076 24.5122 22.084 24.1436 22.5445 24.1436C22.913 24.1436 23.2814 24.42 23.2814 24.8808V33.4509C23.2814 33.9116 23.0051 34.188 22.5445 34.188Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M26.3209 34.1881C25.9525 34.1881 25.584 33.9117 25.584 33.451V24.973C25.584 24.6044 25.8603 24.2358 26.3209 24.2358C26.6894 24.2358 27.0578 24.5122 27.0578 24.973V33.451C26.9657 33.9117 26.6894 34.1881 26.3209 34.1881Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M30.0055 26.4474C29.637 26.4474 29.2686 26.171 29.2686 25.7102V19.1675C27.7947 18.7989 25.7682 17.5087 25.584 14.8363C25.584 14.4677 25.8604 14.0991 26.2288 14.0991C26.5973 14.0991 26.9657 14.3756 26.9657 14.7442C27.1499 17.4166 29.9134 17.7852 30.0055 17.8774C30.3739 17.9695 30.6503 18.246 30.6503 18.6146V25.8024C30.6503 26.0788 30.3739 26.4474 30.0055 26.4474Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M10.8459 33.8196C10.7538 33.8196 10.5696 33.8195 10.4774 33.7274L0.344908 27.0003C-0.0235477 26.816 -0.115666 26.3553 0.160676 25.9867L2.37143 22.6692C2.46354 22.4849 2.64776 22.3928 2.83199 22.3928C3.01622 22.3928 3.20043 22.3928 3.38465 22.4849L13.5172 29.212C13.7014 29.3042 13.7935 29.4884 13.7935 29.6727C13.7935 29.857 13.7936 30.0413 13.7014 30.2256L11.4907 33.5431C11.3065 33.7274 11.1222 33.8196 10.8459 33.8196ZM1.72663 26.171L10.7538 32.1608L12.2276 30.0413L3.20046 24.0515L1.72663 26.171Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M11.7674 29.5806C11.6752 29.5806 11.491 29.5806 11.3989 29.4885L3.93768 24.5123C3.56923 24.328 3.47711 23.8672 3.75345 23.4986L5.77997 20.3654L11.491 8.9387C12.1358 7.55643 13.3333 6.54277 14.8071 5.98986L16.6494 5.34481C16.8337 5.25266 17.11 5.34483 17.2942 5.43698C17.4784 5.52913 17.5706 5.80556 17.5706 5.98986V8.20147C17.5706 8.84653 17.5706 9.49165 17.4785 10.1367C17.4785 10.321 17.3863 10.5053 17.2021 10.5974C16.9257 10.8739 16.7415 11.1504 16.7415 11.4268L17.2021 16.4029L19.1365 13.362C19.505 12.8091 20.1498 12.3483 20.7946 12.2562C21.4394 12.164 22.1763 12.2562 22.729 12.7169C23.9264 13.5463 24.2028 15.205 23.4658 16.3108L18.9523 23.13C18.3996 23.9594 17.6627 24.6044 16.7415 25.0652L14.3466 26.171L12.4122 29.1198C12.228 29.4885 11.9516 29.5806 11.7674 29.5806ZM5.22727 23.6829L11.491 27.8297L13.1491 25.2495C13.2412 25.1574 13.3333 25.0652 13.4254 24.973L16.0046 23.8672C16.6494 23.5908 17.2021 23.13 17.6627 22.4849L22.1763 15.6658C22.5447 15.1129 22.3605 14.3757 21.8078 14.007C21.5314 13.8227 21.2551 13.7306 20.9788 13.8227C20.7024 13.9149 20.4261 14.007 20.2419 14.2835L17.8469 17.8774C17.5706 18.3381 17.11 18.5225 16.5573 18.3382C16.0967 18.246 15.7283 17.7853 15.6362 17.3245L15.0835 11.7033C14.9914 11.0582 15.2677 10.4131 15.8204 9.8602C15.9125 9.30729 15.9125 8.84655 15.9125 8.29364V7.00353L14.9914 7.27997C13.886 7.64858 13.057 8.47792 12.5043 9.49158L6.79323 20.9184V21.0105L5.22727 23.6829Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M24.3868 37.7821C24.2026 37.7821 24.1105 37.7821 23.9262 37.7821C22.913 37.5978 22.084 36.7684 21.8997 35.7547C21.4392 36.0312 20.7944 36.1233 20.2417 36.0312C19.0442 35.8469 18.1231 34.7411 18.1231 33.4509V31.9765C17.6625 32.2529 17.1098 32.253 16.5571 32.1608C15.3596 31.9765 14.4385 30.8707 14.4385 29.5805V25.1573C14.4385 24.8809 14.6227 24.6044 14.899 24.5123L16.0965 23.9594C16.7413 23.6829 17.294 23.2222 17.7546 22.5771L22.2682 15.7579C22.6366 15.2049 22.4524 14.4677 21.8997 14.0991C21.6234 13.9148 21.347 13.8227 21.0707 13.9149C20.7944 14.007 20.518 14.0992 20.3338 14.3756L17.9388 17.9695C17.6625 18.4303 17.2019 18.6146 16.6492 18.4302C16.1887 18.3381 15.8202 17.8773 15.7281 17.4166L15.4517 13.2698C15.4517 13.1777 15.4517 13.0855 15.4517 12.9934C15.7281 12.0718 15.9123 11.0582 16.0044 10.1367C16.0044 10.1367 16.0044 10.1367 16.0044 10.0445C16.0044 9.76807 16.0044 9.58377 16.0965 9.39947C16.0965 9.03086 16.0965 8.66223 16.0965 8.29363V0.737227C16.0965 0.368622 16.3729 0 16.8335 0H30.0058C30.3742 0 30.7427 0.276471 30.7427 0.737227V10.7817L33.7824 14.007C34.8878 15.205 35.4405 16.6794 35.4405 18.3381V19.2596C35.4405 19.3518 35.4405 19.3518 35.4405 19.4439V25.1573C35.4405 25.2495 35.4405 25.2494 35.4405 25.3416V25.5259C35.4405 27.1847 34.243 28.5669 32.677 28.7512C31.4796 28.8434 30.2821 28.1983 29.7294 27.0925C29.7294 27.0003 29.6373 27.0004 29.6373 26.9082C29.6373 26.8161 29.5452 26.6318 29.4531 26.5396C29.4531 26.5396 29.4531 26.5396 29.4531 26.4474C29.2688 26.171 28.9004 25.9866 28.5319 25.9866C27.8871 25.9866 27.3345 26.5396 27.3345 27.1847V34.1881C27.3345 34.3724 27.2423 34.5567 27.1502 34.6489V35.1097C27.1502 35.8469 26.7818 36.5841 26.2291 37.0448C25.5843 37.5977 25.0316 37.7821 24.3868 37.7821ZM23.2814 33.543V35.2018C23.2814 35.7547 23.6499 36.3076 24.2026 36.3998C24.571 36.4919 24.8474 36.3998 25.1237 36.1233C25.4 35.939 25.4922 35.5704 25.4922 35.2939V33.543C25.4922 33.3587 25.5843 33.1745 25.6764 33.0823V27.3689C25.6764 25.9867 26.8739 24.7887 28.2556 24.6965C28.8083 24.6965 29.2688 24.7887 29.6373 25.0651C30.0979 24.973 30.4663 25.3416 30.4663 25.8024C30.4663 25.8945 30.4663 25.9867 30.4663 26.0788C30.5584 26.2631 30.6505 26.4474 30.7427 26.6317C31.1111 27.1846 31.6638 27.4611 32.3086 27.4611C33.1376 27.3689 33.7824 26.6317 33.7824 25.7102V25.618C33.7824 25.5259 33.7824 25.5259 33.7824 25.4338V19.3518C33.7824 19.2597 33.7824 19.2596 33.7824 19.1675V18.4302C33.7824 17.1401 33.3218 15.9422 32.4928 15.1128L29.2688 11.6111C29.1767 11.5189 29.0846 11.3346 29.0846 11.1503V1.47445H17.3861V8.29363C17.3861 8.66223 17.3861 9.03081 17.3861 9.49157C17.3861 9.76802 17.3861 9.95234 17.294 10.2288V10.321C17.294 10.321 17.294 10.321 17.294 10.4131C17.2019 11.4268 17.0177 12.3483 16.7413 13.362L17.0177 16.5873L18.9521 13.5462C19.3205 12.9933 19.9653 12.5326 20.6101 12.4405C21.2549 12.3483 21.9918 12.4404 22.5445 12.9012C23.742 13.7305 24.0183 15.3893 23.2814 16.4951L18.7678 23.3143C18.2152 24.1436 17.4782 24.7887 16.5571 25.2495L15.8202 25.618V29.5805C15.8202 30.1334 16.1886 30.6864 16.7413 30.7786C17.1098 30.8707 17.3861 30.7786 17.6625 30.5021C17.9388 30.3178 18.0309 29.9492 18.0309 29.6727C18.0309 29.3041 18.3073 28.9355 18.7678 28.9355C19.1363 28.9355 19.5047 29.212 19.5047 29.6727V33.4509C19.5047 34.0039 19.8732 34.5567 20.4259 34.6489C20.7944 34.741 21.0707 34.6489 21.347 34.3724C21.6234 34.1881 21.7155 33.8195 21.7155 33.543C21.7155 33.1744 21.9919 32.8059 22.4524 32.8059C23.0051 32.8059 23.2814 33.0823 23.2814 33.543Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M37.6506 44.7854H28.6234C28.255 44.7854 27.8865 44.509 27.8865 44.0482V40.4543L26.5048 38.2427C25.9521 37.4133 25.6758 36.3997 25.6758 35.386L25.7679 27.1846C25.7679 25.8023 26.9654 24.6043 28.3471 24.5122C29.084 24.5122 29.7288 24.7887 30.1893 25.2494C30.6499 25.7102 30.9263 26.3552 30.9263 27.0924V30.6863L34.0582 26.816C34.2424 26.5395 34.2424 25.9866 34.0582 25.618C33.966 25.5258 33.9661 25.4337 33.9661 25.2494V19.1674C33.9661 18.891 34.1503 18.6145 34.4266 18.5224C34.703 18.4302 35.0714 18.5223 35.2556 18.7988L38.8481 23.3142C39.7692 24.5122 40.1377 26.0788 39.9534 27.5532L38.3875 40.1779V43.9561C38.3875 44.4169 38.0191 44.7854 37.6506 44.7854ZM29.3604 43.3111H36.9137V40.27V40.1779L38.4796 27.461C38.6639 26.2631 38.2954 25.1573 37.6506 24.2358L35.3477 21.379V25.1573C35.7162 25.8945 35.7162 27.0003 35.1635 27.8296L31.6632 32.2529C31.2947 32.6215 30.8342 32.8058 30.3736 32.6215C29.913 32.4372 29.6367 31.9765 29.6367 31.5157V27.1846C29.6367 26.9081 29.5446 26.6316 29.2682 26.3552C29.084 26.1709 28.7155 25.9866 28.4392 26.0788C27.7944 26.0788 27.2417 26.6316 27.2417 27.2767L27.1496 35.4782C27.1496 36.2154 27.3338 36.9526 27.7023 37.5055L29.1761 39.9014C29.2682 39.9936 29.2682 40.1779 29.2682 40.27V43.3111H29.3604Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M24.387 11.7033C24.2028 11.7033 23.9264 11.6111 23.8343 11.4268C22.9132 10.1367 21.0709 10.6896 20.9788 10.6896C20.6103 10.7818 20.2419 10.5974 20.0577 10.2288C19.9655 9.86021 20.1498 9.49162 20.5182 9.30732C20.6103 9.30732 23.4659 8.47795 24.9397 10.5974C25.1239 10.966 25.0318 11.3346 24.7555 11.6111C24.6634 11.7032 24.4791 11.7033 24.387 11.7033Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M37.9278 16.6794C37.8357 16.6794 37.8357 16.6794 37.7436 16.6794C37.3751 16.5872 37.0988 16.2186 37.1909 15.85C37.4672 14.2834 35.8092 13.3619 35.7171 13.2698C35.3486 13.0855 35.2565 12.6247 35.4407 12.2561C35.625 11.8875 36.0855 11.7954 36.454 11.9797C36.5461 12.0718 39.1253 13.5463 38.5726 16.0343C38.5726 16.4029 38.2963 16.6794 37.9278 16.6794Z"
+                                    fill="#C2A74E" />
+                                <path
+                                    d="M18.5837 39.9015C16.6493 39.9015 15.4518 38.4272 14.9912 37.4135C14.807 37.0449 14.9912 36.6762 15.3597 36.4919C15.7281 36.3076 16.0966 36.4919 16.2808 36.8605C16.3729 37.0448 17.3862 39.0722 19.4127 38.335C19.7811 38.2428 20.1496 38.4271 20.3338 38.7957C20.4259 39.1643 20.2417 39.533 19.8732 39.7173C19.4127 39.8094 18.9521 39.9015 18.5837 39.9015Z"
+                                    fill="#C2A74E" />
+                            </svg>
+                        </figure>
+                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1200">0</span>
+                        </div>
+                        <h4 class="counter-title">Our Happy Clients</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Fun Fact Section -->
+
+    <!-- Package Section -->
+    <section class="packages-section-three home7-style pt-90">
+        <div class="outer-box">
+            <div class="sec-title text-center">
+                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon1.png') }}" alt="Image">
+                </figure>
+                <span class="sub-title">Price</span>
+                <h2 class="words-slide-up text-split">Choose Your Makeover <br>Plan Now</h2>
+            </div>
+            <div class="row">
+                <!-- Service Block -->
+                <div class="package-block-three home7-style col-xl-3 col-sm-6">
+                    <div class="inner-box">
+                        <div class="content-box">
+                            <h4 class="name"><a href="page-pricing.html">Daily Makeover</a></h4>
+                            <span class="price">12$</span>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing potenti ante varius
+                                habitant curae musa proin aliquet</div>
+                            <a href="page-pricing.html" class="theme-btn btn-style-two"><span class="btn-title">Book
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Block -->
+                <div class="package-block-three home7-style col-xl-3 col-sm-6">
+                    <div class="inner-box">
+                        <div class="content-box">
+                            <h4 class="name"><a href="page-pricing.html">Oil & Spa Messages</a></h4>
+                            <span class="price">20$</span>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing potenti ante varius
+                                habitant curae musa proin aliquet</div>
+                            <a href="page-pricing.html" class="theme-btn btn-style-two"><span class="btn-title">Book
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Block -->
+                <div class="package-block-three home7-style col-xl-3 col-sm-6">
+                    <div class="inner-box">
+                        <div class="content-box">
+                            <h4 class="name"><a href="page-pricing.html">Weeding Makeup</a></h4>
+                            <span class="price">30$</span>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing potenti ante varius
+                                habitant curae musa proin aliquet</div>
+                            <a href="page-pricing.html" class="theme-btn btn-style-two"><span class="btn-title">Book
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Block -->
+                <div class="package-block-three home7-style col-xl-3 col-sm-6">
+                    <div class="inner-box">
+                        <div class="content-box">
+                            <h4 class="name"><a href="page-pricing.html">Foot Spa & Clean</a></h4>
+                            <span class="price">50$</span>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing potenti ante varius
+                                habitant curae musa proin aliquet</div>
+                            <a href="page-pricing.html" class="theme-btn btn-style-two"><span class="btn-title">Book
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Package Section-->
+
+    <!-- Team Section -->
+    <section class="team-section home7-style pb-150">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <figure class="image"><img src="{{ asset('assets/client/images/icons/icon1.png') }}" alt="Image">
+                </figure>
+                <span class="sub-title">Our team</span>
+                <h2 class="words-slide-up text-split">Meet Certified Therapist</h2>
+            </div>
+            <div class="carousel-outer">
+                <div class="testimonial-carousel owl-carousel owl-theme default-dots">
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="{{ asset('assets/client/images/resource/team1-1.png') }}"
+                                            alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image"
+                                    style="background-image: url({{ asset('assets/client/images/resource/team-pattrn1.png') }})">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="{{ asset('assets/client/images/resource/team1-2.png') }}"
+                                            alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image"
+                                    style="background-image: url({{ asset('assets/client/images/resource/team-pattrn1.png') }})">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="{{ asset('assets/client/images/resource/team1-1.png') }}"
+                                            alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-2.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-1.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-2.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-1.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-2.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="team-block">
+                        <div class="inner-box text-center">
+                            <div class="image-box">
+                                <figure class="image mb-0">
+                                    <a href="page-team-details.html">
+                                        <img src="images/resource/team1-1.png" alt="Image">
+                                    </a>
+                                </figure>
+                                <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
+                                </div>
+                            </div>
+                            <div class="content-box">
+                                <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                                <span class="designation">Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Team Section-->
+
+    <!-- Contact Section -->
+    <section class="contact-section-two home7-style">
+        <div class="bg bg-image" style="background-image: url(images/background/home7-contact-bg.jpg)"></div>
+        <div class="shape-1 bounce-x"></div>
+        <div class="auto-container">
+            <div class="outer-box">
+                <div class="row">
+
+                    <!-- Content Column -->
+                    <div class="content-column col-lg-5 pr-md-10 pl-md--0 pe-0">
+                        <div class="inner-column wow fadeInRight">
+                            <div class="inner-content">
+                                <div class="bg bg-image"
+                                    style="background-image: url(images/background/home7-contact-content-bg.png)"></div>
+                                <h2 class="title">Come and immerse yourself in genuine delight.</h2>
+                                <a href="page-contact.html" class="theme-btn btn-style-one">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form Column -->
+                    <div class="form-column col-lg-7 ps-0">
+                        <div class="inner-column">
+                            <!-- Contact Form -->
+                            <div class="contact-form-two wow fadeInLeft">
+                                <h3 class="title text-start mb-10">Make Appointment</h3>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br
+                                        class="d-none d-xl-block" /> do eiusmod tempor incididunt</p>
+
+                                <!--Contact Form-->
+                                <form method="post" action="https://html.kodesolution.com/2024/purerelax-html/get"
+                                    id="contact-form">
+                                    <div class="row gx-3">
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="first_name" placeholder="First Name" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="email" placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="phone" placeholder="Phone Number" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="company" placeholder="Select Subject" required>
+                                        </div>
+                                        <div class="form-group col-lg-12">
+                                            <input type="date" name="address" placeholder="Select Date & Time"
+                                                required>
+                                        </div>
+                                        <div class="form-group col-lg-12">
+                                            <textarea name="form_message" class="form-control required" rows="4" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <button type="submit" class="theme-btn btn-style-one w-auto"
+                                                name="submit-form"><span class="btn-title">SUBMIT REQUEST</span></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--End Contact Form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Blog Section Home4 -->
+    <section class="blog-section-home7">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <figure class="image"><img src="images/icons/icon1.png" alt="Image"></figure>
+                <span class="sub-title">Blogs</span>
+                <h2 class="words-slide-up text-split">News & Articles</h2>
+            </div>
+            <div class="row">
+                <!-- News Block -->
+                <div class="blog-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="news-details.html">
+                                    <img src="images/resource/blog2-1.jpg" alt="Image">
+                                    <img src="images/resource/blog2-1.jpg" alt="Image">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li class="categories"><a href="news-details.html">Trending</a></li>
+                                <li class="date">Aug 20, 2023</li>
+                            </ul>
+                            <h4 class="title"><a href="news-details.html">Spring is in the Air and So Our These Amazing
+                                    Spa Offers</a></h4>
+                            <a class="read-more" href="news-details.html">Read More <i
+                                    class="icon fa-regular fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Block -->
+                <div class="blog-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="news-details.html">
+                                    <img src="images/resource/blog2-2.jpg" alt="Image">
+                                    <img src="images/resource/blog2-2.jpg" alt="Image">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li class="categories"><a href="news-details.html">Trending</a></li>
+                                <li class="date">Aug 20, 2023</li>
+                            </ul>
+                            <h4 class="title"><a href="news-details.html">We giving Amazing special spa and message
+                                    service for vip.</a></h4>
+                            <a class="read-more" href="news-details.html">Read More <i
+                                    class="icon fa-regular fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Block -->
+                <div class="blog-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="news-details.html">
+                                    <img src="images/resource/blog2-3.jpg" alt="Image">
+                                    <img src="images/resource/blog2-3.jpg" alt="Image">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li class="categories"><a href="news-details.html">Trending</a></li>
+                                <li class="date">Aug 20, 2023</li>
+                            </ul>
+                            <h4 class="title"><a href="news-details.html">Looks reasonable. The generate is therefore
+                                    always.</a></h4>
+                            <a class="read-more" href="news-details.html">Read More <i
+                                    class="icon fa-regular fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Blog Section -->
+@endsection
