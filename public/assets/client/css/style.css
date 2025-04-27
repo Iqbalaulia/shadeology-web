@@ -13172,6 +13172,10 @@ Section Title
 .client-block .inner-box:hover .image-box .image img {
     opacity: 0.6;
 }
+.client-block .inner-box .image-box {
+    height: 150px;
+    align-content: center;
+}
 .client-block .inner-box .image-box .image {
     text-align: center;
     margin: 0;

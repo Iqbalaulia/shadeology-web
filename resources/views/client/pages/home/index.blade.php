@@ -12,93 +12,9 @@
     @include('client.components.color-pallate.color-pallate')
     <!-- End Color Pallate Section -->
 
-    <!-- Client Section -->
-    <section class="clients-section">
-        <div class="auto-container">
-            <div class="carousel-outer">
-                <div class="clients-carousel owl-carousel owl-theme custom-navs-two">
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-2.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-3.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-2.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-3.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- client block -->
-                    <div class="client-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="#"><img
-                                            src="{{ asset('assets/client/images/resource/client7-1.png') }}"
-                                            alt="Image"></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Client Section -->
+    <!-- Brand Section -->
+    @include('client.components.brand.brand')
+    <!-- End Brand Section -->
 
     <!-- Why Chose Us Section -->
     <section class="whychose-section-home7 pb-md-120">
@@ -121,8 +37,7 @@
                                 class="img-1">
                             <img src="{{ asset('assets/client/images/resource/whychose-stone-home7.png') }}" alt=""
                                 class="img-2">
-                            <img src="{{ asset('assets/client/images/resource/leaf5.png') }}" alt=""
-                                class="img-3">
+                            <img src="{{ asset('assets/client/images/resource/leaf5.png') }}" alt="" class="img-3">
                         </div>
                     </div>
                 </div>
