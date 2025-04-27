@@ -51,7 +51,7 @@
                               </li>
                               <li class="dropdown"><a href="#">Products</a>
                                   <ul>
-                                      <li><a href="page-service-details.html">Color Pallate</a></li>
+                                      <li><a href="page-service-details.html">Recommendation Product</a></li>
                                   </ul>
                               </li>
                               <li><a href="#">About</a></li>

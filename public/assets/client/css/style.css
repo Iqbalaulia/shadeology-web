@@ -6049,11 +6049,13 @@ Section Title
     right: 32px;
     bottom: 40px;
     pointer-events: none;
+    width: 250px;
 }
 @media (max-width: 991.98px) {
     .banner-box-one .image {
         bottom: 20px;
         right: 15px;
+        width: 160px;
     }
 }
 .banner-box-one .image img {
@@ -14437,7 +14439,7 @@ Section Title
 
 .page-wrapper.home4-style,
 .page-wrapper.home7-style {
-    background-color: #f9f6f1;
+    background-color: #f8e6e0;
 }
 
 .main-header.header-style-four {
