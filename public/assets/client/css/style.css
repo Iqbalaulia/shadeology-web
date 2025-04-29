@@ -12287,10 +12287,10 @@ Section Title
     }
 }
 .product-section .testimonial-pattrn1-1 {
-    background-image: url(../images/resource/testimonial-pattrn1-1.png);
+    background-image: url(../images/resource/background/bg-5.png);
     position: absolute;
-    width: 205px;
-    height: 263px;
+    width: 410px;
+    height: 500px;
     top: 35px;
     right: 48px;
     pointer-events: none;
@@ -15390,7 +15390,7 @@ Section Title
     position: relative;
 }
 .whychose-section-home7 .leaf-1 {
-    left: 0;
+    left: -50px;
     position: absolute;
     top: 50%;
 }
@@ -15504,6 +15504,10 @@ Section Title
 }
 .service-section-home7 .about-style-home7 .thumb {
     margin-bottom: 45px;
+}
+
+.service-section-home7 .about-thumb img {
+    border-radius: 6px;
 }
 .service-section-home7 .about-style-home7 .title {
     color: #1c1a1d;

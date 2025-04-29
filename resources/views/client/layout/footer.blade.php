@@ -1,6 +1,7 @@
   <!-- Main Footer -->
   <footer class="main-footer footer-style-two">
-      <div class="bg bg-image" style="background-image:url(images/background/bg-footer1.jpg);"></div>
+      <div class="bg bg-image"
+          style="background-image:url({{ asset('assets/client/images/background/bg-footer1.jpg') }});"></div>
 
       <!--Widgets Section-->
       <div class="widgets-section">

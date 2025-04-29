@@ -25,7 +25,7 @@
                                 <div class="content-box">
 
                                     <h4 class="title"><a href="javascript:void(0);">Personal Color <br />
-                                            Analyst</a>
+                                            Analysis</a>
                                     </h4>
                                 </div>
                             </div>
@@ -69,14 +69,34 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-6">
+                        <!-- Service Block -->
+                        <div class="service-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <div class="bg-image"
+                                        style="background-image:url({{ asset('assets/client/images/resource/service/service-1.jpeg') }});">
+                                    </div>
+                                    <div class="bg-image-two"
+                                        style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
+                                    </div>
+                                </div>
+                                <div class="content-box">
+                                    <h4 class="title"><a href="javascript:void(0);">Online Analysis</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="c">
-                    <div class="thumb"><img src="{{ asset('assets/client/images/resource/about7-1.jpg') }}"
-                            alt=""></div>
+                <div class="mt-100">
+                    <div class="thumb about-thumb"><img
+                            src="{{ asset('assets/client/images/resource/personal/personal-3.jpeg') }}" alt="">
+                    </div>
                     <div class="about-content">
-                        <h4 class="title mt-2">Personal Color Analysis Now</h4>
+                        <h4 class="title mt-2">Personal Color Analyst Now</h4>
                         <p class="text">Discover the colors that truly reflect your beauty. Start your personal color
                             analysis today and see
                             the difference.</p>
