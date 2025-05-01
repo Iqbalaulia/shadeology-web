@@ -356,8 +356,8 @@ section > .container-fluid {
     padding: 14px 30px;
     outline: 0;
     background-color: #f4f5f8;
-    border: 1px solid #f4f5f8;
-    color: #fff;
+    border: 1px solid var(--theme-color1);
+    color: var(--theme-color1);
     font-size: 0.9rem;
     width: 100%;
 }
@@ -560,7 +560,7 @@ li {
     width: 180px;
     margin-left: -55px;
     margin-top: -70px;
-    height: 110px;
+    height: 90px;
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-animation: pulse 1s infinite linear;
@@ -12433,7 +12433,8 @@ Section Title
     background-color: var(--theme-color1);
 }
 .product-block.home-style .inner-box .content-box {
-    margin-top: 34px;
+    margin-top: 0px;
+    padding: 20px 0px;
 }
 @media (max-width: 767.98px) {
     .product-block.home-style .inner-box .content-box {

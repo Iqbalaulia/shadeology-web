@@ -1,0 +1,32 @@
+.page-title-product-recommendation {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0 100px;
+}
+
+.page-title-product-recommendation .page-breadcrumb a {
+    color: var(--theme-color-pink) !important;
+}
+.page-title-product-recommendation .page-breadcrumb li {
+    font-size: 20px;
+    color: var(--theme-color-pink) !important;
+}
+
+.page-title-product-recommendation .page-breadcrumb li::after {
+    color: var(--theme-color-pink) !important;
+    font-weight: bold;
+}
+
+.sticky-product-recommendation {
+    position: -webkit-sticky !important; /* For Safari */
+    position: sticky !important;
+    top: 10px;
+}
+
+.page-title-product-recommendation .product-header-bg {
+    position: absolute;
+    right: 0%;
+    top: 200px;
+}

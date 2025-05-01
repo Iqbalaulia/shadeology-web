@@ -35,7 +35,7 @@
               <!-- Main box -->
               <div class="main-box">
                   <div class="logo-box">
-                      <div class="logo"><a href="index.html"><img
+                      <div class="logo"><a href="/"><img
                                   src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
                                   alt="Logo"></a></div>
                   </div>
@@ -47,17 +47,21 @@
                               <li><a href="/">Home</a></li>
                               <li class="dropdown"><a href="#">Services</a>
                                   <ul>
-                                      <li><a href="page-services.html">Personal Color</a></li>
+                                      <li><a href="#">Personal Color</a></li>
+                                      <li><a href="#">Beauty Consultation</a></li>
+                                      <li><a href="#">Self Make-up For Daily</a></li>
+                                      <li><a href="#">Online Analysis</a></li>
                                   </ul>
                               </li>
                               <li class="dropdown"><a href="#">Products</a>
                                   <ul>
-                                      <li><a href="page-service-details.html">Recommendation Product</a></li>
+                                      <li><a href="{{ route('product-recommendation.index') }}">Product Recommendation
+                                          </a></li>
                                   </ul>
                               </li>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Testimonials</a></li>
-                              <li><a href="page-contact.html">Contact</a></li>
+                              <li><a href="/">About</a></li>
+                              <li><a href="/">Testimonials</a></li>
+                              <li><a href="/">Contact</a></li>
                           </ul>
                       </nav>
                   </div>
@@ -91,7 +95,7 @@
           <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
           <nav class="menu-box">
               <div class="upper-box">
-                  <div class="nav-logo"><a href="index.html"><img
+                  <div class="nav-logo"><a href="/"><img
                               src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
                               alt=""></a></div>
                   <div class="close-btn"><i class="icon fa fa-times"></i></div>
@@ -141,7 +145,7 @@
               <div class="inner-container">
                   <!--Logo-->
                   <div class="logo">
-                      <a href="index.html"><img
+                      <a href="/"><img
                               src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
                               alt=""></a>
                   </div>
