@@ -17,8 +17,8 @@
             <div class="col-xl-5">
                 <div class="content-column">
                     <div class="inner-content">
-                        <div class="title-bg"><img src="{{ asset('assets/client/images/icons/icon2.png') }}"
-                                alt=""><span class="bg-text">Shadeology</span></div>
+                        <div class="title-bg"><img src="#" alt=""><span class="bg-text">Shadeology</span>
+                        </div>
                         <h2 class="title">Discover Your Best Colors & Elevate Your Everyday Look</h2>
                         <p class="text">Shadeology is your trusted partner for discovering your perfect colors and
                             enhancing your natural beauty.

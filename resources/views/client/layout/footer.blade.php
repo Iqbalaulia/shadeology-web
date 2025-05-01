@@ -13,10 +13,12 @@
                   <!--Footer Column-->
                   <div class="footer-column col-xl-3  col-lg-6 col-md-6 col-sm-6">
                       <div class="footer-widget about-widget">
-                          <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a>
+                          <div class="logo"><a href="index.html"><img
+                                      src="{{ asset('assets/client/images/resource/logo/logo-white-transparent.png') }}"
+                                      alt=""></a>
                           </div>
-                          <div class="text">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur
-                              ligul. </div>
+                          <div class="text">Shadeology is your trusted partner for discovering your perfect colors
+                          </div>
                           <div class="subscribe-form">
                               <form method="post" action="#">
                                   <div class="form-group">
@@ -84,7 +86,7 @@
       <div class="footer-bottom">
           <div class="auto-container">
               <div class="inner-container">
-                  <div class="copyright-text">&copy; Shadeology, <a href="index.html">Reserved By Kodesolution</a></div>
+                  <div class="copyright-text">&copy; Shadeology, All Right Reserved </div>
               </div>
           </div>
       </div>

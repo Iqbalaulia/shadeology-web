@@ -24,7 +24,7 @@
                             <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
                             <span class="designation">Trainer</span>
                             <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
+                                much about my skin type"</p>
 
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
                             <span class="designation">Trainer</span>
                             <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
+                                much about my skin type and"</p>
 
                         </div>
                     </div>
@@ -114,92 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service Block -->
-                <div class="team-block">
-                    <div class="inner-box text-center">
-                        <div class="image-box">
-                            <figure class="image mb-0">
-                                <a href="page-team-details.html">
-                                    <img src="{{ asset('assets/client/images/resource/team1-1.png') }}" alt="Image">
-                                </a>
-                            </figure>
-                            <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
-                            </div>
-                        </div>
-                        <div class="content-box">
-                            <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
-                            <span class="designation">Trainer</span>
-                            <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
 
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Block -->
-                <div class="team-block">
-                    <div class="inner-box text-center">
-                        <div class="image-box">
-                            <figure class="image mb-0">
-                                <a href="page-team-details.html">
-                                    <img src="{{ asset('assets/client/images/resource/team1-1.png') }}" alt="Image">
-                                </a>
-                            </figure>
-                            <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
-                            </div>
-                        </div>
-                        <div class="content-box">
-                            <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
-                            <span class="designation">Trainer</span>
-                            <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Block -->
-                <div class="team-block">
-                    <div class="inner-box text-center">
-                        <div class="image-box">
-                            <figure class="image mb-0">
-                                <a href="page-team-details.html">
-                                    <img src="{{ asset('assets/client/images/resource/team1-1.png') }}"
-                                        alt="Image">
-                                </a>
-                            </figure>
-                            <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
-                            </div>
-                        </div>
-                        <div class="content-box">
-                            <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
-                            <span class="designation">Trainer</span>
-                            <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Service Block -->
-                <div class="team-block">
-                    <div class="inner-box text-center">
-                        <div class="image-box">
-                            <figure class="image mb-0">
-                                <a href="page-team-details.html">
-                                    <img src="{{ asset('assets/client/images/resource/team1-1.png') }}"
-                                        alt="Image">
-                                </a>
-                            </figure>
-                            <div class="bg bg-image" style="background-image: url(images/resource/team-pattrn1.png)">
-                            </div>
-                        </div>
-                        <div class="content-box">
-                            <h4 class="name"><a href="page-team-details.html">Jenny Wilson</a></h4>
-                            <span class="designation">Trainer</span>
-                            <p class="testimonial-text">"The beauty consultation was eye-opening! <br />I learned so
-                                much about my skin type and <br /> the right products for my needs."</p>
-
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

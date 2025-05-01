@@ -35,7 +35,8 @@
               <!-- Main box -->
               <div class="main-box">
                   <div class="logo-box">
-                      <div class="logo"><a href="index.html"><img src="{{ asset('assets/client/images/logo.png') }}"
+                      <div class="logo"><a href="index.html"><img
+                                  src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
                                   alt="Logo"></a></div>
                   </div>
 
@@ -90,7 +91,8 @@
           <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
           <nav class="menu-box">
               <div class="upper-box">
-                  <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/client/images/logo-2.png') }}"
+                  <div class="nav-logo"><a href="index.html"><img
+                              src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
                               alt=""></a></div>
                   <div class="close-btn"><i class="icon fa fa-times"></i></div>
               </div>
@@ -139,7 +141,9 @@
               <div class="inner-container">
                   <!--Logo-->
                   <div class="logo">
-                      <a href="index.html"><img src="{{ asset('assets/client/images/logo.png') }}" alt=""></a>
+                      <a href="index.html"><img
+                              src="{{ asset('assets/client/images/resource/logo/logo-black-transparent.png') }}"
+                              alt=""></a>
                   </div>
 
                   <!--Right Col-->
