@@ -61,7 +61,10 @@
 
 @media (max-width: 767.98px) {
     .banner-style1-home5 .content-column .title-bg span {
-        font-size: 48px;
+        letter-spacing: 1px;
+        font-size: 40px;
+        font-family: system-ui;
+        font-weight: bold;
         left: 0px;
     }
     .banner-style1-home5 .content-column .title {

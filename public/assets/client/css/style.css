@@ -6078,14 +6078,15 @@ Section Title
 }
 .banner-box-one .content .title {
     line-height: 1.2em;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .banner-box-one .content .title span {
     color: var(--theme-color1);
 }
 .banner-box-one .content .price {
-    color: var(--theme-color1);
+    color: var(--theme-color5);
+    font-weight: bold;
     font-size: 28px;
     display: block;
 }
@@ -6526,6 +6527,9 @@ Section Title
     position: relative;
     z-index: 1;
 }
+.information-package{
+    height: 120px;
+}
 @media (max-width: 1399.98px) {
     .package-block-three .content-box {
         padding: 70px 25px;
@@ -6555,12 +6559,13 @@ Section Title
 .package-block-three .content-box .price {
     color: var(--headings-color);
     display: block;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 600;
     font-family: var(--title-font);
     margin-bottom: 40px;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
+    line-height: 50px;
 }
 .package-block-three .content-box .text {
     margin-bottom: 30px;
@@ -14656,7 +14661,7 @@ Section Title
     margin-bottom: 30px;
 }
 .banner-style1-home5 .content-column .title-bg span {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(231 151 151 / 40%);
     font-weight: 700;
     font-size: 96px;
     left: -50px;
@@ -19401,3 +19406,26 @@ Sidebar
 .map {
     height: 450px;
 }
+.bg-summer-smoke {
+  background-image: url(../images/resource/personal-color/bg-summer.jpeg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.bg-spring-smoke {
+    background-image: url(../images/resource/personal-color/bg-spring.jpeg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .bg-winter-smoke {
+    background-image: url(../images/resource/personal-color/bg-winter.jpeg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .bg-autumn-smoke {
+    background-image: url(../images/resource/personal-color/bg-autumn.jpeg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
