@@ -59,7 +59,7 @@
                     <!-- Form Column -->
                     <div class="form-column col-lg-6 ps-0">
                         <div class="video-box">
-                            <video autoplay muted loop playsinline class="w-100">
+                            <video autoplay controls muted loop playsinline class="w-100">
                                 <source src="{{ asset('assets/client/video/color-theory.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
