@@ -1,0 +1,30 @@
+@media (max-width: 1199.98px) {
+    .why-choose-us-two {
+        padding: 100px 0;
+    }
+}
+@media (max-width: 1182.98px) {
+    .main-menu .navigation > li {
+        margin: 0px 0px 0px 30px !important;
+    }
+
+    .banner-bg > img {
+        width: 350px !important;
+        height: auto !important;
+    }
+
+    .about-thumb > img {
+        width: 400px !important;
+    }
+
+    .service-section-home7 .service-pattrn {
+        top: 950px !important;
+        left: -100px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .why-choose-us-two {
+        padding: 100px 0 80px;
+    }
+}
