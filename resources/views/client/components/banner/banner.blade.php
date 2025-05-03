@@ -1,6 +1,6 @@
 <section class="banner-style1-home5 home7-style">
-    <div class="leaf-1 d-none d-lg-block bounce-y banner-bg"><img
-            src="{{ asset('assets/client/images/banner/home5-banner3.png') }}" alt=""></div>
+    <div class="leaf-1 bounce-y banner-bg"><img src="{{ asset('assets/client/images/banner/home5-banner3.png') }}"
+            alt=""></div>
     <div class="banner-bottom"><img src="{{ asset('assets/client/images/banner/home5-banner-bottom.png') }}"
             alt=""></div>
     <div class="auto-container">
