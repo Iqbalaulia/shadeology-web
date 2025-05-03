@@ -40,18 +40,29 @@
                                         <label>Personal Color</label>
                                         <select class="form-control">
                                             <option>Select Personal Color</option>
-                                            <option>Australia</option>
-                                            <option>UK</option>
-                                            <option>USA</option>
+                                            <option>Soft Summer</option>
+                                            <option>Light Summer</option>
+                                            <option>True Summer</option>
+                                            <option>Bright Winter</option>
+                                            <option>True Winter</option>
+                                            <option>Dark Winter</option>
+                                            <option>Light Spring</option>
+                                            <option>True Spring</option>
+                                            <option>Bright Spring</option>
+                                            <option>Soft Autumn</option>
+                                            <option>True Autumn</option>
+                                            <option>Dark Autumn</option>
                                         </select>
                                     </div>
                                     <div class="mb-3 col-md-12">
                                         <label>Skin Tone</label>
                                         <select class="form-control">
                                             <option>Select Skin Tone</option>
-                                            <option>Australia</option>
-                                            <option>UK</option>
-                                            <option>USA</option>
+                                            <option>Warm Undertone</option>
+                                            <option>Neutral to Warm Undertone</option>
+                                            <option>Neutral Undertone</option>
+                                            <option>Neutral to Cool Undertone</option>
+                                            <option>Cool Undertone</option>
                                         </select>
                                     </div>
                                     <div class="col-md-12">
