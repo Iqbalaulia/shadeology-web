@@ -37,7 +37,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <div class="bg-image"
-                                        style="background-image:url({{ asset('assets/client/images/resource/beauty-consultation.jpg') }});">
+                                        style="background-image:url({{ asset('assets/client/images/resource/service/beauty-consultation.jpeg') }});">
                                     </div>
                                     <div class="bg-image-two"
                                         style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">
@@ -75,7 +75,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <div class="bg-image"
-                                        style="background-image:url({{ asset('assets/client/images/resource/service/service-1.jpeg') }});">
+                                        style="background-image:url({{ asset('assets/client/images/resource/service/online-analysis.jpeg') }});">
                                     </div>
                                     <div class="bg-image-two"
                                         style="background-image:url({{ asset('assets/client/images/resource/service1-2.png') }});">

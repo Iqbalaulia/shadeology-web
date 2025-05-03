@@ -60,6 +60,10 @@
 }
 
 @media (max-width: 767.98px) {
+    .banner-style1-home5 .content-column .title-bg span {
+        font-size: 48px;
+        left: 0px;
+    }
     .banner-style1-home5 .content-column .title {
         font-size: 40px !important;
     }
@@ -85,12 +89,19 @@
 
 @media (max-width: 479.98px) {
     .banner-box-one .image {
-        right: 0px;
-        bottom: 90px;
-        width: 220px;
+        right: -20px;
+        bottom: 100px;
+        width: 180px;
     }
     .preloader:after {
         left: 43%;
+    }
+    .banner-box-one .content .price {
+        font-size: 24px;
+    }
+
+    .client-block .inner-box .image-box .image img {
+        width: 190px;
     }
 }
 
@@ -103,5 +114,11 @@
     .service-section-home7 .service-pattrn {
         left: 300px !important;
         top: 1200px !important;
+    }
+
+    .banner-box-one .image {
+        right: -20px;
+        bottom: 110px;
+        width: 210px;
     }
 }
