@@ -89,4 +89,19 @@
         bottom: 90px;
         width: 220px;
     }
+    .preloader:after {
+        left: 43%;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .service-section-home7 .service-pattrn {
+        left: 300px !important;
+        top: 1200px !important;
+    }
 }
