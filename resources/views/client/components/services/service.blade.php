@@ -96,7 +96,7 @@
                             src="{{ asset('assets/client/images/resource/personal/personal-3.jpeg') }}" alt="">
                     </div>
                     <div class="about-content">
-                        <h4 class="title mt-2">Personal Color Analyst Now</h4>
+                        <h4 class="title mt-2">Personal Color Analysis Now</h4>
                         <p class="text">Discover the colors that truly reflect your beauty. Start your personal color
                             analysis today and see
                             the difference.</p>
