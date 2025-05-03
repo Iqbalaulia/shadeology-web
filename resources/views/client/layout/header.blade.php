@@ -78,7 +78,7 @@
 
                       <!-- Button -->
                       <div class="btn-box d-none d-xl-block">
-                          <a href="page-contact.html" class="theme-btn btn-style-one"><span class="btn-title">Book
+                          <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Book
                                   Now</span></a>
                       </div>
 
@@ -129,7 +129,7 @@
           <button class="close-search"><span class="fa fa-times"></span></button>
 
           <div class="search-inner">
-              <form method="post" action="https://html.kodesolution.com/2024/purerelax-html/index.html">
+              <form method="post" action="#">
                   <div class="form-group">
                       <input type="search" name="search-field" value="" placeholder="Search..." required="">
                       <button type="submit"><i class="fa fa-search"></i></button>

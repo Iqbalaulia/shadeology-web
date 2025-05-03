@@ -51,7 +51,7 @@
                                 <div class="bg bg-image"
                                     style="background-image: url(images/background/home7-contact-content-bg.png)"></div>
                                 <h2 class="title">Come and immerse yourself in genuine delight.</h2>
-                                <a href="page-contact.html" class="theme-btn btn-style-one">Book Now</a>
+                                <a href="#" class="theme-btn btn-style-one">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -66,8 +66,7 @@
                                         class="d-none d-xl-block" /> do eiusmod tempor incididunt</p>
 
                                 <!--Contact Form-->
-                                <form method="post" action="https://html.kodesolution.com/2024/purerelax-html/get"
-                                    id="contact-form">
+                                <form method="post" action="#" id="contact-form">
                                     <div class="row gx-3">
                                         <div class="form-group col-md-6">
                                             <input type="text" name="first_name" placeholder="First Name" required>

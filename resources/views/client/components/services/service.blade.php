@@ -100,7 +100,7 @@
                         <p class="text">Discover the colors that truly reflect your beauty. Start your personal color
                             analysis today and see
                             the difference.</p>
-                        <a href="page-contact.html" class="theme-btn btn-style-one mt-10">APPPOINMENT NOW</a>
+                        <a href="#" class="theme-btn btn-style-one mt-10">APPPOINMENT NOW</a>
                     </div>
                 </div>
             </div>

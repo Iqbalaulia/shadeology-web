@@ -13,7 +13,7 @@
                   <!--Footer Column-->
                   <div class="footer-column col-xl-3  col-lg-6 col-md-6 col-sm-6">
                       <div class="footer-widget about-widget">
-                          <div class="logo"><a href="index.html"><img
+                          <div class="logo"><a href="/"><img
                                       src="{{ asset('assets/client/images/resource/logo/logo-white-transparent.png') }}"
                                       alt=""></a>
                           </div>

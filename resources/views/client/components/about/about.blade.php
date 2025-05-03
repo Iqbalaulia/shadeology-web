@@ -38,7 +38,7 @@
                             effortless, and truly you.
                         </div>
 
-                        <a href="page-contact.html" class="theme-btn btn-style-one mt-40">APPOINTMENT NOW</a>
+                        <a href="#" class="theme-btn btn-style-one mt-40">APPOINTMENT NOW</a>
                     </div>
                 </div>
             </div>
