@@ -21,6 +21,17 @@
         top: 950px !important;
         left: -100px !important;
     }
+
+    .banner-box-one .image {
+        right: 20px;
+        bottom: 70px;
+        width: 240px;
+    }
+
+    .banner-box-one .image img {
+        max-width: 80%;
+        height: auto;
+    }
 }
 
 @media (max-width: 991.98px) {
