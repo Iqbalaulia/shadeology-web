@@ -1,6 +1,11 @@
 <section class="clients-section">
+    <div class="sec-title text-center mb-80">
+        <span class="sub-title">Brand Colaborations</span>
+    </div>
     <div class="auto-container">
+
         <div class="carousel-outer">
+
             <div class="clients-carousel owl-carousel owl-theme custom-navs-two">
                 <!-- client block -->
                 <div class="client-block">

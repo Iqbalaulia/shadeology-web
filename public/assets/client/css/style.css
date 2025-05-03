@@ -6528,7 +6528,7 @@ Section Title
     z-index: 1;
 }
 .information-package{
-    height: 120px;
+    height: 140px;
 }
 @media (max-width: 1399.98px) {
     .package-block-three .content-box {
@@ -19428,4 +19428,13 @@ Sidebar
     background-image: url(../images/resource/personal-color/bg-autumn.jpeg) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+  }
+
+  .mb-80 {
+    margin-bottom: 80px !important;
+  }
+
+  .video-box {
+    padding: 40px 0px 40px 10px;
+    width: 400px !important;
   }

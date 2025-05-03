@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 767.98px) {
+    .video-box {
+        width: 100% !important;
+    }
     .banner-style1-home5 .content-column .title-bg span {
         letter-spacing: 1px;
         font-size: 40px;

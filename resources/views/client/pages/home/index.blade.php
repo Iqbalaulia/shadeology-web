@@ -45,7 +45,7 @@
                 <div class="row">
 
                     <!-- Content Column -->
-                    <div class="content-column col-lg-5 pr-md-10 pl-md--0 pe-0">
+                    <div class="content-column col-lg-6 pr-md-10 pl-md--0 pe-0">
                         <div class="inner-column wow fadeInRight">
                             <div class="inner-content">
                                 <div class="bg bg-image"
@@ -57,8 +57,14 @@
                     </div>
 
                     <!-- Form Column -->
-                    <div class="form-column col-lg-7 ps-0">
-                        <div class="inner-column">
+                    <div class="form-column col-lg-6 ps-0">
+                        <div class="video-box">
+                            <video autoplay muted loop playsinline class="w-100">
+                                <source src="{{ asset('assets/client/video/color-theory.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        {{-- <div class="inner-column">
                             <!-- Contact Form -->
                             <div class="contact-form-two wow fadeInLeft">
                                 <h3 class="title text-start mb-10">Make Appointment</h3>
@@ -94,7 +100,7 @@
                                 </form>
                             </div>
                             <!--End Contact Form -->
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@
                     <div class="col-lg-12">
                         <div class="sec-title">
                             <span class="sub-title">Services list</span>
-                            <h2 class="words-slide-up text-split">Our Services Will Make You Beauty</h2>
+                            <h2 class="words-slide-up text-split">Our Services: Will Make You Beauty</h2>
                         </div>
                     </div>
                     <div class="col-sm-6">
