@@ -32,7 +32,7 @@
         "APP_NAME": "shadeology-web",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://shadeology-web.vercel.app",
+        "APP_URL": "https://creators-lab.vercel.app",
         "APP_KEY": "base64:1+i8xRMGMjriWq1N6aFrm+BMg/RRn82SeHQRbpEl4Bk=",
 
         "VERCEL_DEMO_MODE": "true",
