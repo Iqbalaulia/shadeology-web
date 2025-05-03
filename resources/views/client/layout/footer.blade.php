@@ -30,10 +30,10 @@
                               </form>
                           </div>
                           <ul class="social-icon">
-                              <li><a href="#"><i class="icon fa fa-x"></i></a></li>
-                              <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+                              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                              {{-- <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
                               <li><a href="#"><i class="icon fab fa-pinterest-p"></i></a></li>
-                              <li><a href="#"><i class="icon fab fa-vimeo-v"></i></a></li>
+                              <li><a href="#"><i class="icon fab fa-vimeo-v"></i></a></li> --}}
                           </ul>
                       </div>
                   </div>

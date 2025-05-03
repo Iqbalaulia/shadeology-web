@@ -107,18 +107,17 @@
                   <li>
                       <i class="icon lnr-icon-envelope1"></i>
                       <span class="title">Send Email</span>
-                      <div class="text"><a
-                              href="https://html.kodesolution.com/cdn-cgi/l/email-protection#076b667074686947627f666a776b622964686a"><span
-                                  class="__cf_email__"
-                                  data-cfemail="d2b3bebfb3fcbeb3a5a1bdbc92b7aab3bfa2beb7fcb1bdbf">[email&#160;protected]</span></a>
+                      <div class="text"><a href="javascript:void(0);"><span class="__cf_email__"
+                                  data-cfemail="d2b3bebfb3fcbeb3a5a1bdbc92b7aab3bfa2beb7fcb1bdbf">amandashadeology@gmail.com
+                              </span></a>
                       </div>
                   </li>
               </ul>
               <ul class="social-links">
-                  <li><a href="#"><i class="icon fa fa-x"></i></a></li>
-                  <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  {{-- <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
                   <li><a href="#"><i class="icon fab fa-pinterest-p"></i></a></li>
-                  <li><a href="#"><i class="icon fab fa-vimeo-v"></i></a></li>
+                  <li><a href="#"><i class="icon fab fa-vimeo-v"></i></a></li> --}}
               </ul>
           </nav>
       </div><!-- End Mobile Menu -->
