@@ -12,6 +12,9 @@
                 <h1 class="title">
                     Find Your Perfect Match <br /> For Your Beauty Journey
                 </h1>
+                <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-left-bg"><img
+                        src="{{ asset('assets/client/images/resource/background/bg-6.png') }}" alt="">
+                </div>
                 <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-bg"><img
                         src="{{ asset('assets/client/images/resource/background/bg-5.png') }}" alt="">
                 </div>
@@ -84,7 +87,8 @@
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <span class="price">70$.00 - 90$.00</span>
+                                            <h3 class="brand">Instaperfect</h3>
+                                            <span class="price">Rp. 450.000</span>
                                             <h4 class="title"><a href="javascript:void(0);">Glow Facial Cream</a>
                                             </h4>
                                         </div>
@@ -110,7 +114,8 @@
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <span class="price"> <span class="price-style"> 90$.00</span> - 70$.00</span>
+                                            <h3 class="brand">Luxcrime</h3>
+                                            <span class="price">Rp. 450.000</span>
                                             <h4 class="title"><a href="javascript:void(0);">Hair Treatment</a></h4>
                                         </div>
                                     </div>
@@ -136,7 +141,8 @@
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <span class="price">70$.00</span>
+                                            <h3 class="brand">Wardah</h3>
+                                            <span class="price">Rp. 450.000</span>
                                             <h4 class="title"><a href="javascript:void(0);">Massage Cream</a></h4>
                                         </div>
                                     </div>
@@ -161,112 +167,10 @@
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <span class="price">50$.00</span>
+                                            <h3 class="brand">Somethinc</h3>
+                                            <span class="price">Rp. 450.000</span>
                                             <h4 class="title"><a href="javascript:void(0);">Body Message Oil</a>
                                             </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Product Block-->
-                            <div class="product-block home-style all mix pantry meat fruit col-lg-4 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image-box">
-                                        <div class="inner">
-                                            <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-4.jpg') }}"
-                                                        alt="Image"></a></figure>
-                                            <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
-                                                    <i class="fa-sharp fa-regular fa-cart-shopping"></i>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-box">
-                                        <div class="inner">
-                                            <span class="price">50$.00</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Body Message Oil</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Product Block-->
-                            <div class="product-block home-style all mix dairy pantry col-lg-4 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image-box">
-                                        <div class="inner">
-                                            <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
-                                                        alt="Image"></a></figure>
-                                            <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
-                                                    <i class="fa-sharp fa-light fa-cart-shopping"></i>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-box">
-                                        <div class="inner">
-                                            <span class="price">70$.00 - 90$.00</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Glow Facial Cream</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Product Block-->
-                            <div class="product-block home-style all mix fruit vagetables col-lg-4 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image-box">
-                                        <div class="inner">
-                                            <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-2.jpg') }}"
-                                                        alt="Image"></a></figure>
-                                            <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
-                                                    <i class="fa-sharp fa-light fa-cart-shopping"></i>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-box">
-                                        <div class="inner">
-                                            <span class="price"> <span class="price-style"> 90$.00</span> - 70$.00</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Hair Treatment</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Product Block-->
-                            <div
-                                class="product-block home-style all mix dairy pantry meat vagetables col-lg-4 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image-box">
-                                        <div class="inner">
-                                            <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-3.jpg') }}"
-                                                        alt="Image"></a></figure>
-                                            <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
-                                                    <i class="fa-sharp fa-regular fa-cart-shopping"></i>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-box">
-                                        <div class="inner">
-                                            <span class="price">70$.00</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Massage Cream</a></h4>
                                         </div>
                                     </div>
                                 </div>

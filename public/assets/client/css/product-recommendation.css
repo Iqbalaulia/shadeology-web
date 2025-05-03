@@ -30,3 +30,30 @@
     right: 0%;
     top: 200px;
 }
+
+.page-title-product-recommendation .product-header-left-bg {
+    position: absolute;
+    left: 0%;
+    top: 20px;
+}
+
+.product-block.home-style .inner-box .content-box {
+    padding: 10px 10px !important;
+}
+
+.product-block.home-style .inner-box .content-box .inner .brand {
+    font-size: 24px !important;
+    margin-bottom: 0 !important;
+}
+
+.product-block.home-style .inner-box .content-box .inner .price {
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+.product-block.home-style .inner-box .content-box .inner .title {
+    margin-top: 0 !important;
+}
+.product-block.home-style .inner-box .content-box .inner .title a {
+    font-size: 20px !important;
+}
