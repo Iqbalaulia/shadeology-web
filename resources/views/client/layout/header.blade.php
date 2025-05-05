@@ -57,6 +57,8 @@
                                   <ul>
                                       <li><a href="{{ route('product-recommendation.index') }}">Product Recommendation
                                           </a></li>
+                                      <li><a href="{{ route('shade-hunt.index') }}">Shade Hunt
+                                          </a></li>
                                   </ul>
                               </li>
                               <li><a href="/">About</a></li>
