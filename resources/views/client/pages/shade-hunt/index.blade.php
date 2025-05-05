@@ -7,10 +7,10 @@
                 <ul class="page-breadcrumb">
                     <li><a href="/">Home</a></li>
                     <li>Products</li>
-                    <li>Product Recommendation</li>
+                    <li>Shade Hunt</li>
                 </ul>
                 <h1 class="title">
-                    Find Your Perfect Match <br /> For Your Beauty Journey
+                    Discover Your Perfect Shade <br /> Find Beauty That Matches You
                 </h1>
                 <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-left-bg"><img
                         src="{{ asset('assets/client/images/resource/background/bg-6.png') }}" alt="">
@@ -28,80 +28,100 @@
     <section class="featured-products">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-sm-12 col-md-12 shop-sidebar">
                     <div class="shop-sidebar ">
                         <div class="sidebar-widget category-widget sticky-product-recommendation">
-                            <div class="widget-title">
-                                <h5 class="widget-title">Find Perfect Match</h5>
-                            </div>
                             <div class="widget-content">
                                 <div class="row">
-                                    <div class="mb-3 col-md-12">
-                                        <label>Personal Color</label>
-                                        <select class="form-control">
-                                            <option>Select Personal Color</option>
-                                            <option>Soft Summer</option>
-                                            <option>Light Summer</option>
-                                            <option>True Summer</option>
-                                            <option>Bright Winter</option>
-                                            <option>True Winter</option>
-                                            <option>Dark Winter</option>
-                                            <option>Light Spring</option>
-                                            <option>True Spring</option>
-                                            <option>Bright Spring</option>
-                                            <option>Soft Autumn</option>
-                                            <option>True Autumn</option>
-                                            <option>Dark Autumn</option>
-                                        </select>
+                                    <div class="col-md-3">
+                                        <div class="form-group w-100">
+                                            <label>Data L*</label>
+                                            <input type="text" class="form-control" name="data_l" placeholder="Data L*"
+                                                required>
+                                        </div>
                                     </div>
-                                    <div class="mb-3 col-md-12">
-                                        <label>Skin Tone</label>
-                                        <select class="form-control">
-                                            <option>Select Skin Tone</option>
-                                            <option>Warm Undertone</option>
-                                            <option>Neutral to Warm Undertone</option>
-                                            <option>Neutral Undertone</option>
-                                            <option>Neutral to Cool Undertone</option>
-                                            <option>Cool Undertone</option>
-                                        </select>
+                                    <div class="col-md-3">
+                                        <div class="form-group w-100">
+                                            <label>Data a*</label>
+                                            <input type="text" class="form-control" name="data_a" placeholder="Data a*"
+                                                required>
+                                        </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="theme-btn btn-style-one w-100"
-                                            name="submit-form"><span class="btn-title">FIND MATCH</span></button>
+                                    <div class="col-md-3">
+                                        <div class="form-group w-100">
+                                            <label>Data b*</label>
+                                            <input type="text" class="form-control" name="data_b" placeholder="Data b*"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group w-100">
+                                            <label>Data LRV</label>
+                                            <input type="text" class="form-control" name="data_lrv"
+                                                placeholder="Data LRV" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <div class="form-group">
+                                            <button type="submit" class="theme-btn btn-style-one w-100"
+                                                name="submit-form"><span class="btn-title">SHADE HUNT</span>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+            </div>
+        </div>
+    </section>
+    <section class="featured-products pt-0">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 content-side">
                     <!--MixitUp Galery-->
                     <div class="mixitup-gallery mt-5 mt-lg-0">
                         <!--Filter-->
+                        <div class="filters clearfix">
+                            <ul class="filter-tabs filter-btns clearfix">
+                                <li class="active filter" data-role="button" data-filter="all">Skin Match</li>
+                                <li class="filter" data-role="button" data-filter=".dairy">Light Shade</li>
+                                <li class="filter" data-role="button" data-filter=".pantry">More Light Shade</li>
+                            </ul>
+                        </div>
 
                         <div class="filter-list row">
                             <!--Product Block-->
-                            <div class="product-block home-style all mix pantry fruit col-lg-4 col-md-6 col-sm-12">
+                            <div
+                                class="shade-hunt product-block home-style all mix pantry fruit col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
-                                                        alt="Image"></a></figure>
+                                                        src="images/resource/product1-1.jpg" alt="Image"></a></figure>
                                             <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-light fa-cart-shopping"></i>
                                                 </a>
-
+                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                                    <i class="fa-light fa-arrows-rotate"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <h3 class="brand">Instaperfect</h3>
-                                            <span class="price">Rp. 450.000</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Glow Facial Cream</a>
-                                            </h4>
+                                            <span class="title text-left"><a class="font-weight-bold "
+                                                    href="javascript:void(0);">Glow
+                                                    Facial Cream</a>
+                                            </span>
+                                            <span class="price font-weight-bold">N240</span>
+                                            <h3 class="title font-weight-bold"><a href="javascript:void(0);">Wardah</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -113,21 +133,29 @@
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-2.jpg') }}"
-                                                        alt="Image"></a></figure>
+                                                        src="images/resource/product1-2.jpg" alt="Image"></a></figure>
                                             <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-light fa-cart-shopping"></i>
                                                 </a>
-
+                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                                    <i class="fa-light fa-arrows-rotate"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <h3 class="brand">Luxcrime</h3>
-                                            <span class="price">Rp. 450.000</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Hair Treatment</a></h4>
+                                            <span class="title text-left"><a class="font-weight-bold "
+                                                    href="javascript:void(0);">Glow
+                                                    Facial Cream</a>
+                                            </span>
+                                            <span class="price font-weight-bold">N240</span>
+                                            <h3 class="title font-weight-bold"><a href="javascript:void(0);">Wardah</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -140,55 +168,37 @@
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-3.jpg') }}"
-                                                        alt="Image"></a></figure>
+                                                        src="images/resource/product1-3.jpg" alt="Image"></a></figure>
                                             <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-regular fa-cart-shopping"></i>
                                                 </a>
-
+                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
+                                                    <i class="fa-light fa-heart"></i>
+                                                </a>
+                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
+                                                    <i class="fa-light fa-arrows-rotate"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="content-box">
                                         <div class="inner">
-                                            <h3 class="brand">Wardah</h3>
-                                            <span class="price">Rp. 450.000</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Massage Cream</a></h4>
+                                            <span class="title text-left"><a class="font-weight-bold "
+                                                    href="javascript:void(0);">Glow
+                                                    Facial Cream</a>
+                                            </span>
+                                            <span class="price font-weight-bold">N240</span>
+                                            <h3 class="title font-weight-bold"><a href="javascript:void(0);">Wardah</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!--Product Block-->
-                            <div class="product-block home-style all mix dairy meat vagetables col-lg-4 col-md-6 col-sm-12">
-                                <div class="inner-box">
-                                    <div class="image-box">
-                                        <div class="inner">
-                                            <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="{{ asset('assets/client/images/resource/product1-4.jpg') }}"
-                                                        alt="Image"></a></figure>
-                                            <div class="icon-box">
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn add-to-cart">
-                                                    <i class="fa-sharp fa-regular fa-cart-shopping"></i>
-                                                </a>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-box">
-                                        <div class="inner">
-                                            <h3 class="brand">Somethinc</h3>
-                                            <span class="price">Rp. 450.000</span>
-                                            <h4 class="title"><a href="javascript:void(0);">Body Message Oil</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

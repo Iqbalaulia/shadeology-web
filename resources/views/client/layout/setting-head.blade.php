@@ -5,6 +5,7 @@
     <link href="{{ asset('assets/client/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/client/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/client/css/product-recommendation.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/client/css/shade-hunt.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/client/css/responsive-style.css') }}" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
