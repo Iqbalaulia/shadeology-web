@@ -12,8 +12,8 @@
                 <h1 class="title">
                     Discover Your Perfect Shade <br /> Find Beauty That Matches You
                 </h1>
-                <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-left-bg"><img
-                        src="{{ asset('assets/client/images/resource/background/bg-6.png') }}" alt="">
+                <div class="leaf-1 d-none d-lg-block bounce-y banner-bg-shade-hunt hunt-header-left-bg"><img
+                        src="{{ asset('assets/client/images/resource/background/bg-7.png') }}" alt="">
                 </div>
                 <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-bg"><img
                         src="{{ asset('assets/client/images/resource/background/bg-5.png') }}" alt="">
@@ -36,28 +36,28 @@
                                     <div class="col-md-3">
                                         <div class="form-group w-100">
                                             <label>Data L*</label>
-                                            <input type="text" class="form-control" name="data_l" placeholder="Data L*"
+                                            <input type="number" class="form-control" name="data_l" placeholder="Data L*"
                                                 required>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-group w-100">
                                             <label>Data a*</label>
-                                            <input type="text" class="form-control" name="data_a" placeholder="Data a*"
+                                            <input type="number" class="form-control" name="data_a" placeholder="Data a*"
                                                 required>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-group w-100">
                                             <label>Data b*</label>
-                                            <input type="text" class="form-control" name="data_b" placeholder="Data b*"
+                                            <input type="number" class="form-control" name="data_b" placeholder="Data b*"
                                                 required>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-group w-100">
                                             <label>Data LRV</label>
-                                            <input type="text" class="form-control" name="data_lrv"
+                                            <input type="number" class="form-control" name="data_lrv"
                                                 placeholder="Data LRV" required>
                                         </div>
                                     </div>
@@ -94,21 +94,16 @@
                         <div class="filter-list row">
                             <!--Product Block-->
                             <div
-                                class="shade-hunt product-block home-style all mix pantry fruit col-lg-4 col-md-6 col-sm-12">
+                                class="shade-hunt product-block home-style all mix pantry fruit col-lg-3 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="images/resource/product1-1.jpg" alt="Image"></a></figure>
+                                                        src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
+                                                        alt="Image"></a></figure>
                                             <div class="icon-box">
                                                 <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-light fa-cart-shopping"></i>
-                                                </a>
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
-                                                    <i class="fa-light fa-heart"></i>
-                                                </a>
-                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
-                                                    <i class="fa-light fa-arrows-rotate"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -128,22 +123,19 @@
                             </div>
 
                             <!--Product Block-->
-                            <div class="product-block home-style all mix dairy meat fruit col-lg-4 col-md-6 col-sm-12">
+                            <div class="product-block home-style all mix dairy meat fruit col-lg-3 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="images/resource/product1-2.jpg" alt="Image"></a></figure>
+                                                        src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
+                                                        alt="Image"></a></figure>
                                             <div class="icon-box">
                                                 <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-light fa-cart-shopping"></i>
                                                 </a>
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
-                                                    <i class="fa-light fa-heart"></i>
-                                                </a>
-                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
-                                                    <i class="fa-light fa-arrows-rotate"></i>
-                                                </a>
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -163,22 +155,19 @@
 
                             <!--Product Block-->
                             <div
-                                class="product-block home-style all mix pantry fruit vagetables col-lg-4 col-md-6 col-sm-12">
+                                class="product-block home-style all mix pantry fruit vagetables col-lg-3 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="inner">
                                             <figure class="image mb-0"><a href="javascript:void(0);"><img
-                                                        src="images/resource/product1-3.jpg" alt="Image"></a></figure>
+                                                        src="{{ asset('assets/client/images/resource/product1-1.jpg') }}"
+                                                        alt="Image"></a></figure>
                                             <div class="icon-box">
                                                 <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
                                                     <i class="fa-sharp fa-regular fa-cart-shopping"></i>
                                                 </a>
-                                                <a class="icon" href="javascript:void(0);" class="ui-btn like-btn">
-                                                    <i class="fa-light fa-heart"></i>
-                                                </a>
-                                                <a class="icon" href="shop-cart.html" class="ui-btn add-to-cart">
-                                                    <i class="fa-light fa-arrows-rotate"></i>
-                                                </a>
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -195,8 +184,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
