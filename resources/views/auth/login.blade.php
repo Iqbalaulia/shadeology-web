@@ -1,66 +1,20 @@
 <x-guest-layout>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
-
-    {{-- <form method="POST" action="{{ route('login') }}">
-        @csrf
-
-        <!-- Email Address -->
-        <div>
-            <x-input-label for="email" :value="__('Email')" />
-            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
-        </div>
-
-        <!-- Password -->
-        <div class="mt-4">
-            <x-input-label for="password" :value="__('Password')" />
-
-            <x-text-input id="password" class="block mt-1 w-full"
-                            type="password"
-                            name="password"
-                            required autocomplete="current-password" />
-
-            <x-input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
-
-        <!-- Remember Me -->
-        <div class="block mt-4">
-            <label for="remember_me" class="inline-flex items-center">
-                <input id="remember_me" type="checkbox" class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800" name="remember">
-                <span class="ms-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Remember me') }}</span>
-            </label>
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-            @if (Route::has('password.request'))
-                <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('password.request') }}">
-                    {{ __('Forgot your password?') }}
-                </a>
-            @endif
-
-            <x-primary-button class="ms-3">
-                {{ __('Log in') }}
-            </x-primary-button>
-        </div>
-    </form> --}}
-
     <div class="row">
         <div class="col-md-5 p-0 card-left">
             <div class="card bg-primary">
                 <div class="svg-icon">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 468.52 468.52" style="enable-background:new 0 0 468.52 468.52;"
-                        xml:space="preserve">
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 468.52 468.52"
+                        style="enable-background:new 0 0 468.52 468.52;" xml:space="preserve">
                         <g>
                             <path style="fill:#E6E6E6;" d="M468.52,102.595v251.88c0,11.14-7.571,20.52-17.86,23.25c-1.98,0.531-4.06,0.81-6.2,0.81H38.58
 c-13.29,0-24.061-10.77-24.061-24.06v-251.88c0-13.29,10.771-24.06,24.061-24.06h405.88c2.14,0,4.22,0.28,6.2,0.81
 C460.949,82.075,468.52,91.455,468.52,102.595" />
                             <path style="fill:#B3B3B3;" d="M468.518,102.591v23.94h-454v-23.94c0-13.29,10.771-24.06,24.06-24.06h405.88
 C457.747,78.532,468.518,89.302,468.518,102.591" />
-                            <rect x="42.099" y="141.002" style="fill:#999999;" width="118.901"
-                                height="16.532" />
+                            <rect x="42.099" y="141.002" style="fill:#999999;" width="118.901" height="16.532" />
                             <polyline style="fill:#FFFFFF;"
                                 points="442.383,222.765 256.652,222.765 256.652,354.496 442.383,354.496 442.383,222.765 	" />
                             <polyline style="fill:#13c9ca;"
@@ -139,18 +93,22 @@ C459.3,115.885,440.44,175.955,391.75,201.375z" />
                                 points="242.83,325.765 242.83,454.765 0,454.765 0,325.765 242.83,325.765 	" />
                             <polyline style="fill:#F2F2F2;"
                                 points="15,439.765 15,340.765 227.826,340.765 227.826,439.765 15,439.765 	" />
-                            <polyline style="fill:#a5a5a5;" points="108.064,430.978 87.408,408.6 78.664,420.466 71.9,415.483 86.68,395.426 106.349,416.734
+                            <polyline style="fill:#a5a5a5;"
+                                points="108.064,430.978 87.408,408.6 78.664,420.466 71.9,415.483 86.68,395.426 106.349,416.734
 137.239,360.959 160.785,398.8 188.393,349.552 195.722,353.66 161.162,415.307 137.661,377.538 108.064,430.978 	" />
                             <rect x="26" y="357.765" style="fill:#999999;" width="27" height="11" />
                             <rect x="26" y="384.765" style="fill:#999999;" width="27" height="11" />
                             <rect x="26" y="411.765" style="fill:#999999;" width="27" height="11" />
-                            <polyline style="fill:#6EC6EB;" points="242.83,325.765 209.432,325.765 173.435,325.765 151.517,325.765 115.518,325.765
+                            <polyline style="fill:#6EC6EB;"
+                                points="242.83,325.765 209.432,325.765 173.435,325.765 151.517,325.765 115.518,325.765
 93.6,325.765 92.88,325.765 97.451,340.765 227.826,340.765 227.826,439.765 127.619,439.765 132.19,454.765 242.83,454.765
 242.83,325.765 	" />
-                            <polyline style="fill:#F6F6F6;" points="227.826,340.765 97.451,340.765 115.542,400.135 137.239,360.959 160.785,398.8
+                            <polyline style="fill:#F6F6F6;"
+                                points="227.826,340.765 97.451,340.765 115.542,400.135 137.239,360.959 160.785,398.8
 188.393,349.552 195.722,353.66 161.162,415.307 137.661,377.538 118.951,411.32 127.619,439.765 227.826,439.765 227.826,340.765
 " />
-                            <polyline style="fill:#FDA589;" points="188.393,349.552 160.785,398.8 137.239,360.959 115.542,400.135 118.951,411.32
+                            <polyline style="fill:#FDA589;"
+                                points="188.393,349.552 160.785,398.8 137.239,360.959 115.542,400.135 118.951,411.32
 137.661,377.538 161.162,415.307 195.722,353.66 188.393,349.552 	" />
                             <path style="fill:#CCCCCC;"
                                 d="M393.695,417.909l8.485-20.662l25.251,25.251c1.464,1.464,3.387,2.199,5.303,2.192
@@ -177,100 +135,107 @@ c1.923,0,3.84-0.728,5.303-2.192l-83.142-83.142L393.695,417.909z" />
                 <div class="card-body">
                     <ul class="nav nav-tabs nav-material" id="top-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="top-profile-tab" data-bs-toggle="tab"
-                                href="#top-profile" role="tab" aria-controls="top-profile"
-                                aria-selected="true"><span class="icon-user me-2"></span>Login</a>
+                            <a class="nav-link active" id="login-panel-tab" data-bs-toggle="tab" href="#login-panel"
+                                role="tab" aria-controls="login-panel" aria-selected="true"><span
+                                    class="icon-user me-2"></span>Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact-top-tab" data-bs-toggle="tab"
-                                href="#top-contact" role="tab" aria-controls="top-contact"
-                                aria-selected="false"><span class="icon-unlock me-2"></span>Register</a>
-                        </li>
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" id="contact-top-tab" data-bs-toggle="tab" href="#register-panel"
+                                role="tab" aria-controls="register-panel" aria-selected="false"><span
+                                    class="icon-unlock me-2"></span>Register</a>
+                        </li> --}}
                     </ul>
                     <div class="tab-content" id="top-tabContent">
-                        <div class="tab-pane fade show active" id="top-profile" role="tabpanel"
-                            aria-labelledby="top-profile-tab">
-                            <form class="form-horizontal auth-form">
+                        <div class="tab-pane fade show active" id="login-panel" role="tabpanel"
+                            aria-labelledby="login-panel-tab">
+                            <form class="form-horizontal auth-form" form method="POST"
+                                action="{{ route('login') }}">
+                                @csrf
                                 <div class="form-group">
-                                    <input required="" name="login[username]" type="email"
-                                        class="form-control" placeholder="Username" id="exampleInputEmail1">
+                                    <x-text-input id="email" class="block mt-1 w-full" type="email"
+                                        name="email" :value="old('email')" required autofocus autocomplete="username"
+                                        class="form-control" />
+                                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
                                 </div>
                                 <div class="form-group">
-                                    <input required="" name="login[password]" type="password"
-                                        class="form-control" placeholder="Password">
+                                    <x-text-input id="password" class="block mt-1 w-full form-control"
+                                        type="password" name="password" required autocomplete="current-password" />
+
+                                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
                                 </div>
                                 <div class="form-terms">
                                     <div class="form-check mesm-2">
-                                        <input type="checkbox" class="form-check-input"
-                                            id="customControlAutosizing">
-                                        <label class="form-check-label ps-2"
-                                            for="customControlAutosizing">Remember me</label>
-                                        <a href="javascript:void(0)"
-                                            class="btn btn-default forgot-pass">Forgot Password!</a>
+                                        <input type="checkbox" class="form-check-input" id="customControlAutosizing">
+                                        <label class="form-check-label ps-2" for="customControlAutosizing">Remember
+                                            me</label>
+                                        <a href="javascript:void(0)" class="btn btn-default forgot-pass">Forgot
+                                            Password!</a>
                                     </div>
                                 </div>
                                 <div class="form-button">
-                                    <button class="btn btn-primary" type="submit">Login</button>
-                                </div>
-                                <div class="form-footer">
-                                    <span>Or Login up with social platforms</span>
-                                    <ul class="social">
-                                        <li><a class="ti-facebook" href=""></a></li>
-                                        <li><a class="ti-twitter" href=""></a></li>
-                                        <li><a class="ti-instagram" href=""></a></li>
-                                        <li><a class="ti-pinterest" href=""></a></li>
-                                    </ul>
+                                    <x-primary-button class="btn btn-primary">
+                                        {{ __('Log in') }}
+                                    </x-primary-button>
                                 </div>
                             </form>
                         </div>
-                        <div class="tab-pane fade" id="top-contact" role="tabpanel"
+                        {{-- <div class="tab-pane fade" id="register-panel" role="tabpanel"
                             aria-labelledby="contact-top-tab">
-                            <form class="form-horizontal auth-form">
+                            <form class="form-horizontal auth-form" method="POST" action="{{ route('register') }}">
+                                @csrf
                                 <div class="form-group">
-                                    <input required="" name="login[username]" type="email"
-                                        class="form-control" placeholder="Username"
-                                        id="exampleInputEmail12">
+                                    <x-input-label for="name" :value="__('Name')" />
+                                    <x-text-input id="name" class="block mt-1 w-full form-control"
+                                        type="text" name="name" :value="old('name')" required autofocus
+                                        autocomplete="name" />
+                                    <x-input-error :messages="$errors->get('name')" class="mt-2" />
                                 </div>
                                 <div class="form-group">
-                                    <input required="" name="login[password]" type="password"
-                                        class="form-control" placeholder="Password">
+                                    <x-input-label for="email" :value="__('Email')" />
+                                    <x-text-input id="email" class="block mt-1 w-full form-control"
+                                        type="email" name="email" :value="old('email')" required
+                                        autocomplete="username" />
+                                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
                                 </div>
                                 <div class="form-group">
-                                    <input required="" name="login[password]" type="password"
-                                        class="form-control" placeholder="Confirm Password">
+                                    <x-input-label for="password" :value="__('Password')" />
+                                    <x-text-input id="password" class="block mt-1 w-full form-control"
+                                        type="password" name="password" required autocomplete="new-password" />
+
+                                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                                </div>
+                                <div class="form-group">
+                                    <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+                                    <x-text-input id="password_confirmation" class="block mt-1 w-full form-control"
+                                        type="password" name="password_confirmation" required
+                                        autocomplete="new-password" />
+
+                                    <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                                 </div>
                                 <div class="form-terms">
                                     <div class="form-check mesm-2">
                                         <input type="checkbox" class="form-check-input"
                                             id="customControlAutosizing1">
-                                        <label class="form-check-label ps-2"
-                                            for="customControlAutosizing1"><span>I agree all statements in
+                                        <label class="form-check-label ps-2" for="customControlAutosizing1"><span>I
+                                                agree all statements in
                                                 <a href="" class="pull-right">Terms &amp;
                                                     Conditions</a></span></label>
                                     </div>
                                 </div>
                                 <div class="form-button">
-                                    <button class="btn btn-primary" type="submit">Register</button>
-                                </div>
-                                <div class="form-footer">
-                                    <span>Or Sign up with social platforms</span>
-                                    <ul class="social">
-                                        <li><a class="ti-facebook" href=""></a></li>
-                                        <li><a class="ti-twitter" href=""></a></li>
-                                        <li><a class="ti-instagram" href=""></a></li>
-                                        <li><a class="ti-pinterest" href=""></a></li>
-                                    </ul>
+                                    <x-primary-button class="ms-4 btn btn-primary">
+                                        {{ __('Register') }}
+                                    </x-primary-button>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <a href="index.html" class="btn btn-primary back-btn"><i data-feather="arrow-left"></i>back</a>
+    <a href="/" class="btn btn-primary back-btn"><i data-feather="arrow-left"></i>back</a>
 
 
 </x-guest-layout>
-
