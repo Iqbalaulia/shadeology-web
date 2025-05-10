@@ -14,8 +14,10 @@
         <div class="sidebar-user">
             <img class="img-60" src="{{ asset('assets/admin/images/dashboard/user3.jpg') }}" alt="#">
             <div>
-                <h6 class="f-14">JOHN</h6>
-                <p>general manager.</p>
+                <h6 class="f-14 text-truncate sidebar-name" title="{{ Auth::user()->name }}">
+                    {{ Str::limit(Auth::user()->name, 10, '...') }}
+                </h6>
+                <p>{{ Auth::user()->getRoleNames()[0] }}</p>
             </div>
         </div>
         <ul class="sidebar-menu">

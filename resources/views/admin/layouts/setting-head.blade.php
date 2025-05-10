@@ -47,6 +47,7 @@
 
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/sidebar.css') }}">
 
 
 
