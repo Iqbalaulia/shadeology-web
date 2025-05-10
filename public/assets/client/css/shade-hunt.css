@@ -1,3 +1,42 @@
+.page-title-product-shade-hunt {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0 100px;
+}
+
+.page-title-product-shade-hunt .page-breadcrumb a {
+    color: var(--theme-color-pink) !important;
+}
+.page-title-product-shade-hunt .page-breadcrumb li {
+    font-size: 20px;
+    color: var(--theme-color-pink) !important;
+}
+
+.page-title-product-shade-hunt .page-breadcrumb li::after {
+    color: var(--theme-color-pink) !important;
+    font-weight: bold;
+}
+
+.sticky-product-recommendation {
+    position: -webkit-sticky !important; /* For Safari */
+    position: sticky !important;
+    top: 10px;
+}
+
+.page-title-product-shade-hunt .product-header-bg {
+    position: absolute;
+    right: 0%;
+    top: 200px;
+}
+
+.page-title-product-shade-hunt .product-header-left-bg {
+    position: absolute;
+    left: 0%;
+    top: 20px;
+}
+
 .shade-hunt .content-box .title {
     font-family: cursive;
 }
@@ -11,4 +50,9 @@
     left: 15%;
     top: 20%;
     z-index: -1;
+}
+
+.featured-products-shade-hunt {
+    position: relative;
+    padding: 120px 0 90px;
 }

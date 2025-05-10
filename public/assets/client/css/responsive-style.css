@@ -58,7 +58,6 @@
         padding: 100px 0 80px;
     }
 }
-
 @media (max-width: 767.98px) {
     .video-box {
         width: 100% !important;
@@ -91,8 +90,28 @@
         display: block !important;
         top: 400px !important;
     }
-}
 
+    .page-title-product-shade-hunt .title {
+        font-size: 40px !important;
+    }
+
+    .page-title-product-shade-hunt .page-breadcrumb li {
+        font-size: 14px;
+        color: var(--theme-color-pink) !important;
+    }
+
+    .page-title-product-shade-hunt .product-header-bg img {
+        width: 200px !important;
+        height: auto;
+    }
+
+    .page-title-product-shade-hunt .product-header-bg {
+        position: absolute;
+        right: 10%;
+        top: 60%;
+        z-index: -1;
+    }
+}
 @media (max-width: 479.98px) {
     .banner-box-one .image {
         right: -20px;
@@ -109,13 +128,11 @@
     .client-block .inner-box .image-box .image img {
         width: 190px;
     }
+
+    .featured-products-shade-hunt {
+        padding: 0 !important;
+    }
 }
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .service-section-home7 .service-pattrn {
         left: 300px !important;

@@ -1,7 +1,7 @@
 @extends('client.layout.main')
 @section('content')
     <!-- Start main-content -->
-    <section class="page-title-product-recommendation">
+    <section class="page-title-product-shade-hunt">
         <div class="auto-container">
             <div class="title-outer text-center">
                 <ul class="page-breadcrumb">
@@ -15,7 +15,7 @@
                 <div class="leaf-1 d-none d-lg-block bounce-y banner-bg-shade-hunt hunt-header-left-bg"><img
                         src="{{ asset('assets/client/images/resource/background/bg-7.png') }}" alt="">
                 </div>
-                <div class="leaf-1 d-none d-lg-block bounce-y banner-bg product-header-bg"><img
+                <div class="leaf-1 bounce-y banner-bg product-header-bg"><img
                         src="{{ asset('assets/client/images/resource/background/bg-5.png') }}" alt="">
                 </div>
             </div>
@@ -25,7 +25,7 @@
     <!-- end main-content -->
 
     <!-- Featured Products -->
-    <section class="featured-products">
+    <section class="featured-products-shade-hunt">
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-12 col-sm-12 col-md-12 shop-sidebar">
