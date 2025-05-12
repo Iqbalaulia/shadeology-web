@@ -42,10 +42,17 @@ class AdminUsersController extends Controller
         try {
             Log::info('Attempting to create member with data:', $request->all());
 
+            $validatedData = $request->validate([
+                'name' => 'required|string|max:255',
+                'email' => 'required|email|unique:users,email',
+                'phone_number' => 'required|string|max:15',
+                'role' => 'required|exists:roles,name',
+            ]);
+
             $user = User::create([
-                'name' => $request->name,
-                'email' => $request->email,
-                'phone_number' => $request->phone_number,
+                'name' => $validatedData['name'],
+                'email' => $validatedData['email'],
+                'phone_number' => $validatedData['phone_number'],
                 'password' => Hash::make('shadeology123'),
             ]);
 
@@ -96,19 +103,23 @@ class AdminUsersController extends Controller
 
             $user = User::findOrFail($id);
 
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->phone_number = $request->phone_number;
+            $validatedData = $request->validate([
+                'name' => 'required|string|max:255',
+                'email' => 'required|email|unique:users,email,' . $id,
+                'phone_number' => 'required|string|max:15',
+                'role' => 'required|exists:roles,name',
+                'password' => 'nullable|string|min:8',
+            ]);
 
-            if ($request->password) {
+            $user->fill($validatedData);
+
+            if ($request->filled('password')) {
                 $user->password = Hash::make($request->password);
             }
 
-            if ($request->role) {
-                $user->syncRoles($request->role);
-            }
+            $user->syncRoles($validatedData['role']);
 
-            $user->update();
+            $user->save();
             return redirect()->route('admin.users.index')
                 ->with('success', 'User updated successfully');
         } catch (\Exception $e) {
