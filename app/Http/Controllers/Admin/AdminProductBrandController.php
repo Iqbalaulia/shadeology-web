@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\ProductBrand;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class AdminProductBrandController extends Controller
 {
@@ -12,7 +14,9 @@ class AdminProductBrandController extends Controller
      */
     public function index()
     {
-        return view(view: 'admin.pages.product.brand.index');
+        $brand = ProductBrand::orderBy('created_at', 'desc')
+            ->paginate(10);
+        return view('admin.pages.product.brand.index', compact('brand'));
     }
 
     /**
@@ -28,7 +32,25 @@ class AdminProductBrandController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try {
+            Log::info('Attempting to create brand with data:', $request->all());
+
+            $validatedData = $request->validate([
+                'name' => 'required|string|max:255',
+            ]);
+
+
+            $ProductBrand = ProductBrand::create($validatedData);
+
+            Log::info('brand created successfully:', $ProductBrand->toArray());
+            return redirect()->route('admin.product-brand.index')
+                ->with('success', 'brand created successfully');
+        } catch (\Exception $e) {
+            Log::error('brand creation failed: ' . $e->getMessage());
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Failed to brand event. Please try again.');
+        }
     }
 
     /**
@@ -44,7 +66,15 @@ class AdminProductBrandController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        Log::info('brand edit started', ['ProductBrand' => $id]);
+
+        try {
+            $productBrand = ProductBrand::findOrFail($id);
+            return response()->json($productBrand);
+        } catch (\Exception $th) {
+            Log::error('Failed ProductBrand edit', ['ProductBrand_id' => $id]);
+            return response()->json(['error' => 'ProductBrand not found'], 404);
+        }
     }
 
     /**
@@ -52,7 +82,26 @@ class AdminProductBrandController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        try {
+            Log::info('ProductBrand update started', ['ProductBrand' => $id]);
+
+            $productBrand = ProductBrand::findOrFail($id);
+
+            $validatedData = $request->validate([
+                'name' => 'required|string|max:255',
+            ]);
+
+            $productBrand->fill($validatedData);
+
+            $productBrand->save();
+            return redirect()->route('admin.product-brand.index')
+                ->with('success', 'productBrand updated successfully');
+        } catch (\Exception $e) {
+            Log::error('productBrand update failed: ' . $e->getMessage());
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Failed to update ProductBrand. Please try again.');
+        }
     }
 
     /**
@@ -60,6 +109,19 @@ class AdminProductBrandController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        Log::info('Start to delete brand: ' . $id);
+
+        try {
+            $productBrand = ProductBrand::findOrFail($id);
+            $productBrand->delete();
+
+            Log::info('Success to delete brand: ' . $id);
+            return redirect()
+                ->route('admin.product-brand.index')
+                ->with('success', 'brand deleted successfully');
+        } catch (\Exception $e) {
+            Log::error('Failed to delete brand: ' . $e->getMessage());
+            return back()->with('error', 'Failed to delete brand');
+        }
     }
 }
