@@ -48,47 +48,42 @@
                             <th>No</th>
                             <th>Name</th>
                             <th>Phone Number</th>
-                            <th>Access</th>
+                            <th>Role</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {{-- @foreach ($members as $member)
+                        @foreach ($users as $member)
                             <tr>
-                                <td>{{ $member->user->name }}</td>
-                                <td>{{ $member->no_hp ?? '-' }}</td>
-                                <td>{{ $member->domisili ?? '-' }}</td>
+                                <td>{{ $loop->iteration }}</td>
+                                <td>{{ $member->name }}</td>
+                                <td>{{ $member->phone_number ?? '-' }}</td>
                                 <td>
-                                    @if ($member->barter == 'Ya')
-                                        <span class="badge bg-success">Yes</span>
-                                    @else
-                                        <span class="badge bg-danger">No</span>
-                                    @endif
-                                </td>
-                                <td>{{ $member->instagram ?? '-' }}</td>
-                                <td>{{ $member->tiktok ?? '-' }}</td>
-                                <td>
-                                    @foreach ($member->user->roles as $role)
-                                        <span class="badge bg-{{ $role->name === 'admin' ? 'danger' : 'success' }}">
+                                    @foreach ($member->roles as $role)
+                                        <span
+                                            class="badge bg-{{ $role->name === 'administration' ? 'success' : 'danger' }}">
                                             {{ ucfirst($role->name) }}
                                         </span>
                                     @endforeach
                                 </td>
                                 <td>
                                     <div>
-                                        <i class="fa fa-edit me-2 font-success cursor-event"
-                                            onclick="editMember({{ $member->id }})"></i>
-                                        <form action="{{ route('admin.member.destroy', $member->id) }}" method="POST"
+                                        <a href="javascript:void(0)" onclick="editMember({{ $member->id }})">
+                                            <i class="fa fa-edit me-2 font-success cursor-event" title="Delete"></i>
+                                        </a>
+                                        <form action="{{ route('admin.users.destroy', $member->id) }}" method="POST"
                                             class="d-inline" id="delete-form-{{ $member->id }}">
                                             @csrf
                                             @method('DELETE')
-                                            <i class="fa fa-trash font-danger cursor-event"
-                                                onclick="confirmDelete({{ $member->id }})"></i>
+
+                                            <a href="javascript:void(0)" onclick="confirmDelete({{ $member->id }})">
+                                                <i class="fa fa-trash" title="Delete"></i>
+                                            </a>
                                         </form>
                                     </div>
                                 </td>
                             </tr>
-                        @endforeach --}}
+                        @endforeach
                     </tbody>
                 </table>
             </div>
@@ -139,17 +134,20 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="no_hp">Number Phone</label>
-                                        <input class="form-control" id="no_hp" name="no_hp" type="number" required>
+                                        <label for="phone_number">Number Phone</label>
+                                        <input class="form-control" id="phone_number" name="phone_number" type="number"
+                                            required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group mb-3">
-                                    <label for="edit_barter">Access</label>
-                                    <select class="form-control digits" id="edit_barter" name="barter">
-                                        <option>Administration</option>
-                                        <option>Member</option>
+                                    <label for="role">Role</label>
+                                    <select class="form-control digits" id="role" name="role">
+                                        @foreach ($roles as $role)
+                                            <option value="{{ $role->name }}">{{ $role->name }}</option>
+                                        @endforeach
+
                                     </select>
                                 </div>
                             </div>
@@ -166,7 +164,8 @@
     <!-- Modal Create -->
 
     <!-- Modal Edit -->
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -208,18 +207,20 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="no_hp">Number Phone</label>
-                                        <input class="form-control" id="edit_phone" name="no_hp" type="number"
+                                        <label for="phone_number">Number Phone</label>
+                                        <input class="form-control" id="edit_phone" name="phone_number" type="number"
                                             required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group mb-3">
-                                    <label for="edit_barter">Access</label>
-                                    <select class="form-control digits" id="edit_access" name="access">
-                                        <option>Administration</option>
-                                        <option>Member</option>
+                                    <label for="edit_role">Access</label>
+                                    <select class="form-control digits" id="edit_role" name="role">
+                                        @foreach ($roles as $role)
+                                            <option value="{{ $role->name }}">{{ $role->name }}</option>
+                                        @endforeach
+
                                     </select>
                                 </div>
                             </div>
@@ -235,43 +236,27 @@
     </div>
     <!-- Modal Edit -->
 @endsection
-{{-- @push('scripts')
+@push('scripts')
     <script>
         function confirmDelete(id) {
-            if (confirm('Are you sure you want to delete this member?')) {
+            if (confirm('Are you sure you want to delete this user?')) {
                 document.getElementById('delete-form-' + id).submit();
             }
         }
 
         function editMember(id) {
-            fetch(`/admin/member/${id}/edit`)
+            fetch(`/administration/users/${id}/edit`)
                 .then(response => response.json())
                 .then(data => {
-
-                    console.log("id", id);
-                    document.getElementById('editForm').action = `/admin/member/${id}`;
+                    document.getElementById('editForm').action = `/administration/users/${id}`;
                     document.getElementById('edit_name').value = data.name;
                     document.getElementById('edit_email').value = data.email;
-                    document.getElementById('edit_phone').value = data.no_hp;
-                    document.getElementById('edit_domisili').value = data.domisili;
-                    document.getElementById('edit_affiliation').value = data.affiliate;
-                    document.getElementById('edit_shade_foundation').value = data.shade_foundation;
-                    document.getElementById('edit_merried_status').value = data.merried_status;
-                    document.getElementById('edit_barter').value = data.barter;
-                    document.getElementById('edit_instagram').value = data.instagram;
-                    document.getElementById('edit_followers_instagram').value = data.followers_instagram;
-                    document.getElementById('edit_tiktok').value = data.tiktok;
-                    document.getElementById('edit_followers_tiktok').value = data.followers_tiktok;
-
-                    if (data.rate_card) {
-                        const preview = document.getElementById('editRateCardPreview');
-                        preview.innerHTML =
-                            `<img src="/${data.rate_card}" class="img-thumbnail" style="max-width: 200px">`;
-                    }
+                    document.getElementById('edit_phone').value = data.phone_number;
+                    document.getElementById('edit_role').value = data.roles[0]?.name || '';
 
                     new bootstrap.Modal(document.getElementById('editModal')).show();
                 })
                 .catch(error => console.error('Error:', error));
         }
     </script>
-@endpush --}}
+@endpush
