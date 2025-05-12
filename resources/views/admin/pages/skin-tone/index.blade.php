@@ -51,42 +51,28 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {{-- @foreach ($members as $member)
+                        @foreach ($skinTones as $tones)
                             <tr>
-                                <td>{{ $member->user->name }}</td>
-                                <td>{{ $member->no_hp ?? '-' }}</td>
-                                <td>{{ $member->domisili ?? '-' }}</td>
-                                <td>
-                                    @if ($member->barter == 'Ya')
-                                        <span class="badge bg-success">Yes</span>
-                                    @else
-                                        <span class="badge bg-danger">No</span>
-                                    @endif
-                                </td>
-                                <td>{{ $member->instagram ?? '-' }}</td>
-                                <td>{{ $member->tiktok ?? '-' }}</td>
-                                <td>
-                                    @foreach ($member->user->roles as $role)
-                                        <span class="badge bg-{{ $role->name === 'admin' ? 'danger' : 'success' }}">
-                                            {{ ucfirst($role->name) }}
-                                        </span>
-                                    @endforeach
-                                </td>
+                                <td>{{ $loop->iteration }}</td>
+                                <td>{{ $tones->name }}</td>
                                 <td>
                                     <div>
-                                        <i class="fa fa-edit me-2 font-success cursor-event"
-                                            onclick="editMember({{ $member->id }})"></i>
-                                        <form action="{{ route('admin.member.destroy', $member->id) }}" method="POST"
-                                            class="d-inline" id="delete-form-{{ $member->id }}">
+                                        <a href="javascript:void(0)" onclick="editMember({{ $tones->id_skintone }})">
+                                            <i class="fa fa-edit me-2 font-success cursor-event" title="Delete"></i>
+                                        </a>
+                                        <form action="{{ route('admin.skin-tone.destroy', $tones->id_skintone) }}"
+                                            method="POST" class="d-inline" id="delete-form-{{ $tones->id_skintone }}">
                                             @csrf
                                             @method('DELETE')
-                                            <i class="fa fa-trash font-danger cursor-event"
-                                                onclick="confirmDelete({{ $member->id }})"></i>
+
+                                            <a href="javascript:void(0)" onclick="confirmDelete({{ $tones->id_skintone }})">
+                                                <i class="fa fa-trash" title="Delete"></i>
+                                            </a>
                                         </form>
                                     </div>
                                 </td>
                             </tr>
-                        @endforeach --}}
+                        @endforeach
                     </tbody>
                 </table>
             </div>
@@ -110,11 +96,10 @@
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form">
-
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="kuota">Name</label>
+                                        <label for="name">Name</label>
                                         <input class="form-control" id="name" name="name" type="text" required>
                                     </div>
                                 </div>
@@ -151,8 +136,9 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="kuota">Name</label>
-                                        <input class="form-control" id="edit_name" name="name" type="text" required>
+                                        <label for="name">Name</label>
+                                        <input class="form-control" id="edit_name" name="name" type="text"
+                                            required>
                                     </div>
                                 </div>
                             </div>
@@ -168,43 +154,23 @@
     </div>
     <!-- Modal Edit -->
 @endsection
-{{-- @push('scripts')
+@push('scripts')
     <script>
         function confirmDelete(id) {
-            if (confirm('Are you sure you want to delete this member?')) {
+            if (confirm('Are you sure you want to delete this skin tone?')) {
                 document.getElementById('delete-form-' + id).submit();
             }
         }
 
         function editMember(id) {
-            fetch(`/admin/member/${id}/edit`)
+            fetch(`/administration/skin-tone/${id}/edit`)
                 .then(response => response.json())
                 .then(data => {
-
-                    console.log("id", id);
-                    document.getElementById('editForm').action = `/admin/member/${id}`;
+                    document.getElementById('editForm').action = `/administration/skin-tone/${id}`;
                     document.getElementById('edit_name').value = data.name;
-                    document.getElementById('edit_email').value = data.email;
-                    document.getElementById('edit_phone').value = data.no_hp;
-                    document.getElementById('edit_domisili').value = data.domisili;
-                    document.getElementById('edit_affiliation').value = data.affiliate;
-                    document.getElementById('edit_shade_foundation').value = data.shade_foundation;
-                    document.getElementById('edit_merried_status').value = data.merried_status;
-                    document.getElementById('edit_barter').value = data.barter;
-                    document.getElementById('edit_instagram').value = data.instagram;
-                    document.getElementById('edit_followers_instagram').value = data.followers_instagram;
-                    document.getElementById('edit_tiktok').value = data.tiktok;
-                    document.getElementById('edit_followers_tiktok').value = data.followers_tiktok;
-
-                    if (data.rate_card) {
-                        const preview = document.getElementById('editRateCardPreview');
-                        preview.innerHTML =
-                            `<img src="/${data.rate_card}" class="img-thumbnail" style="max-width: 200px">`;
-                    }
-
                     new bootstrap.Modal(document.getElementById('editModal')).show();
                 })
                 .catch(error => console.error('Error:', error));
         }
     </script>
-@endpush --}}
+@endpush
