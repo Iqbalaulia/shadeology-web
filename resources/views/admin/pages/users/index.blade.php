@@ -109,13 +109,6 @@
                         <div class="form">
                             <div class="row">
                                 <div class="col">
-                                    <div class="form-group">
-                                        <h4 for="profile" class="font-weight-bold mb-1">Profile</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="kuota">Name</label>
                                         <input class="form-control" id="name" name="name" type="text" required>
@@ -179,13 +172,6 @@
                         @csrf
                         @method('PUT')
                         <div class="form">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        <h4 for="profile" class="font-weight-bold mb-1">Profile</h4>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
