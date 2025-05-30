@@ -50,46 +50,49 @@
                             <th>Product Name</th>
                             <th>Brand</th>
                             <th>Type</th>
+                            <th>Link Affiliate</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {{-- @foreach ($members as $member)
+                        @foreach ($productsList as $products)
                             <tr>
-                                <td>{{ $member->user->name }}</td>
-                                <td>{{ $member->no_hp ?? '-' }}</td>
-                                <td>{{ $member->domisili ?? '-' }}</td>
+                                <td>{{ $loop->iteration }}</td>
                                 <td>
-                                    @if ($member->barter == 'Ya')
-                                        <span class="badge bg-success">Yes</span>
+                                    @if ($products->image)
+                                        <img src="{{ asset($products->image) }}" alt="Product Image"
+                                            class="img-thumbnail image-table">
                                     @else
-                                        <span class="badge bg-danger">No</span>
+                                        <span class="badge bg-warning">No Image</span>
                                     @endif
                                 </td>
-                                <td>{{ $member->instagram ?? '-' }}</td>
-                                <td>{{ $member->tiktok ?? '-' }}</td>
+                                <td>{{ $products->name }}</td>
+                                <td>{{ $products->brand->name }}</td>
+                                <td>{{ $products->type->name }}</td>
                                 <td>
-                                    @foreach ($member->user->roles as $role)
-                                        <span class="badge bg-{{ $role->name === 'admin' ? 'danger' : 'success' }}">
-                                            {{ ucfirst($role->name) }}
-                                        </span>
-                                    @endforeach
+                                    @if ($products->link_affiliate)
+                                        <a href="{{ $products->link_affiliate }}" target="_blank">
+                                            {{ Str::limit($products->link_affiliate, 20, '...') }}
+                                        </a>
+                                    @else
+                                        <span class="badge bg-danger">No Link Affiliate</span>
+                                    @endif
                                 </td>
                                 <td>
                                     <div>
-                                        <i class="fa fa-edit me-2 font-success cursor-event"
-                                            onclick="editMember({{ $member->id }})"></i>
-                                        <form action="{{ route('admin.member.destroy', $member->id) }}" method="POST"
-                                            class="d-inline" id="delete-form-{{ $member->id }}">
+                                        <i class="fa fa-edit me-2 font-success cursor-pointer"
+                                            onclick="editProduct({{ $products->id_product }})"></i>
+                                        <form action="{{ route('admin.product.destroy', $products->id_product) }}"
+                                            method="POST" class="d-inline" id="delete-form-{{ $products->id_product }}">
                                             @csrf
                                             @method('DELETE')
-                                            <i class="fa fa-trash font-danger cursor-event"
-                                                onclick="confirmDelete({{ $member->id }})"></i>
+                                            <i class="fa fa-trash font-danger cursor-pointer"
+                                                onclick="confirmDelete({{ $products->id_product }})"></i>
                                         </form>
                                     </div>
                                 </td>
                             </tr>
-                        @endforeach --}}
+                        @endforeach
                     </tbody>
                 </table>
             </div>
@@ -109,7 +112,7 @@
                             aria-hidden="true">×</span></button>
                 </div>
                 <div class="modal-body">
-                    <form class="needs-validation" method="POST" action="{{ route('admin.skin-tone.store') }}"
+                    <form class="needs-validation" method="POST" action="{{ route('admin.product.store') }}"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form">
@@ -124,18 +127,20 @@
                             <div class="row">
                                 <div class="form-group mb-3">
                                     <label for="edit_barter">Brand</label>
-                                    <select class="form-control digits" id="brand" name="brand" required>
-                                        <option>Wardah</option>
-                                        <option>Somethinc</option>
+                                    <select class="form-control digits" id="id_merk" name="id_merk" required>
+                                        @foreach ($productBrand as $brand)
+                                            <option value="{{ $brand->id_merk }}">{{ $brand->name }}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group mb-3">
                                     <label for="edit_barter">Type</label>
-                                    <select class="form-control digits" id="type" name="type" required>
-                                        <option>Cushion</option>
-                                        <option>Lipstik</option>
+                                    <select class="form-control digits" id="id_type" name="id_type" required>
+                                        @foreach ($productType as $type)
+                                            <option value="{{ $type->id_type_product }}">{{ $type->name }}</option>)
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
@@ -143,15 +148,18 @@
                                 <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="kuota">Link Affiliate</label>
-                                        <input class="form-control" id="affliate" name="affliate" type="text">
+                                        <input class="form-control" id="link_affiliate" name="link_affiliate"
+                                            type="text">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mb-3">
-                                        <label for="validationCustom02" class="mb-1">Images Product :</label>
-                                        <input class="form-control" id="validationCustom02" type="file">
+                                        <label for="image" class="mb-1">Images Product :</label>
+                                        <div id="imagePreview" class="mb-2 image-preview"></div>
+                                        <input class="form-control" id="image" name="image" type="file"
+                                            onchange="previewImage(this)" required>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +176,8 @@
     <!-- Modal Create -->
 
     <!-- Modal Edit -->
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -186,25 +195,28 @@
                                 <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="kuota">Product Name</label>
-                                        <input class="form-control" id="name" name="name" type="text" required>
+                                        <input class="form-control" id="edit_name" name="name" type="text"
+                                            required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group mb-3">
                                     <label for="edit_barter">Brand</label>
-                                    <select class="form-control digits" id="brand" name="brand" required>
-                                        <option>Wardah</option>
-                                        <option>Somethinc</option>
+                                    <select class="form-control digits" id="edit_id_merk" name="id_merk" required>
+                                        @foreach ($productBrand as $brand)
+                                            <option value="{{ $brand->id_merk }}">{{ $brand->name }}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group mb-3">
                                     <label for="edit_barter">Type</label>
-                                    <select class="form-control digits" id="type" name="type" required>
-                                        <option>Cushion</option>
-                                        <option>Lipstik</option>
+                                    <select class="form-control digits" id="edit_id_type" name="id_type" required>
+                                        @foreach ($productType as $type)
+                                            <option value="{{ $type->id_type_product }}">{{ $type->name }}</option>)
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
@@ -212,7 +224,8 @@
                                 <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="kuota">Link Affiliate</label>
-                                        <input class="form-control" id="affliate" name="affliate" type="text">
+                                        <input class="form-control" id="edit_affliate" name="link_affiliate"
+                                            type="text">
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +233,10 @@
                                 <div class="col">
                                     <div class="form-group mb-3">
                                         <label for="validationCustom02" class="mb-1">Images Product :</label>
-                                        <input class="form-control" id="validationCustom02" type="file">
+                                        <div id="editImagePreview" class="mb-2 image-preview"></div>
+                                        <input class="form-control" id="edit_image" name="image" type="file"
+                                            onchange="previewImage(this)">
+                                        <small class="text-muted">Leave empty to keep current image</small>
                                     </div>
                                 </div>
                             </div>
@@ -236,38 +252,50 @@
     </div>
     <!-- Modal Edit -->
 @endsection
-{{-- @push('scripts')
+@push('scripts')
     <script>
+        function previewImage(input) {
+            const preview = document.getElementById('imagePreview');
+            preview.innerHTML = '';
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.style.maxWidth = '400px';
+                    img.style.maxHeight = '400px';
+                    img.classList.add('img-thumbnail');
+                    preview.appendChild(img);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
         function confirmDelete(id) {
-            if (confirm('Are you sure you want to delete this member?')) {
+            if (confirm('Are you sure you want to delete this product?')) {
                 document.getElementById('delete-form-' + id).submit();
             }
         }
 
-        function editMember(id) {
-            fetch(`/admin/member/${id}/edit`)
+        function editProduct(id) {
+            fetch(`/administration/product/${id}/edit`)
                 .then(response => response.json())
                 .then(data => {
-
-                    console.log("id", id);
-                    document.getElementById('editForm').action = `/admin/member/${id}`;
+                    document.getElementById('editForm').action = `/administration/product/${id}`;
                     document.getElementById('edit_name').value = data.name;
-                    document.getElementById('edit_email').value = data.email;
-                    document.getElementById('edit_phone').value = data.no_hp;
-                    document.getElementById('edit_domisili').value = data.domisili;
-                    document.getElementById('edit_affiliation').value = data.affiliate;
-                    document.getElementById('edit_shade_foundation').value = data.shade_foundation;
-                    document.getElementById('edit_merried_status').value = data.merried_status;
-                    document.getElementById('edit_barter').value = data.barter;
-                    document.getElementById('edit_instagram').value = data.instagram;
-                    document.getElementById('edit_followers_instagram').value = data.followers_instagram;
-                    document.getElementById('edit_tiktok').value = data.tiktok;
-                    document.getElementById('edit_followers_tiktok').value = data.followers_tiktok;
+                    document.getElementById('edit_id_merk').value = data.id_merk;
+                    document.getElementById('edit_id_type').value = data.id_type;
+                    document.getElementById('edit_affliate').value = data.link_affiliate;
 
-                    if (data.rate_card) {
-                        const preview = document.getElementById('editRateCardPreview');
-                        preview.innerHTML =
-                            `<img src="/${data.rate_card}" class="img-thumbnail" style="max-width: 200px">`;
+                    if (data.image) {
+                        const preview = document.getElementById('editImagePreview');
+                        preview.innerHTML = `
+                        <img src="/${data.image}" class="img-thumbnail" style="max-width: 200px">
+                        <input type="hidden" id="edit_image" name="image" value="${data.image}">
+                        `;
                     }
 
                     new bootstrap.Modal(document.getElementById('editModal')).show();
@@ -275,4 +303,4 @@
                 .catch(error => console.error('Error:', error));
         }
     </script>
-@endpush --}}
+@endpush

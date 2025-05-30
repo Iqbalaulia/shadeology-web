@@ -69,7 +69,7 @@
                                 <td>
                                     <div>
                                         <a href="javascript:void(0)" onclick="editMember({{ $member->id }})">
-                                            <i class="fa fa-edit me-2 font-success cursor-event" title="Delete"></i>
+                                            <i class="fa fa-edit me-2 font-success cursor-pointer" title="Delete"></i>
                                         </a>
                                         <form action="{{ route('admin.users.destroy', $member->id) }}" method="POST"
                                             class="d-inline" id="delete-form-{{ $member->id }}">

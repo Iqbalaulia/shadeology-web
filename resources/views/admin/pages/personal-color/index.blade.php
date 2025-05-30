@@ -59,7 +59,7 @@
                                     <div>
                                         <a href="javascript:void(0)"
                                             onclick="editMember({{ $personal->id_personal_color }})">
-                                            <i class="fa fa-edit me-2 font-success cursor-event" title="Delete"></i>
+                                            <i class="fa fa-edit me-2 font-success cursor-pointer" title="Delete"></i>
                                         </a>
                                         <form
                                             action="{{ route('admin.personal-color.destroy', $personal->id_personal_color) }}"

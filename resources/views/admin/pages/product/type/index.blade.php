@@ -58,7 +58,7 @@
                                 <td>
                                     <div>
                                         <a href="javascript:void(0)" onclick="editMember({{ $type->id_type_product }})">
-                                            <i class="fa fa-edit me-2 font-success cursor-event" title="Delete"></i>
+                                            <i class="fa fa-edit me-2 font-success cursor-pointer" title="Delete"></i>
                                         </a>
                                         <form action="{{ route('admin.product-type.destroy', $type->id_type_product) }}"
                                             method="POST" class="d-inline" id="delete-form-{{ $type->id_type_product }}">

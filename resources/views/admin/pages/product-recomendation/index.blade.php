@@ -77,13 +77,13 @@
                                 </td>
                                 <td>
                                     <div>
-                                        <i class="fa fa-edit me-2 font-success cursor-event"
+                                        <i class="fa fa-edit me-2 font-success cursor-pointer"
                                             onclick="editMember({{ $member->id }})"></i>
                                         <form action="{{ route('admin.member.destroy', $member->id) }}" method="POST"
                                             class="d-inline" id="delete-form-{{ $member->id }}">
                                             @csrf
                                             @method('DELETE')
-                                            <i class="fa fa-trash font-danger cursor-event"
+                                            <i class="fa fa-trash font-danger cursor-pointer"
                                                 onclick="confirmDelete({{ $member->id }})"></i>
                                         </form>
                                     </div>
@@ -170,7 +170,8 @@
                             <div class="row">
                                 <div class="form-group mb-3">
                                     <label for="edit_barter">Personal Color</label>
-                                    <select class="form-control digits" id="personal_color" name="personal_color" required>
+                                    <select class="form-control digits" id="personal_color" name="personal_color"
+                                        required>
                                         <option>Wardah</option>
                                         <option>Somethinc</option>
                                     </select>
