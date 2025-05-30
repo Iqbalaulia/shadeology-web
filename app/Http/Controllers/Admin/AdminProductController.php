@@ -42,7 +42,7 @@ class AdminProductController extends Controller
     {
 
         try {
-            Log::info('Attempting to create brand with data:', $request->all());
+            Log::info('Attempting to create product with data:', $request->all());
 
 
             $validatedData = $request->validate([
