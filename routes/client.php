@@ -6,5 +6,9 @@ use App\Http\Controllers\Client\ClientShadeHuntController as ClientShadeHuntCont
 use Illuminate\Support\Facades\Route;
 
 Route::resource('/', ClientHomeController::class);
-Route::resource('product-recommendation', ClientProductRecomendationController::class);
+
 Route::resource('shade-hunt', ClientShadeHuntController::class);
+
+
+Route::get('/product-recommendation', [ClientProductRecomendationController::class, 'index'])->name('product-recommendation.index');
+Route::get('/product-recommendation/search', [ClientProductRecomendationController::class, 'search'])->name('product-recommendation.search');
