@@ -21,6 +21,8 @@
     <!-- Scroll To Top -->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
+    @stack('scripts')
+
     <script src="{{ asset('assets/client/js/jquery.js') }}"></script>
     <script src="{{ asset('assets/client/js/popper.min.js') }}"></script>
     <script src="{{ asset('assets/client/js/bootstrap.min.js') }}"></script>

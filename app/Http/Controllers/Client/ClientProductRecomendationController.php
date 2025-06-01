@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
 use App\Models\PersonalColor;
+use App\Models\ProductList;
 use App\Models\ProductRecommendation;
 use App\Models\SkinTone;
 use Illuminate\Http\Request;
@@ -18,9 +19,11 @@ class ClientProductRecomendationController extends Controller
     {
         $skintone = SkinTone::orderBy('created_at', 'desc')->get();
         $personalColor = PersonalColor::orderBy('created_at', 'desc')->get();
+        $productList = ProductList::orderBy('created_at', 'desc')->get();
         return view('client.pages.product-recommendation.index', compact(
             'skintone',
-            'personalColor'
+            'personalColor',
+            'productList'
         ));
     }
 
